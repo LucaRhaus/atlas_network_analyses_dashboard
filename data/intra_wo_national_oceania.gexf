@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-31">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="mps" type="boolean" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
+      <attribute id="8" title="nan" type="double" />
+    </attributes>
+    <nodes>
+      <node id="THE LION ROCK INSTITUTE" label="THE LION ROCK INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="China" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MANNKAL ECONOMIC EDUCATION FOUNDATION" label="MANNKAL ECONOMIC EDUCATION FOUNDATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5660377358490566" />
+          <attvalue for="7" value="0.4339622641509434" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AUSTRALIAN INSTITUTE FOR PROGRESS" label="AUSTRALIAN INSTITUTE FOR PROGRESS">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.13274336283185842" />
+          <attvalue for="7" value="0.8672566371681416" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)" label="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Pakistan" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.125" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.875" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ISLAM &amp; LIBERTY NETWORK" label="ISLAM &amp; LIBERTY NETWORK">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Malaysia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR INDEPENDENT STUDIES" label="CENTRE FOR INDEPENDENT STUDIES">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.022900763358778626" />
+          <attvalue for="6" value="0.12213740458015267" />
+          <attvalue for="7" value="0.8549618320610687" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ADAM SMITH CENTRE" label="ADAM SMITH CENTRE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Singapore" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ADVOCATA INSTITUTE" label="ADVOCATA INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Sri Lanka" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="GREATER MEKONG RESEARCH CENTER" label="GREATER MEKONG RESEARCH CENTER">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Cambodia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION" label="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Afghanistan" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR PUBLIC POLICY RESEARCH" label="CENTRE FOR PUBLIC POLICY RESEARCH">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="India" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.26666666666666666" />
+          <attvalue for="6" value="0.06666666666666667" />
+          <attvalue for="7" value="0.6666666666666666" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR CIVIL SOCIETY" label="CENTRE FOR CIVIL SOCIETY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="India" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="THE LION ROCK INSTITUTE" target="MANNKAL ECONOMIC EDUCATION FOUNDATION" id="0" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE LION ROCK INSTITUTE" target="AUSTRALIAN INSTITUTE FOR PROGRESS" id="1" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRALIAN INSTITUTE FOR PROGRESS" target="ADVOCATA INSTITUTE" id="2" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)" target="ISLAM &amp; LIBERTY NETWORK" id="3" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="ADAM SMITH CENTRE" id="4" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="ADVOCATA INSTITUTE" id="5" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="ADAM SMITH CENTRE" target="GREATER MEKONG RESEARCH CENTER" id="6" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="ADAM SMITH CENTRE" target="ADVOCATA INSTITUTE" id="7" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="ADAM SMITH CENTRE" target="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION" id="8" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="ADVOCATA INSTITUTE" target="GREATER MEKONG RESEARCH CENTER" id="9" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="ADVOCATA INSTITUTE" target="CENTRE FOR PUBLIC POLICY RESEARCH" id="10" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="ADVOCATA INSTITUTE" target="CENTRE FOR CIVIL SOCIETY" id="11" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="GREATER MEKONG RESEARCH CENTER" target="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION" id="12" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

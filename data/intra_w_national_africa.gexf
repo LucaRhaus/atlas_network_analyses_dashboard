@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-31">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="mps" type="boolean" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
+      <attribute id="8" title="nan" type="double" />
+    </attributes>
+    <nodes>
+      <node id="UHURU INITIATIVE FOR POLICY &amp; EDUCATION" label="UHURU INITIATIVE FOR POLICY &amp; EDUCATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Tanzania" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LIBERTY SPARKS" label="LIBERTY SPARKS">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Tanzania" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Ghana" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0379746835443038" />
+          <attvalue for="6" value="0.2974683544303797" />
+          <attvalue for="7" value="0.6645569620253164" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="South Africa" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.034782608695652174" />
+          <attvalue for="6" value="0.20434782608695654" />
+          <attvalue for="7" value="0.7608695652173914" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AFRICANLIBERTY.ORG" label="AFRICANLIBERTY.ORG">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Nigeria" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INENG" label="INENG">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="South Africa" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR DEVELOPMENT AND ENTERPRISE" label="CENTRE FOR DEVELOPMENT AND ENTERPRISE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="South Africa" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MINBAR AL HURRIYYA" label="MINBAR AL HURRIYYA">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Morocco" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ARAB CENTER FOR SCIENTIFIC RESEARCH AND HUMANE STUDIES" label="ARAB CENTER FOR SCIENTIFIC RESEARCH AND HUMANE STUDIES">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Morocco" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ARAB CENTER FOR RESEARCH" label="ARAB CENTER FOR RESEARCH">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Morocco" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" label="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Cote d'Ivoire (Ivory Coast)" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" label="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="International" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AFRICAN STUDENTS FOR LIBERTY" label="AFRICAN STUDENTS FOR LIBERTY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Kenya" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)" label="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Zimbabwe" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="IMANI CENTER FOR POLICY AND EDUCATION" label="IMANI CENTER FOR POLICY AND EDUCATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Ghana" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION" label="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Cameroon" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)" label="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Iran" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="FREEDOM AND CITIZENSHIP ASSOCIATION" label="FREEDOM AND CITIZENSHIP ASSOCIATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Mauritania" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CHALE INSTITUTE" label="CHALE INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Nigeria" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="UHURU INITIATIVE FOR POLICY &amp; EDUCATION" target="LIBERTY SPARKS" id="0" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION" id="1" weight="5">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="AFRICANLIBERTY.ORG" id="2" weight="4">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="INENG" id="3" weight="4">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="CENTRE FOR DEVELOPMENT AND ENTERPRISE" id="4" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="AFRICANLIBERTY.ORG" id="5" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="INENG" id="6" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" id="7" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="INENG" id="8" weight="2">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="AFRICAN STUDENTS FOR LIBERTY" id="9" weight="2">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="IMANI CENTER FOR POLICY AND EDUCATION" id="10" weight="2">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="CHALE INSTITUTE" id="11" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="INENG" target="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)" id="12" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="INENG" target="IMANI CENTER FOR POLICY AND EDUCATION" id="13" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="INENG" target="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION" id="14" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="MINBAR AL HURRIYYA" target="ARAB CENTER FOR SCIENTIFIC RESEARCH AND HUMANE STUDIES" id="15" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="MINBAR AL HURRIYYA" target="ARAB CENTER FOR RESEARCH" id="16" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="ARAB CENTER FOR SCIENTIFIC RESEARCH AND HUMANE STUDIES" target="ARAB CENTER FOR RESEARCH" id="17" weight="3">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" id="18" weight="2">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)" target="FREEDOM AND CITIZENSHIP ASSOCIATION" id="19" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

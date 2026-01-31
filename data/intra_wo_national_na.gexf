@@ -1,0 +1,1030 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-31">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="mps" type="boolean" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
+      <attribute id="8" title="nan" type="double" />
+    </attributes>
+    <nodes>
+      <node id="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" label="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.1875" />
+          <attvalue for="7" value="0.8125" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE FRASER INSTITUTE" label="THE FRASER INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0726643598615917" />
+          <attvalue for="7" value="0.9273356401384083" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ATLAS NETWORK" label="ATLAS NETWORK">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR VISION AND VALUES AT THE GROVE CITY COLLEGE/ INSTITUTE FOR FAITH &amp; FREEDOM AT GROVE CITY COLLEGE" label="CENTER FOR VISION AND VALUES AT THE GROVE CITY COLLEGE/ INSTITUTE FOR FAITH &amp; FREEDOM AT GROVE CITY COLLEGE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="HISPANIC AMERICAN CENTER FOR ECONOMIC RESEARCH" label="HISPANIC AMERICAN CENTER FOR ECONOMIC RESEARCH">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INTERCOLLEGIATE STUDIES INSTITUTE INC" label="INTERCOLLEGIATE STUDIES INSTITUTE INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INTERNATIONAL FREEDOM EDUCATIONAL FOUNDATION" label="INTERNATIONAL FREEDOM EDUCATIONAL FOUNDATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="PHILADELPHIA SOCIETY" label="PHILADELPHIA SOCIETY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="STATE POLICY NETWORK" label="STATE POLICY NETWORK">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE BUCKEYE INSTITUTE" label="THE BUCKEYE INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN CONSERVATION COALITION INC" label="AMERICAN CONSERVATION COALITION INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="FRONTIER CENTRE FOR PUBLIC POLICY" label="FRONTIER CENTRE FOR PUBLIC POLICY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0006807351940095302" />
+          <attvalue for="6" value="0.3580667120490129" />
+          <attvalue for="7" value="0.6412525527569776" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="COMPACT FOR AMERICA EDUCATIONAL FOUNDATION INC" label="COMPACT FOR AMERICA EDUCATIONAL FOUNDATION INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="FOUNDATION FOR ECONOMIC EDUCATION, INC." label="FOUNDATION FOR ECONOMIC EDUCATION, INC.">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="0.6" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="FRONTIER INSTITUTE INC" label="FRONTIER INSTITUTE INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INTERNATIONAL POLICY NETWORK" label="INTERNATIONAL POLICY NETWORK">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="JUST FACTS, INC." label="JUST FACTS, INC.">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MACKINAC CENTER" label="MACKINAC CENTER">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.15730337078651685" />
+          <attvalue for="7" value="0.8426966292134831" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="STUDENTS FOR LIBERTY INCORPORATED" label="STUDENTS FOR LIBERTY INCORPORATED">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE FREEDOM &amp; VIRTUE INSTITUTE INC" label="THE FREEDOM &amp; VIRTUE INSTITUTE INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH" label="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.03571428571428571" />
+          <attvalue for="6" value="0.30357142857142855" />
+          <attvalue for="7" value="0.6607142857142857" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="BASTIAT SOCIETY" label="BASTIAT SOCIETY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INDEPENDENT INSTITUTE" label="INDEPENDENT INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.003430531732418525" />
+          <attvalue for="6" value="0.2830188679245283" />
+          <attvalue for="7" value="0.7135506003430532" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MERCATUS CENTER" label="MERCATUS CENTER">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.12727272727272726" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.8727272727272727" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="VIRGINIA INSTITUTE FOR PUBLIC POLICY" label="VIRGINIA INSTITUTE FOR PUBLIC POLICY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CATO INSTITUTE" label="CATO INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0040650406504065045" />
+          <attvalue for="6" value="0.32926829268292684" />
+          <attvalue for="7" value="0.6666666666666666" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR HUMANE STUDIES" label="INSTITUTE FOR HUMANE STUDIES">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE FUND FOR AMERICAN STUDIES (TFAS)" label="THE FUND FOR AMERICAN STUDIES (TFAS)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE HEARTLAND INSTITUTE" label="THE HEARTLAND INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.007079646017699115" />
+          <attvalue for="6" value="0.25663716814159293" />
+          <attvalue for="7" value="0.736283185840708" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="BEACON CENTER OF TENNESSEE" label="BEACON CENTER OF TENNESSEE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="THE INSTITUTE FOR FAITH WORK &amp; ECONOMICS INC" label="THE INSTITUTE FOR FAITH WORK &amp; ECONOMICS INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="HOOVER INSTITUTION" label="HOOVER INSTITUTION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.09929078014184398" />
+          <attvalue for="6" value="0.18439716312056736" />
+          <attvalue for="7" value="0.7163120567375887" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN LEGISLATIVE EXCHANGE COUNCIL (ALEC)" label="AMERICAN LEGISLATIVE EXCHANGE COUNCIL (ALEC)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.11494252873563218" />
+          <attvalue for="7" value="0.8850574712643678" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ARIZONA CENTER FOR PHILOSOPHY OF FREEDOM" label="ARIZONA CENTER FOR PHILOSOPHY OF FREEDOM">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ATLANTIC INSTITUTE FOR MARKET STUDIES" label="ATLANTIC INSTITUTE FOR MARKET STUDIES">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.013513513513513514" />
+          <attvalue for="7" value="0.9864864864864865" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="BLUEGRASS INSTITUTE FOR PUBLIC POLICY SOLUTIONS" label="BLUEGRASS INSTITUTE FOR PUBLIC POLICY SOLUTIONS">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CANADIAN CONSTITUTION FOUNDATION" label="CANADIAN CONSTITUTION FOUNDATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="R STREET INSTITUTE" label="R STREET INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.13583815028901733" />
+          <attvalue for="6" value="0.05202312138728324" />
+          <attvalue for="7" value="0.8121387283236994" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="EDCHOICE INC" label="EDCHOICE INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="PIONEER INSTITUTE INC" label="PIONEER INSTITUTE INC">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR LIBERAL STUDIES" label="INSTITUTE FOR LIBERAL STUDIES">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="NISKANEN CENTER" label="NISKANEN CENTER">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.8727272727272727" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.12727272727272726" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR OPPORTUNITY URBANISM" label="CENTER FOR OPPORTUNITY URBANISM">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="URBAN REFORM INSTITUTE" label="URBAN REFORM INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="CONSUMER CHOICE CENTER" label="CONSUMER CHOICE CENTER">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LUDWIG VON MISES INSTITUTE OF CANADA" label="LUDWIG VON MISES INSTITUTE OF CANADA">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="STUDENTS FOR LIBERTY" label="STUDENTS FOR LIBERTY">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="PACIFIC RESEARCH INSTITUTE" label="PACIFIC RESEARCH INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.01652892561983471" />
+          <attvalue for="6" value="0.15702479338842976" />
+          <attvalue for="7" value="0.8264462809917356" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="REASON FOUNDATION" label="REASON FOUNDATION">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MONTREAL ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE DE MONTREAL)" label="MONTREAL ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE DE MONTREAL)">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="INTERNATIONAL CENTER FOR LAW &amp; ECONOMICS" label="INTERNATIONAL CENTER FOR LAW &amp; ECONOMICS">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="MACDONALD-LAURIER INSTITUTE" label="MACDONALD-LAURIER INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Canada" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0049261083743842365" />
+          <attvalue for="7" value="0.9950738916256158" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="NATIONAL REVIEW INSTITUTE" label="NATIONAL REVIEW INSTITUTE">
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="USA" />
+          <attvalue for="2" value="north_america" />
+          <attvalue for="3" value="false" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" target="THE FRASER INSTITUTE" id="0" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="ATLAS NETWORK" id="1" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="CENTER FOR VISION AND VALUES AT THE GROVE CITY COLLEGE/ INSTITUTE FOR FAITH &amp; FREEDOM AT GROVE CITY COLLEGE" id="2" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="HISPANIC AMERICAN CENTER FOR ECONOMIC RESEARCH" id="3" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="INTERCOLLEGIATE STUDIES INSTITUTE INC" id="4" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="INTERNATIONAL FREEDOM EDUCATIONAL FOUNDATION" id="5" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="PHILADELPHIA SOCIETY" id="6" weight="3">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="STATE POLICY NETWORK" id="7" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="THE BUCKEYE INSTITUTE" id="8" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH" id="9" weight="5">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="BASTIAT SOCIETY" id="10" weight="5">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="FOUNDATION FOR ECONOMIC EDUCATION, INC." id="11" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="INDEPENDENT INSTITUTE" id="12" weight="13">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="MACKINAC CENTER" id="13" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="MERCATUS CENTER" id="14" weight="4">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="VIRGINIA INSTITUTE FOR PUBLIC POLICY" id="15" weight="3">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="CATO INSTITUTE" id="16" weight="3">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="INSTITUTE FOR HUMANE STUDIES" id="17" weight="2">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="THE FUND FOR AMERICAN STUDIES (TFAS)" id="18" weight="3">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="THE HEARTLAND INSTITUTE" id="19" weight="8">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="BEACON CENTER OF TENNESSEE" id="20" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="THE INSTITUTE FOR FAITH WORK &amp; ECONOMICS INC" id="21" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="HOOVER INSTITUTION" id="22" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="ARIZONA CENTER FOR PHILOSOPHY OF FREEDOM" id="23" weight="3">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="BLUEGRASS INSTITUTE FOR PUBLIC POLICY SOLUTIONS" id="24" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="EDCHOICE INC" id="25" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="PIONEER INSTITUTE INC" id="26" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="PACIFIC RESEARCH INSTITUTE" id="27" weight="3">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="REASON FOUNDATION" id="28" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="INTERNATIONAL CENTER FOR LAW &amp; ECONOMICS" id="29" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="R STREET INSTITUTE" id="30" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="STUDENTS FOR LIBERTY INCORPORATED" id="31" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="THE FRASER INSTITUTE" target="NATIONAL REVIEW INSTITUTE" id="32" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="PHILADELPHIA SOCIETY" target="ATLANTIC INSTITUTE FOR MARKET STUDIES" id="33" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="STATE POLICY NETWORK" target="FRONTIER CENTRE FOR PUBLIC POLICY" id="34" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AMERICAN CONSERVATION COALITION INC" target="FRONTIER CENTRE FOR PUBLIC POLICY" id="35" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="COMPACT FOR AMERICA EDUCATIONAL FOUNDATION INC" id="36" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="FOUNDATION FOR ECONOMIC EDUCATION, INC." id="37" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="FRONTIER INSTITUTE INC" id="38" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="INTERNATIONAL POLICY NETWORK" id="39" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="JUST FACTS, INC." id="40" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="MACKINAC CENTER" id="41" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="STUDENTS FOR LIBERTY INCORPORATED" id="42" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="THE FREEDOM &amp; VIRTUE INSTITUTE INC" id="43" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH" id="44" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="BASTIAT SOCIETY" id="45" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="HOOVER INSTITUTION" id="46" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="INDEPENDENT INSTITUTE" id="47" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="AMERICAN LEGISLATIVE EXCHANGE COUNCIL (ALEC)" id="48" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="CENTER FOR OPPORTUNITY URBANISM" id="49" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="THE HEARTLAND INSTITUTE" id="50" weight="4">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="URBAN REFORM INSTITUTE" id="51" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="PACIFIC RESEARCH INSTITUTE" id="52" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="FRONTIER CENTRE FOR PUBLIC POLICY" target="REASON FOUNDATION" id="53" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="INDEPENDENT INSTITUTE" target="MONTREAL ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE DE MONTREAL)" id="54" weight="2">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="CATO INSTITUTE" target="INSTITUTE FOR LIBERAL STUDIES" id="55" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CANADIAN CONSTITUTION FOUNDATION" target="R STREET INSTITUTE" id="56" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CANADIAN CONSTITUTION FOUNDATION" target="EDCHOICE INC" id="57" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="CANADIAN CONSTITUTION FOUNDATION" target="PIONEER INSTITUTE INC" id="58" weight="1">
+        <attvalues>
+          <attvalue for="9" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE FOR LIBERAL STUDIES" target="NISKANEN CENTER" id="59" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="CONSUMER CHOICE CENTER" target="LUDWIG VON MISES INSTITUTE OF CANADA" id="60" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE OF CANADA" target="STUDENTS FOR LIBERTY" id="61" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="PACIFIC RESEARCH INSTITUTE" target="MACDONALD-LAURIER INSTITUTE" id="62" weight="1">
+        <attvalues>
+          <attvalue for="9" value="false" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
