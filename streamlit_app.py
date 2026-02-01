@@ -2,6 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import polars as pl
 import os
+import networkx as nx # NEU: Für die Ego-Graph Berechnung benötigt
 
 # Import modules
 from src.data_loader import load_graph_data, get_node_list, list_available_files
@@ -26,7 +27,7 @@ GRAPH_LABEL_MAPPING = {
     "intra_wo_national_eu.gexf": "Intraregional (w/o national Interlocks): Europe"
 }
 
-# 1. Update Page Config (Browser Tab Title)
+# 1. Update Page Config
 st.set_page_config(layout="wide", page_title="Atlas Network Visualizer")
 
 # 2. Add Main Website Title
@@ -177,35 +178,53 @@ with tab_filter:
     min_degree = st.session_state.degree_slider
 
 
-# --- APPLY LOGIC ---
+# --- APPLY LOGIC (Step 1: Global Filters) ---
 display_G, df_display = NetworkFilter.apply_filters(
     G_raw, df_raw, selected_countries, min_degree
 )
 
 
-# --- TAB 1: FILTER OUTPUTS (Metrics) ---
-with tab_filter:
-    st.markdown("---")
-    st.caption("Result:")
-    col_metric1, col_metric2 = st.columns(2)
-    col_metric1.metric("Think Tanks", display_G.number_of_nodes())
-    col_metric2.metric("Connections", display_G.number_of_edges())
-
-
-# --- TAB 2: INSPECT (DETAILS) ---
+# --- TAB 2: INSPECT (EGO GRAPH LOGIC) ---
+# Wir bearbeiten Tab 2 VOR dem Rendering, da die Auswahl hier 
+# den Graphen (display_G) verändern kann.
 with tab_details:
     st.header("Think Tank Details")
     
+    # 1. Reset Button Logic
+    if st.button("Reset View (Show Full Graph)", use_container_width=True):
+        st.session_state.node_selector = None
+        st.rerun()
+
+    # 2. Node Selector
+    # Wir nehmen alle Knoten aus dem (gefilterten) DF für die Liste
     all_nodes = get_node_list(df_display)
     
     selected_node_id = st.selectbox(
-        "Search Think Tank:", 
+        "Inspect Think Tank:", 
         options=all_nodes,
+        index=None,               # Standard: Nichts ausgewählt
+        placeholder="Select to inspect...",
         key="node_selector"
     )
 
     if selected_node_id:
         st.divider()
+        
+        # --- EGO GRAPH LOGIC ---
+        # Wenn ein Knoten ausgewählt ist, überschreiben wir display_G 
+        # mit einem Teilgraphen (Knoten + direkte Nachbarn).
+        # radius=1 bedeutet: Nur direkte Nachbarn.
+        try:
+            # Wir berechnen den Ego Graph basierend auf dem aktuell gefilterten Graphen
+            if selected_node_id in display_G:
+                display_G = nx.ego_graph(display_G, selected_node_id, radius=1)
+                st.success(f"Showing network for: {selected_node_id}")
+            else:
+                st.warning("Selected node is currently hidden by filters.")
+        except Exception as e:
+            st.error(f"Error creating ego graph: {e}")
+
+        # --- DETAILS DISPLAY ---
         node_info = df_display.filter(pl.col("node_id") == selected_node_id)
         
         if not node_info.is_empty():
@@ -215,17 +234,48 @@ with tab_details:
                 if key == "weighted_degree":
                      st.write(f"**Interlocks:** {value:.2f}")
                 elif key != "node_id":
-                     st.write(f"**{key.capitalize()}:** {value}")
-        else:
-            st.info("Think Tank not found in current selection.")
+                     # Bereinigung von _ und Capitalize für schönere Anzeige
+                     clean_key = key.replace("_", " ").capitalize()
+                     st.write(f"**{clean_key}:** {value}")
     else:
-        st.info("Select a Think Tank to inspect details.")
+        st.info("Select a Think Tank above to isolate its network and see details.")
+
+
+# --- TAB 1: FILTER OUTPUTS (Metrics) ---
+# Die Metriken zeigen wir erst JETZT an, damit sie auf den (potenziell reduzierten)
+# Graphen reagieren. Wenn man einen Knoten inspiziert, sieht man also:
+# "Think Tanks: 5" (1 Fokus + 4 Nachbarn).
+with tab_filter:
+    st.markdown("---")
+    st.caption("Result (Current View):")
+    col_metric1, col_metric2 = st.columns(2)
+    col_metric1.metric("Think Tanks", display_G.number_of_nodes())
 
 
 # ==========================================
 # 3. MAIN AREA (Visualization)
 # ==========================================
 st.subheader("Network Visualization")
+
+# Je nachdem ob Ego-Modus oder nicht, ändert sich der Titel dynamisch
+if selected_node_id:
+    st.caption(f"Inspect View: {selected_node_id} and connected think tanks")
+
+# --- NAVIGATION GUIDE (NEU) ---
+with st.expander("How to Navigate the Graph", expanded=True):
+    st.markdown(
+        """
+        <div style="font-size: 14px; color: #fff;">
+        <ul style="margin-bottom: 0;">
+            <li><b>Move:</b> Click and drag an empty space, use your keyboard <b>arrow keys</b>, or the <b>arrow buttons</b> on the bottom panel.</li>
+            <li><b>Zoom:</b> Use your mouse wheel / trackpad, or the <b>(+)</b> and <b>(-)</b> buttons.</li>
+            <li><b>Reset View:</b> Click the <b>target icon</b> to fit the graph to the screen.</li>
+            <li><b>Simulation Control:</b> If the network is jittering or moving too much, click <b style="color: #ff4b4b;">Stop</b> to freeze the nodes. Click <b style="color: #00cc66;">Start</b> to resume the physics simulation.</li>
+        </ul>
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
 
 if display_G.number_of_nodes() > 0:
     html_content = render_interactive_network(

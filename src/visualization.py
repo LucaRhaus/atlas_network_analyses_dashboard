@@ -22,8 +22,8 @@ def _prepare_visual_attributes(G_original, use_custom_shapes=False):
         node_shape = "dot" 
 
         if use_custom_shapes:
-            has_denial = attributes.get("Has_denial_content", False)
-            has_climate = attributes.get("Has_climate_content", False)
+            has_denial = attributes.get("has_denial_content", False)
+            has_climate = attributes.get("has_climate_content", False)
 
             if is_true(has_denial):
                 node_shape = "triangle" 
