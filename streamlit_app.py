@@ -12,7 +12,6 @@ from src.filters import NetworkFilter
 # --- CONFIGURATION ---
 DATA_DIR = "data"
 
-
 GRAPH_LABEL_MAPPING = {
     "global_table_nonpartite.gexf": "Global Network: All Interlocks",
     "global_table_nonpartite_wo_national.gexf": "Global Network: Transnational Interlocks Only",
@@ -39,33 +38,20 @@ st.title("Atlas Network Visualizer")
 def on_file_change():
     """
     Wird aufgerufen, SOBALD eine neue Datei ausgewählt wurde.
-    Wir löschen hier strikt alle Filter-States.
+    Wir setzen hier die States zurück.
     """
-    # 1. Country Selector löschen -> Damit Streamlit ihn beim Rerun neu initialisiert
+    # 1. Country Selector löschen (damit er unten im Code mit neuen Ländern neu befüllt wird)
     if "country_selector" in st.session_state:
         del st.session_state["country_selector"]
     
-    # 2. Andere Filter löschen
+    # 2. Node Selector explizit auf None setzen (FIX: Das ist robuster als löschen)
+    st.session_state["node_selector"] = None
+    
+    # 3. Andere Filter zurücksetzen
     if "degree_slider" in st.session_state:
-        del st.session_state["degree_slider"]
+        st.session_state["degree_slider"] = 0
     if "degree_input" in st.session_state:
-        del st.session_state["degree_input"]
-    if "node_selector" in st.session_state:
-        del st.session_state["node_selector"]
-
-# --- HELPER: RESET FUNCTION ---
-def reset_filters():
-    """
-    Resets all filters to their default states.
-    """
-    if "country_selector" in st.session_state:
-        del st.session_state["country_selector"]
-    if "degree_slider" in st.session_state:
-        del st.session_state["degree_slider"]
-    if "degree_input" in st.session_state:
-        del st.session_state["degree_input"]
-    if "node_selector" in st.session_state:
-        del st.session_state["node_selector"]
+        st.session_state["degree_input"] = 0
 
 # ==========================================
 # 1. GLOBAL SIDEBAR (Top)
@@ -85,7 +71,7 @@ selected_file = st.sidebar.selectbox(
     "Select Network:",
     options=available_files,
     format_func=format_func,
-    on_change=on_file_change  # Ruft Reset auf BEVOR der Rest läuft
+    on_change=on_file_change  # WICHTIG: Ruft die Reset-Funktion auf
 )
 
 file_path = os.path.join(DATA_DIR, selected_file)
@@ -98,12 +84,10 @@ except Exception as e:
     st.stop()
 
 # --- DYNAMIC COUNTRY LIST ---
-# Hier holen wir die Länder NUR aus dem aktuellen Graphen
 available_countries = sorted(list(set(df_raw["country"].drop_nulls().to_list())))
 
 # --- STATE INITIALIZATION ---
-# Das ist der entscheidende Fix:
-# Wenn "country_selector" nicht im State ist (weil wir es oben in on_file_change gelöscht haben),
+# Wenn "country_selector" nicht im State ist (weil wir es oben gelöscht haben),
 # setzen wir es JETZT auf alle verfügbaren Länder des NEUEN Graphen.
 if "country_selector" not in st.session_state:
     st.session_state.country_selector = available_countries
@@ -176,9 +160,8 @@ with tab_filter:
 
         selected_countries = st.multiselect(
             "Countries:",
-            options=available_countries,
-            default=available_countries,
-            key="country_selector"
+            options=available_countries, 
+            key="country_selector"       # Greift auf den vorbefüllten State zu
         )
 
     # B) Weighted Degree Filter
@@ -215,8 +198,6 @@ display_G, df_display = NetworkFilter.apply_filters(
 
 
 # --- TAB 2: INSPECT (EGO GRAPH LOGIC) ---
-# Wir bearbeiten Tab 2 VOR dem Rendering, da die Auswahl hier 
-# den Graphen (display_G) verändern kann.
 with tab_details:
     st.header("Think Tank Details")
     
@@ -226,7 +207,6 @@ with tab_details:
         st.rerun()
 
     # 2. Node Selector
-    # Wir nehmen alle Knoten aus dem (gefilterten) DF für die Liste
     all_nodes = get_node_list(df_display)
     
     selected_node_id = st.selectbox(
@@ -241,11 +221,7 @@ with tab_details:
         st.divider()
         
         # --- EGO GRAPH LOGIC ---
-        # Wenn ein Knoten ausgewählt ist, überschreiben wir display_G 
-        # mit einem Teilgraphen (Knoten + direkte Nachbarn).
-        # radius=1 bedeutet: Nur direkte Nachbarn.
         try:
-            # Wir berechnen den Ego Graph basierend auf dem aktuell gefilterten Graphen
             if selected_node_id in display_G:
                 display_G = nx.ego_graph(display_G, selected_node_id, radius=1)
                 st.success(f"Showing network for: {selected_node_id}")
@@ -264,7 +240,6 @@ with tab_details:
                 if key == "weighted_degree":
                      st.write(f"**Interlocks:** {value:.2f}")
                 elif key != "node_id":
-                     # Bereinigung von _ und Capitalize für schönere Anzeige
                      clean_key = key.replace("_", " ").capitalize()
                      st.write(f"**{clean_key}:** {value}")
     else:
@@ -272,14 +247,13 @@ with tab_details:
 
 
 # --- TAB 1: FILTER OUTPUTS (Metrics) ---
-# Die Metriken zeigen wir erst JETZT an, damit sie auf den (potenziell reduzierten)
-# Graphen reagieren. Wenn man einen Knoten inspiziert, sieht man also:
-# "Think Tanks: 5" (1 Fokus + 4 Nachbarn).
 with tab_filter:
     st.markdown("---")
     st.caption("Result (Current View):")
     col_metric1, col_metric2 = st.columns(2)
     col_metric1.metric("Think Tanks", display_G.number_of_nodes())
+    # KORREKTUR: Connections Metrik wieder hinzugefügt
+    col_metric2.metric("Connections", display_G.number_of_edges())
 
 
 # ==========================================
@@ -291,7 +265,7 @@ st.subheader("Network Visualization")
 if selected_node_id:
     st.caption(f"Inspect View: {selected_node_id} and connected think tanks")
 
-# --- NAVIGATION GUIDE (NEU) ---
+# --- NAVIGATION GUIDE ---
 with st.expander("How to Navigate the Graph", expanded=True):
     st.markdown(
         """
