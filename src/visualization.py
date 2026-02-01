@@ -66,7 +66,7 @@ def _prepare_visual_attributes(G_original, use_custom_shapes=False):
 
 def render_interactive_network(G, height="600px", width="100%", use_custom_shapes=False):
     """
-    Renders the Pyvis graph with custom controls (English, no emojis).
+    Renders the Pyvis graph with custom controls.
     """
     if len(G.nodes) == 0:
         return "<div>Empty Graph</div>"
@@ -120,7 +120,7 @@ def render_interactive_network(G, height="600px", width="100%", use_custom_shape
         with open(tmpfile.name, 'r', encoding='utf-8') as f:
             html_string = f.read()
             
-        # --- CUSTOM CONTROLS INJECTION (ENGLISH / NO EMOJIS) ---
+        # --- CUSTOM CONTROLS INJECTION ---
         custom_controls = """
         <div style="
             position: absolute; 

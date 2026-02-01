@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import polars as pl
 import os
-import networkx as nx # NEU: Für die Ego-Graph Berechnung benötigt
+import networkx as nx
 
 # Import modules
 from src.data_loader import load_graph_data, get_node_list, list_available_files
@@ -11,20 +11,22 @@ from src.filters import NetworkFilter
 
 # --- CONFIGURATION ---
 DATA_DIR = "data"
-# Please update the labels to match your specific filenames
+
+
 GRAPH_LABEL_MAPPING = {
-    "global_table_nonpartite.gexf": "Global Network",
-    "transcontinental_table_nonpartite.gexf": "Transcontinental Network",
-    "intra_w_national_oceania.gexf": "Intraregional: Oceania & Asia",
-    "intra_w_national_africa.gexf": "Intraregional: Africa",
-    "intra_w_national_na.gexf": "Intraregional: North America",
-    "intra_w_national_la.gexf": "Intraregional: Latin America",
-    "intra_w_national_eu.gexf": "Intraregional: Europe",
-    "intra_wo_national_oceania.gexf": "Intraregional (w/o national Interlocks): Oceania & Asia",
-    "intra_wo_national_africa.gexf": "Intraregional (w/o national Interlocks): Africa & MENA",
-    "intra_wo_national_na.gexf": "Intraregional (w/o national Interlocks): North America",
-    "intra_wo_national_la.gexf": "Intraregional (w/o national Interlocks): Latin America",
-    "intra_wo_national_eu.gexf": "Intraregional (w/o national Interlocks): Europe"
+    "global_table_nonpartite.gexf": "Global Network: All Interlocks",
+    "global_table_nonpartite_wo_national.gexf": "Global Network: Transnational Interlocks Only",
+    "transcontinental_table_nonpartite.gexf": "Transregional Network",
+    "intra_w_national_oceania.gexf": "Oceania & Asia: All Interlocks",
+    "intra_w_national_africa.gexf": "Africa & MENA: All Interlocks",
+    "intra_w_national_na.gexf": "North America: All Interlocks",
+    "intra_w_national_la.gexf": "Latin America: All Interlocks",
+    "intra_w_national_eu.gexf": "Europe: All Interlocks",
+    "intra_wo_national_oceania.gexf": "Oceania & Asia: Transnational Interlocks Only",
+    "intra_wo_national_africa.gexf": "Africa & MENA: Transnational Interlocks Only",
+    "intra_wo_national_na.gexf": "North America: Transnational Interlocks Only",
+    "intra_wo_national_la.gexf": "Latin America: Transnational Interlocks Only",
+    "intra_wo_national_eu.gexf": "Europe: Transnational Interlocks Only"
 }
 
 # 1. Update Page Config
@@ -32,6 +34,24 @@ st.set_page_config(layout="wide", page_title="Atlas Network Visualizer")
 
 # 2. Add Main Website Title
 st.title("Atlas Network Visualizer")
+
+# --- HELPER: RESET CALLBACK ---
+def on_file_change():
+    """
+    Wird aufgerufen, SOBALD eine neue Datei ausgewählt wurde.
+    Wir löschen hier strikt alle Filter-States.
+    """
+    # 1. Country Selector löschen -> Damit Streamlit ihn beim Rerun neu initialisiert
+    if "country_selector" in st.session_state:
+        del st.session_state["country_selector"]
+    
+    # 2. Andere Filter löschen
+    if "degree_slider" in st.session_state:
+        del st.session_state["degree_slider"]
+    if "degree_input" in st.session_state:
+        del st.session_state["degree_input"]
+    if "node_selector" in st.session_state:
+        del st.session_state["node_selector"]
 
 # --- HELPER: RESET FUNCTION ---
 def reset_filters():
@@ -60,11 +80,12 @@ if not available_files:
 def format_func(filename):
     return GRAPH_LABEL_MAPPING.get(filename, filename.replace(".gexf", ""))
 
+# Datei Auswahl
 selected_file = st.sidebar.selectbox(
     "Select Network:",
     options=available_files,
     format_func=format_func,
-    on_change=reset_filters 
+    on_change=on_file_change  # Ruft Reset auf BEVOR der Rest läuft
 )
 
 file_path = os.path.join(DATA_DIR, selected_file)
@@ -76,7 +97,16 @@ except Exception as e:
     st.error(f"Error loading {selected_file}: {e}")
     st.stop()
 
+# --- DYNAMIC COUNTRY LIST ---
+# Hier holen wir die Länder NUR aus dem aktuellen Graphen
 available_countries = sorted(list(set(df_raw["country"].drop_nulls().to_list())))
+
+# --- STATE INITIALIZATION ---
+# Das ist der entscheidende Fix:
+# Wenn "country_selector" nicht im State ist (weil wir es oben in on_file_change gelöscht haben),
+# setzen wir es JETZT auf alle verfügbaren Länder des NEUEN Graphen.
+if "country_selector" not in st.session_state:
+    st.session_state.country_selector = available_countries
 
 st.sidebar.markdown("---")
 
