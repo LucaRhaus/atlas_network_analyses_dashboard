@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-31">
+  <meta lastmodifieddate="2026-02-01">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -13,10 +13,10 @@
       <attribute id="2" title="region" type="string" />
       <attribute id="3" title="has_climate_content" type="boolean" />
       <attribute id="4" title="has_denial_content" type="boolean" />
-      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="5" title="nan" type="double" />
       <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
+      <attribute id="7" title="affirmative" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
     </attributes>
     <nodes>
       <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
@@ -26,10 +26,10 @@
           <attvalue for="2" value="africa_mena" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0379746835443038" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2974683544303797" />
-          <attvalue for="7" value="0.6645569620253164" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0379746835443038" />
+          <attvalue for="8" value="0.6645569620253164" />
         </attvalues>
       </node>
       <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
@@ -39,10 +39,10 @@
           <attvalue for="2" value="africa_mena" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.034782608695652174" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.20434782608695654" />
-          <attvalue for="7" value="0.7608695652173914" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.034782608695652174" />
+          <attvalue for="8" value="0.7608695652173914" />
         </attvalues>
       </node>
       <node id="AFRICANLIBERTY.ORG" label="AFRICANLIBERTY.ORG">
@@ -54,8 +54,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="INENG" label="INENG">
@@ -80,8 +80,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" label="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)">
@@ -93,8 +93,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" label="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)">
@@ -145,8 +145,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION" label="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION">

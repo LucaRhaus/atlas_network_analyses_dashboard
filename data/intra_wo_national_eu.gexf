@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-31">
+  <meta lastmodifieddate="2026-02-01">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -13,10 +13,10 @@
       <attribute id="2" title="region" type="string" />
       <attribute id="3" title="has_climate_content" type="boolean" />
       <attribute id="4" title="has_denial_content" type="boolean" />
-      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="5" title="nan" type="double" />
       <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
+      <attribute id="7" title="affirmative" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
     </attributes>
     <nodes>
       <node id="INSTITUTE FOR MARKET ECONOMICS" label="INSTITUTE FOR MARKET ECONOMICS">
@@ -26,10 +26,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.03333333333333333" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9666666666666667" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.03333333333333333" />
+          <attvalue for="8" value="0.9666666666666667" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" label="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)">
@@ -39,10 +39,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.045454545454545456" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2727272727272727" />
-          <attvalue for="7" value="0.6818181818181818" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.045454545454545456" />
+          <attvalue for="8" value="0.6818181818181818" />
         </attvalues>
       </node>
       <node id="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" label="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION">
@@ -104,10 +104,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.4444444444444444" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.5555555555555556" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.4444444444444444" />
+          <attvalue for="8" value="0.5555555555555556" />
         </attvalues>
       </node>
       <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
@@ -117,10 +117,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.11538461538461539" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.07692307692307693" />
-          <attvalue for="7" value="0.8076923076923077" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.11538461538461539" />
+          <attvalue for="8" value="0.8076923076923077" />
         </attvalues>
       </node>
       <node id="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" label="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)">
@@ -130,10 +130,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.07142857142857142" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9025974025974026" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.07142857142857142" />
+          <attvalue for="8" value="0.9025974025974026" />
         </attvalues>
       </node>
       <node id="CIVIC INSTITUTE" label="CIVIC INSTITUTE">
@@ -169,10 +169,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.008620689655172414" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.02586206896551724" />
-          <attvalue for="7" value="0.9655172413793104" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.008620689655172414" />
+          <attvalue for="8" value="0.9655172413793104" />
         </attvalues>
       </node>
       <node id="CEVRO INSTITUTE" label="CEVRO INSTITUTE">
@@ -184,8 +184,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CENTER FOR LIBERAL-DEMOCRATIC STUDIES" label="CENTER FOR LIBERAL-DEMOCRATIC STUDIES">
@@ -197,8 +197,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="TIMBRO" label="TIMBRO">
@@ -208,10 +208,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.038461538461538464" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9615384615384616" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.038461538461538464" />
+          <attvalue for="8" value="0.9615384615384616" />
         </attvalues>
       </node>
       <node id="LITHUANIAN FREE MARKET INSTITUTE" label="LITHUANIAN FREE MARKET INSTITUTE">
@@ -223,8 +223,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.09523809523809523" />
-          <attvalue for="7" value="0.9047619047619048" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9047619047619048" />
         </attvalues>
       </node>
       <node id="LIBERA FOUNDATION" label="LIBERA FOUNDATION">
@@ -249,8 +249,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" label="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE">
@@ -301,8 +301,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" label="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY">
@@ -314,8 +314,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CIVITA" label="CIVITA">
@@ -325,10 +325,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.0462046204620462" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9537953795379538" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0462046204620462" />
+          <attvalue for="8" value="0.9537953795379538" />
         </attvalues>
       </node>
       <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
@@ -338,10 +338,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.022950819672131147" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.04590163934426229" />
-          <attvalue for="7" value="0.9311475409836065" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.022950819672131147" />
+          <attvalue for="8" value="0.9311475409836065" />
         </attvalues>
       </node>
       <node id="MEDICINE &amp; LIBERTY" label="MEDICINE &amp; LIBERTY">
@@ -366,8 +366,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.36" />
-          <attvalue for="7" value="0.64" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.64" />
         </attvalues>
       </node>
       <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
@@ -377,10 +377,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.05263157894736842" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.3684210526315789" />
-          <attvalue for="7" value="0.5789473684210527" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.05263157894736842" />
+          <attvalue for="8" value="0.5789473684210527" />
         </attvalues>
       </node>
       <node id="COBDEN CENTRE" label="COBDEN CENTRE">
@@ -392,8 +392,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
@@ -405,8 +405,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.3333333333333333" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6666666666666666" />
         </attvalues>
       </node>
       <node id="CONSERVATIVES FOR LIBERTY" label="CONSERVATIVES FOR LIBERTY">
@@ -418,8 +418,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="INITIATIVE FOR FREE TRADE" label="INITIATIVE FOR FREE TRADE">
@@ -431,8 +431,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)" label="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)">
@@ -457,8 +457,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.4666666666666667" />
-          <attvalue for="7" value="0.5333333333333333" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5333333333333333" />
         </attvalues>
       </node>
       <node id="AUSTRIAN ECONOMICS CENTER" label="AUSTRIAN ECONOMICS CENTER">
@@ -468,10 +468,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.01694915254237288" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2033898305084746" />
-          <attvalue for="7" value="0.7796610169491526" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.01694915254237288" />
+          <attvalue for="8" value="0.7796610169491526" />
         </attvalues>
       </node>
       <node id="ISTITUTO BRUNO LEONI" label="ISTITUTO BRUNO LEONI">
@@ -481,10 +481,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.025" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.058333333333333334" />
-          <attvalue for="7" value="0.9166666666666666" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.025" />
+          <attvalue for="8" value="0.9166666666666666" />
         </attvalues>
       </node>
       <node id="CIVISMO" label="CIVISMO">
@@ -494,10 +494,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.06896551724137931" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.10344827586206896" />
-          <attvalue for="7" value="0.8275862068965517" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.06896551724137931" />
+          <attvalue for="8" value="0.8275862068965517" />
         </attvalues>
       </node>
       <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
@@ -509,8 +509,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.3333333333333333" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6666666666666666" />
         </attvalues>
       </node>
       <node id="GENERATIONLIBRE" label="GENERATIONLIBRE">
@@ -535,8 +535,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.48717948717948717" />
-          <attvalue for="7" value="0.5128205128205128" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5128205128205128" />
         </attvalues>
       </node>
       <node id="WALTER EUCKEN INSTITUT" label="WALTER EUCKEN INSTITUT">
@@ -546,10 +546,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.14285714285714285" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.8571428571428571" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.14285714285714285" />
+          <attvalue for="8" value="0.8571428571428571" />
         </attvalues>
       </node>
       <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
@@ -561,8 +561,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AVENIR SUISSE" label="AVENIR SUISSE">
@@ -572,10 +572,10 @@
           <attvalue for="2" value="europe" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.09836065573770492" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9016393442622951" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.09836065573770492" />
+          <attvalue for="8" value="0.9016393442622951" />
         </attvalues>
       </node>
       <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
@@ -587,8 +587,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.42857142857142855" />
-          <attvalue for="7" value="0.5714285714285714" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5714285714285714" />
         </attvalues>
       </node>
       <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
@@ -600,8 +600,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AGENDA AUSTRIA" label="AGENDA AUSTRIA">
@@ -613,8 +613,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="SCHOLARIUM" label="SCHOLARIUM">
@@ -626,8 +626,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.5" />
-          <attvalue for="7" value="0.5" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5" />
         </attvalues>
       </node>
     </nodes>

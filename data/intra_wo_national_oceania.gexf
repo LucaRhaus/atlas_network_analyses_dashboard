@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-31">
+  <meta lastmodifieddate="2026-02-01">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -13,10 +13,10 @@
       <attribute id="2" title="region" type="string" />
       <attribute id="3" title="has_climate_content" type="boolean" />
       <attribute id="4" title="has_denial_content" type="boolean" />
-      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="5" title="nan" type="double" />
       <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
+      <attribute id="7" title="affirmative" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
     </attributes>
     <nodes>
       <node id="THE LION ROCK INSTITUTE" label="THE LION ROCK INSTITUTE">
@@ -28,8 +28,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="MANNKAL ECONOMIC EDUCATION FOUNDATION" label="MANNKAL ECONOMIC EDUCATION FOUNDATION">
@@ -41,8 +41,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.5660377358490566" />
-          <attvalue for="7" value="0.4339622641509434" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.4339622641509434" />
         </attvalues>
       </node>
       <node id="AUSTRALIAN INSTITUTE FOR PROGRESS" label="AUSTRALIAN INSTITUTE FOR PROGRESS">
@@ -54,8 +54,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.13274336283185842" />
-          <attvalue for="7" value="0.8672566371681416" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8672566371681416" />
         </attvalues>
       </node>
       <node id="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)" label="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)">
@@ -65,10 +65,10 @@
           <attvalue for="2" value="oceania_asia" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.125" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.875" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.125" />
+          <attvalue for="8" value="0.875" />
         </attvalues>
       </node>
       <node id="ISLAM &amp; LIBERTY NETWORK" label="ISLAM &amp; LIBERTY NETWORK">
@@ -80,8 +80,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CENTRE FOR INDEPENDENT STUDIES" label="CENTRE FOR INDEPENDENT STUDIES">
@@ -91,10 +91,10 @@
           <attvalue for="2" value="oceania_asia" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.022900763358778626" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.12213740458015267" />
-          <attvalue for="7" value="0.8549618320610687" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.022900763358778626" />
+          <attvalue for="8" value="0.8549618320610687" />
         </attvalues>
       </node>
       <node id="ADAM SMITH CENTRE" label="ADAM SMITH CENTRE">
@@ -119,8 +119,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="GREATER MEKONG RESEARCH CENTER" label="GREATER MEKONG RESEARCH CENTER">
@@ -132,8 +132,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION" label="AFGHANISTAN ECONOMIC AND LEGAL STUDIES ORGANIZATION">
@@ -156,10 +156,10 @@
           <attvalue for="2" value="oceania_asia" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.26666666666666666" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.06666666666666667" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.26666666666666666" />
+          <attvalue for="8" value="0.6666666666666666" />
         </attvalues>
       </node>
       <node id="CENTRE FOR CIVIL SOCIETY" label="CENTRE FOR CIVIL SOCIETY">
@@ -171,8 +171,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
     </nodes>

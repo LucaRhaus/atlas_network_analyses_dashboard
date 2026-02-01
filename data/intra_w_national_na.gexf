@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-01-31">
+  <meta lastmodifieddate="2026-02-01">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -13,10 +13,10 @@
       <attribute id="2" title="region" type="string" />
       <attribute id="3" title="has_climate_content" type="boolean" />
       <attribute id="4" title="has_denial_content" type="boolean" />
-      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="5" title="nan" type="double" />
       <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
+      <attribute id="7" title="affirmative" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
     </attributes>
     <nodes>
       <node id="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" label="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY">
@@ -28,8 +28,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.1875" />
-          <attvalue for="7" value="0.8125" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8125" />
         </attvalues>
       </node>
       <node id="CATO INSTITUTE" label="CATO INSTITUTE">
@@ -39,10 +39,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0040650406504065045" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.32926829268292684" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0040650406504065045" />
+          <attvalue for="8" value="0.6666666666666666" />
         </attvalues>
       </node>
       <node id="THE INSTITUTE FOR FAITH WORK &amp; ECONOMICS INC" label="THE INSTITUTE FOR FAITH WORK &amp; ECONOMICS INC">
@@ -67,8 +67,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CENTER FOR VISION AND VALUES AT THE GROVE CITY COLLEGE/ INSTITUTE FOR FAITH &amp; FREEDOM AT GROVE CITY COLLEGE" label="CENTER FOR VISION AND VALUES AT THE GROVE CITY COLLEGE/ INSTITUTE FOR FAITH &amp; FREEDOM AT GROVE CITY COLLEGE">
@@ -158,8 +158,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="THE FRASER INSTITUTE" label="THE FRASER INSTITUTE">
@@ -171,8 +171,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0726643598615917" />
-          <attvalue for="7" value="0.9273356401384083" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9273356401384083" />
         </attvalues>
       </node>
       <node id="THE FREEDOM &amp; VIRTUE INSTITUTE INC" label="THE FREEDOM &amp; VIRTUE INSTITUTE INC">
@@ -197,8 +197,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AMERICAN FEDERATION FOR CHILDREN" label="AMERICAN FEDERATION FOR CHILDREN">
@@ -236,8 +236,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.16666666666666666" />
-          <attvalue for="7" value="0.8333333333333334" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8333333333333334" />
         </attvalues>
       </node>
       <node id="AMERICAN ENTERPRISE INSTITUTE" label="AMERICAN ENTERPRISE INSTITUTE">
@@ -247,10 +247,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0036603221083455345" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.43265007320644217" />
-          <attvalue for="7" value="0.5636896046852123" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0036603221083455345" />
+          <attvalue for="8" value="0.5636896046852123" />
         </attvalues>
       </node>
       <node id="NATIONAL REVIEW INSTITUTE" label="NATIONAL REVIEW INSTITUTE">
@@ -288,8 +288,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.09131075110456553" />
-          <attvalue for="7" value="0.9086892488954345" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9086892488954345" />
         </attvalues>
       </node>
       <node id="AMERICAN PRINCIPLES PROJECT" label="AMERICAN PRINCIPLES PROJECT">
@@ -301,8 +301,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="BECKET FUND" label="BECKET FUND">
@@ -327,8 +327,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.15730337078651685" />
-          <attvalue for="7" value="0.8426966292134831" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8426966292134831" />
         </attvalues>
       </node>
       <node id="FOUNDATION FOR ECONOMIC EDUCATION, INC." label="FOUNDATION FOR ECONOMIC EDUCATION, INC.">
@@ -340,8 +340,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.4" />
-          <attvalue for="7" value="0.6" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR HUMANE STUDIES" label="INSTITUTE FOR HUMANE STUDIES">
@@ -364,10 +364,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.007079646017699115" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.25663716814159293" />
-          <attvalue for="7" value="0.736283185840708" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.007079646017699115" />
+          <attvalue for="8" value="0.736283185840708" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR SPENDING REFORM INC" label="INSTITUTE FOR SPENDING REFORM INC">
@@ -392,8 +392,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.31140350877192985" />
-          <attvalue for="7" value="0.6885964912280702" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6885964912280702" />
         </attvalues>
       </node>
       <node id="LIBERTY FUND INC" label="LIBERTY FUND INC">
@@ -418,8 +418,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="INDEPENDENT INSTITUTE" label="INDEPENDENT INSTITUTE">
@@ -429,10 +429,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.003430531732418525" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2830188679245283" />
-          <attvalue for="7" value="0.7135506003430532" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.003430531732418525" />
+          <attvalue for="8" value="0.7135506003430532" />
         </attvalues>
       </node>
       <node id="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH" label="AMERICAN INSTITUTE FOR ECONOMIC RESEARCH">
@@ -442,10 +442,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.03571428571428571" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.30357142857142855" />
-          <attvalue for="7" value="0.6607142857142857" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.03571428571428571" />
+          <attvalue for="8" value="0.6607142857142857" />
         </attvalues>
       </node>
       <node id="BASTIAT SOCIETY" label="BASTIAT SOCIETY">
@@ -483,8 +483,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.18566775244299674" />
-          <attvalue for="7" value="0.8143322475570033" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8143322475570033" />
         </attvalues>
       </node>
       <node id="HUMAN RIGHTS FOUNDATION INC" label="HUMAN RIGHTS FOUNDATION INC">
@@ -522,8 +522,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.21428571428571427" />
-          <attvalue for="7" value="0.7857142857142857" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7857142857142857" />
         </attvalues>
       </node>
       <node id="ADVOCATES FOR SELF-GOVERNMENT" label="ADVOCATES FOR SELF-GOVERNMENT">
@@ -535,8 +535,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2857142857142857" />
-          <attvalue for="7" value="0.7142857142857143" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7142857142857143" />
         </attvalues>
       </node>
       <node id="LUCY BURNS INSTITUTE INC" label="LUCY BURNS INSTITUTE INC">
@@ -574,8 +574,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="SPARK FREEDOM" label="SPARK FREEDOM">
@@ -585,10 +585,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.08125" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.23125" />
-          <attvalue for="7" value="0.6875" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.08125" />
+          <attvalue for="8" value="0.6875" />
         </attvalues>
       </node>
       <node id="TALIESIN NEXUS" label="TALIESIN NEXUS">
@@ -639,8 +639,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="GEORGIA CENTER FOR OPPORTUNITY" label="GEORGIA CENTER FOR OPPORTUNITY">
@@ -665,8 +665,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.11494252873563218" />
-          <attvalue for="7" value="0.8850574712643678" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8850574712643678" />
         </attvalues>
       </node>
       <node id="MEDIA RESEARCH CENTER, INC." label="MEDIA RESEARCH CENTER, INC.">
@@ -678,8 +678,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.423728813559322" />
-          <attvalue for="7" value="0.576271186440678" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.576271186440678" />
         </attvalues>
       </node>
       <node id="PELICAN INSTITUTE FOR PUBLIC POLICY" label="PELICAN INSTITUTE FOR PUBLIC POLICY">
@@ -691,8 +691,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="ALASKA POLICY FORUM" label="ALASKA POLICY FORUM">
@@ -704,8 +704,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.1111111111111111" />
-          <attvalue for="7" value="0.8888888888888888" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8888888888888888" />
         </attvalues>
       </node>
       <node id="YOUNG VOICES" label="YOUNG VOICES">
@@ -769,8 +769,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="FOUNDATION FOR RESEARCH ON ECONOMICS AND THE ENVIRONMENT" label="FOUNDATION FOR RESEARCH ON ECONOMICS AND THE ENVIRONMENT">
@@ -782,8 +782,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="PROPERTY &amp; ENVIRONMENT RESEARCH CENTER (PERC)" label="PROPERTY &amp; ENVIRONMENT RESEARCH CENTER (PERC)">
@@ -793,10 +793,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.03587443946188341" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.03587443946188341" />
-          <attvalue for="7" value="0.9282511210762332" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.03587443946188341" />
+          <attvalue for="8" value="0.9282511210762332" />
         </attvalues>
       </node>
       <node id="LINCOLN NETWORK INC" label="LINCOLN NETWORK INC">
@@ -847,8 +847,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="BARRY GOLDWATER INSTITUTE FOR PUBLIC POLICY RESEARCH" label="BARRY GOLDWATER INSTITUTE FOR PUBLIC POLICY RESEARCH">
@@ -871,10 +871,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.008849557522123894" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.22566371681415928" />
-          <attvalue for="7" value="0.7654867256637168" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.008849557522123894" />
+          <attvalue for="8" value="0.7654867256637168" />
         </attvalues>
       </node>
       <node id="MERCATUS CENTER" label="MERCATUS CENTER">
@@ -884,10 +884,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.12727272727272726" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.8727272727272727" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.12727272727272726" />
+          <attvalue for="8" value="0.8727272727272727" />
         </attvalues>
       </node>
       <node id="THE THOMAS JEFFERSON INSTITUTE FOR PUBLIC POLICY" label="THE THOMAS JEFFERSON INSTITUTE FOR PUBLIC POLICY">
@@ -925,8 +925,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.08716707021791767" />
-          <attvalue for="7" value="0.9128329297820823" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9128329297820823" />
         </attvalues>
       </node>
       <node id="JAMES G. MARTIN CENTER FOR ACADEMIC RENEWAL" label="JAMES G. MARTIN CENTER FOR ACADEMIC RENEWAL">
@@ -1029,8 +1029,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AMERICAN CONSUMER INSTITUTE, CENTER FOR CITIZEN RESEARCH" label="AMERICAN CONSUMER INSTITUTE, CENTER FOR CITIZEN RESEARCH">
@@ -1053,10 +1053,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.8727272727272727" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.12727272727272726" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.8727272727272727" />
+          <attvalue for="8" value="0.12727272727272726" />
         </attvalues>
       </node>
       <node id="R STREET INSTITUTE" label="R STREET INSTITUTE">
@@ -1066,10 +1066,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.13583815028901733" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.05202312138728324" />
-          <attvalue for="7" value="0.8121387283236994" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.13583815028901733" />
+          <attvalue for="8" value="0.8121387283236994" />
         </attvalues>
       </node>
       <node id="THE SEASTEADING INSTITUTE" label="THE SEASTEADING INSTITUTE">
@@ -1120,8 +1120,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.24786324786324787" />
-          <attvalue for="7" value="0.7521367521367521" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7521367521367521" />
         </attvalues>
       </node>
       <node id="COMPACT FOR AMERICA EDUCATIONAL FOUNDATION INC" label="COMPACT FOR AMERICA EDUCATIONAL FOUNDATION INC">
@@ -1144,10 +1144,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0006807351940095302" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.3580667120490129" />
-          <attvalue for="7" value="0.6412525527569776" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0006807351940095302" />
+          <attvalue for="8" value="0.6412525527569776" />
         </attvalues>
       </node>
       <node id="FRONTIER INSTITUTE INC" label="FRONTIER INSTITUTE INC">
@@ -1185,8 +1185,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="OBJECTIVIST CENTER LTD" label="OBJECTIVIST CENTER LTD">
@@ -1211,8 +1211,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="INDEPENDENT WOMENS FORUM" label="INDEPENDENT WOMENS FORUM">
@@ -1222,10 +1222,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.01694915254237288" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.1016949152542373" />
-          <attvalue for="7" value="0.8813559322033898" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.01694915254237288" />
+          <attvalue for="8" value="0.8813559322033898" />
         </attvalues>
       </node>
       <node id="HUDSON INSTITUTE, INC." label="HUDSON INSTITUTE, INC.">
@@ -1235,10 +1235,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.07142857142857142" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.09821428571428571" />
-          <attvalue for="7" value="0.8303571428571429" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.07142857142857142" />
+          <attvalue for="8" value="0.8303571428571429" />
         </attvalues>
       </node>
       <node id="POLICY CIRCLE CO" label="POLICY CIRCLE CO">
@@ -1261,10 +1261,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.024390243902439025" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.1951219512195122" />
-          <attvalue for="7" value="0.7804878048780488" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.024390243902439025" />
+          <attvalue for="8" value="0.7804878048780488" />
         </attvalues>
       </node>
       <node id="HOOVER INSTITUTION" label="HOOVER INSTITUTION">
@@ -1274,10 +1274,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.09929078014184398" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.18439716312056736" />
-          <attvalue for="7" value="0.7163120567375887" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.09929078014184398" />
+          <attvalue for="8" value="0.7163120567375887" />
         </attvalues>
       </node>
       <node id="STATISTICAL ASSESSMENT SERVICE" label="STATISTICAL ASSESSMENT SERVICE">
@@ -1391,10 +1391,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.03278688524590164" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.14754098360655737" />
-          <attvalue for="7" value="0.819672131147541" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.03278688524590164" />
+          <attvalue for="8" value="0.819672131147541" />
         </attvalues>
       </node>
       <node id="BEACON CENTER OF TENNESSEE" label="BEACON CENTER OF TENNESSEE">
@@ -1406,8 +1406,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="PACIFIC RESEARCH INSTITUTE" label="PACIFIC RESEARCH INSTITUTE">
@@ -1417,10 +1417,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.01652892561983471" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.15702479338842976" />
-          <attvalue for="7" value="0.8264462809917356" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.01652892561983471" />
+          <attvalue for="8" value="0.8264462809917356" />
         </attvalues>
       </node>
       <node id="EDCHOICE INC" label="EDCHOICE INC">
@@ -1484,8 +1484,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CARDINAL INSTITUTE FOR WEST VIRGINIA POLICY" label="CARDINAL INSTITUTE FOR WEST VIRGINIA POLICY">
@@ -1497,8 +1497,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="NEVADA POLICY RESEARCH INSTITUTE" label="NEVADA POLICY RESEARCH INSTITUTE">
@@ -1508,10 +1508,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.047058823529411764" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.1411764705882353" />
-          <attvalue for="7" value="0.8117647058823529" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.047058823529411764" />
+          <attvalue for="8" value="0.8117647058823529" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR FREE SPEECH" label="INSTITUTE FOR FREE SPEECH">
@@ -1521,10 +1521,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.15384615384615385" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.038461538461538464" />
-          <attvalue for="7" value="0.8076923076923077" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.15384615384615385" />
+          <attvalue for="8" value="0.8076923076923077" />
         </attvalues>
       </node>
       <node id="CENTER FOR INDEPENDENT THOUGHT INC" label="CENTER FOR INDEPENDENT THOUGHT INC">
@@ -1549,8 +1549,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="AMERICAN JURIS LINK" label="AMERICAN JURIS LINK">
@@ -1575,8 +1575,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="BILL OF RIGHTS INSTITUTE" label="BILL OF RIGHTS INSTITUTE">
@@ -1614,8 +1614,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="BETTER CITIES PROJECT" label="BETTER CITIES PROJECT">
@@ -1677,10 +1677,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0030120481927710845" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.24548192771084337" />
-          <attvalue for="7" value="0.7515060240963856" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0030120481927710845" />
+          <attvalue for="8" value="0.7515060240963856" />
         </attvalues>
       </node>
       <node id="NATIONAL CENTER FOR PUBLIC POLICY RESEARCH INC" label="NATIONAL CENTER FOR PUBLIC POLICY RESEARCH INC">
@@ -1692,8 +1692,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.22413793103448276" />
-          <attvalue for="7" value="0.7758620689655172" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7758620689655172" />
         </attvalues>
       </node>
       <node id="CLAREMONT INSTITUTE FOR PROCESS STUDIES" label="CLAREMONT INSTITUTE FOR PROCESS STUDIES">
@@ -1703,10 +1703,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.6666666666666666" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.3333333333333333" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.6666666666666666" />
+          <attvalue for="8" value="0.3333333333333333" />
         </attvalues>
       </node>
       <node id="FREEDOM FOUNDATION" label="FREEDOM FOUNDATION">
@@ -1731,8 +1731,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.09090909090909091" />
-          <attvalue for="7" value="0.9090909090909091" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9090909090909091" />
         </attvalues>
       </node>
       <node id="TRUTH IN ACCOUNTING" label="TRUTH IN ACCOUNTING">
@@ -1770,8 +1770,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.15384615384615385" />
-          <attvalue for="7" value="0.8461538461538461" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8461538461538461" />
         </attvalues>
       </node>
       <node id="SOUTH CAROLINA POLICY COUNCIL EDUCATION FOUNDATION" label="SOUTH CAROLINA POLICY COUNCIL EDUCATION FOUNDATION">
@@ -1809,8 +1809,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.09090909090909091" />
-          <attvalue for="7" value="0.9090909090909091" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9090909090909091" />
         </attvalues>
       </node>
       <node id="CIVITAS INSTITUTE" label="CIVITAS INSTITUTE">
@@ -1822,8 +1822,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.3310344827586207" />
-          <attvalue for="7" value="0.6689655172413793" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6689655172413793" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR PRINCIPLE STUDIES" label="INSTITUTE FOR PRINCIPLE STUDIES">
@@ -1848,8 +1848,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.04371584699453552" />
-          <attvalue for="7" value="0.9562841530054644" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9562841530054644" />
         </attvalues>
       </node>
       <node id="GRASSROOT INSTITUTE OF HAWAII, INC." label="GRASSROOT INSTITUTE OF HAWAII, INC.">
@@ -1861,8 +1861,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CONSCIOUS CAPITALISM INC" label="CONSCIOUS CAPITALISM INC">
@@ -1926,8 +1926,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="ATLANTIC INSTITUTE FOR MARKET STUDIES" label="ATLANTIC INSTITUTE FOR MARKET STUDIES">
@@ -1939,8 +1939,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.013513513513513514" />
-          <attvalue for="7" value="0.9864864864864865" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9864864864864865" />
         </attvalues>
       </node>
       <node id="MACDONALD-LAURIER INSTITUTE" label="MACDONALD-LAURIER INSTITUTE">
@@ -1952,8 +1952,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0049261083743842365" />
-          <attvalue for="7" value="0.9950738916256158" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9950738916256158" />
         </attvalues>
       </node>
       <node id="JUSTICE CENTRE FOR CONSTITUTIONAL FREEDOMS" label="JUSTICE CENTRE FOR CONSTITUTIONAL FREEDOMS">
@@ -1976,10 +1976,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.017045454545454544" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.06818181818181818" />
-          <attvalue for="7" value="0.9147727272727273" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.017045454545454544" />
+          <attvalue for="8" value="0.9147727272727273" />
         </attvalues>
       </node>
       <node id="JOHN JAY INSTITUTE FOR FAITH SOCIETY AND LAW, INC." label="JOHN JAY INSTITUTE FOR FAITH SOCIETY AND LAW, INC.">
@@ -2030,8 +2030,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.05714285714285714" />
-          <attvalue for="7" value="0.9428571428571428" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9428571428571428" />
         </attvalues>
       </node>
       <node id="KANSAS POLICY INSTITUTE" label="KANSAS POLICY INSTITUTE">
@@ -2069,8 +2069,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.4090909090909091" />
-          <attvalue for="7" value="0.5909090909090909" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5909090909090909" />
         </attvalues>
       </node>
       <node id="ED SNIDER CENTER FOR ENTERPRISE &amp; MARKETS" label="ED SNIDER CENTER FOR ENTERPRISE &amp; MARKETS">
@@ -2095,8 +2095,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CLAREMONT INSTITUTE FOR THE STUDY OF STATESMANSHIP AND POLITICAL PHILOSOPHY" label="CLAREMONT INSTITUTE FOR THE STUDY OF STATESMANSHIP AND POLITICAL PHILOSOPHY">
@@ -2147,8 +2147,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="PALMETTO PROMISE INSTITUTE" label="PALMETTO PROMISE INSTITUTE">
@@ -2186,8 +2186,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2052401746724891" />
-          <attvalue for="7" value="0.7947598253275109" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7947598253275109" />
         </attvalues>
       </node>
       <node id="BEACON HILL INSTITUTE FOR PUBLIC POLICY RESEARCH" label="BEACON HILL INSTITUTE FOR PUBLIC POLICY RESEARCH">
@@ -2199,8 +2199,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="SPEECH FIRST INC" label="SPEECH FIRST INC">
@@ -2249,10 +2249,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.15384615384615385" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.8461538461538461" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.15384615384615385" />
+          <attvalue for="8" value="0.8461538461538461" />
         </attvalues>
       </node>
       <node id="BENJAMIN RUSH INSTITUTE" label="BENJAMIN RUSH INSTITUTE">
@@ -2290,8 +2290,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.2127659574468085" />
-          <attvalue for="7" value="0.7872340425531915" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7872340425531915" />
         </attvalues>
       </node>
       <node id="BLACKSTONE &amp; BURKE CENTER FOR LAW AND LIBERTY" label="BLACKSTONE &amp; BURKE CENTER FOR LAW AND LIBERTY">
@@ -2316,8 +2316,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="PEGASUS INSTITUTE" label="PEGASUS INSTITUTE">
@@ -2355,8 +2355,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CANADA STRONG AND FREE NETWORK" label="CANADA STRONG AND FREE NETWORK">
@@ -2368,8 +2368,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="MANNING CENTRE" label="MANNING CENTRE">
@@ -2381,8 +2381,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CANADIAN TAXPAYERS FEDERATION" label="CANADIAN TAXPAYERS FEDERATION">
@@ -2394,8 +2394,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.020151133501259445" />
-          <attvalue for="7" value="0.9798488664987406" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9798488664987406" />
         </attvalues>
       </node>
       <node id="INSTITUTE FOR LIBERAL STUDIES" label="INSTITUTE FOR LIBERAL STUDIES">
@@ -2420,8 +2420,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CANADIAN CONSTITUTION FOUNDATION" label="CANADIAN CONSTITUTION FOUNDATION">
@@ -2446,8 +2446,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="LEADERSHIP INSTITUTE" label="LEADERSHIP INSTITUTE">
@@ -2498,8 +2498,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.022727272727272728" />
-          <attvalue for="7" value="0.9772727272727273" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9772727272727273" />
         </attvalues>
       </node>
       <node id="SHOW-ME INSTITUTE" label="SHOW-ME INSTITUTE">
@@ -2511,8 +2511,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="CENTER FOR ETHICS AND ENTREPRENEURSHIP AT THE ROCKFORD UNIVERSITY" label="CENTER FOR ETHICS AND ENTREPRENEURSHIP AT THE ROCKFORD UNIVERSITY">
@@ -2628,8 +2628,8 @@
           <attvalue for="4" value="true" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.05" />
-          <attvalue for="7" value="0.95" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.95" />
         </attvalues>
       </node>
       <node id="COMMON SENSE INSTITUTE" label="COMMON SENSE INSTITUTE">
@@ -2667,8 +2667,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="LUDWIG VON MISES INSTITUTE OF CANADA" label="LUDWIG VON MISES INSTITUTE OF CANADA">
@@ -2693,8 +2693,8 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
         </attvalues>
       </node>
       <node id="MOUNTAIN STATES LEGAL FOUNDATION" label="MOUNTAIN STATES LEGAL FOUNDATION">
@@ -2743,10 +2743,10 @@
           <attvalue for="2" value="north_america" />
           <attvalue for="3" value="true" />
           <attvalue for="4" value="false" />
-          <attvalue for="5" value="0.08547008547008547" />
+          <attvalue for="5" value="0.0" />
           <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9145299145299145" />
-          <attvalue for="8" value="0.0" />
+          <attvalue for="7" value="0.08547008547008547" />
+          <attvalue for="8" value="0.9145299145299145" />
         </attvalues>
       </node>
       <node id="IDEAS BEYOND BORDERS" label="IDEAS BEYOND BORDERS">
