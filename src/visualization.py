@@ -40,6 +40,8 @@ def _prepare_visual_attributes(G_original, use_custom_shapes=False):
         if use_custom_shapes:
             if node_shape == "triangle": type_info = "\nType: Denial Content"
             elif node_shape == "square": type_info = "\nType: Climate Content"
+
+        # TODO: logic for custom colors based on country of origin
         
         attributes['title'] = f"Think Tank: {node_id}{type_info}\nInterlocks: {w_degree:.2f}"
         

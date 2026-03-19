@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-19">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="12" title="raw_weight" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="country" type="string" />
+      <attribute id="3" title="region" type="string" />
+      <attribute id="4" title="has_climate_content" type="boolean" />
+      <attribute id="5" title="has_denial_content" type="boolean" />
+      <attribute id="6" title="obstruction" type="double" />
+      <attribute id="7" title="denial" type="double" />
+      <attribute id="8" title="nan" type="double" />
+      <attribute id="9" title="affirmative" type="double" />
+      <attribute id="10" title="color" type="string" />
+      <attribute id="11" title="hex_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-102.18056917190552" y="56.50311470031738" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Kenya" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.0379746835443038" />
+          <attvalue for="7" value="0.189873417721519" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.7721518987341772" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-55.99346995353699" y="95.8795952796936" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.7608695652173914" />
+          <attvalue for="7" value="0.20434782608695654" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.034782608695652174" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="Manuel, Trevor (author)" label="Manuel, Trevor (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="15.0" />
+        <viz:position x="-45.29903769493103" y="73.04051399230957" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="Manuel, Trevor (author)" id="0" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="Manuel, Trevor (author)" id="1" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

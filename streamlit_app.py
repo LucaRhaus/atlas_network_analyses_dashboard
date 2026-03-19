@@ -103,6 +103,12 @@ use_shapes = st.sidebar.toggle(
     help="Draw the nodes in different shapes depending on their climate content."
 )
 
+use_colors = st.sidebar.toggle(
+    "Toggle Node Color", 
+    value=False,
+    help="Draw the nodes in different colors depending on their origin country."
+)
+
 # Legend (Global)
 if use_shapes:
     st.sidebar.caption("Legend:")
