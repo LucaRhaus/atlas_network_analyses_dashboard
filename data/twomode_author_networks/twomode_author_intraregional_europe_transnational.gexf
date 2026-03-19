@@ -14,122 +14,27 @@
       <attribute id="3" title="region" type="string" />
       <attribute id="4" title="has_climate_content" type="boolean" />
       <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="obstruction" type="double" />
-      <attribute id="7" title="denial" type="double" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
       <attribute id="8" title="nan" type="double" />
       <attribute id="9" title="affirmative" type="double" />
       <attribute id="10" title="color" type="string" />
       <attribute id="11" title="hex_color" type="string" />
     </attributes>
     <nodes>
-      <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
+      <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.5" />
-        <viz:position x="424.4746971130371" y="-459.1252040863037" z="0.0" />
+        <viz:position x="-267.731294631958" y="20.885725021362305" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Austria" />
+          <attvalue for="2" value="Germany" />
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5789473684210527" />
-          <attvalue for="7" value="0.3684210526315789" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.05263157894736842" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.8726489301975784" />
-        <viz:position x="681.8231964111328" y="89.29151773452759" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Spain" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.6666666666666666" />
-          <attvalue for="7" value="0.3333333333333333" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="11.158878426800186" />
-        <viz:position x="243.47700119018555" y="-290.83279609680176" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Belgium" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.8076923076923077" />
-          <attvalue for="7" value="0.07692307692307693" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.11538461538461539" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" label="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.395480359802526" />
-        <viz:position x="189.6822738647461" y="-51.17680907249451" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="France" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5128205128205128" />
-          <attvalue for="7" value="0.48717948717948717" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="LIBERALES INSTITUT" label="LIBERALES INSTITUT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.805707943675262" />
-        <viz:position x="228.5700559616089" y="128.3597230911255" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Switzerland" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.64" />
-          <attvalue for="7" value="0.36" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" label="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="4.7374942602176295" />
-        <viz:position x="148.57741355895996" y="-118.33951950073242" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Slovakia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9946236559139785" />
-          <attvalue for="7" value="0.005376344086021506" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
@@ -139,7 +44,7 @@
       <node id="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" label="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="4.531957510515282" />
-        <viz:position x="756.5126609802246" y="-115.68562030792236" z="0.0" />
+        <viz:position x="-491.80572509765625" y="-613.3131980895996" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -147,200 +52,10 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.9025974025974026" />
-          <attvalue for="7" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.9025974025974026" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.07142857142857142" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="15.0" />
-        <viz:position x="385.5176639556885" y="-202.7960729598999" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9311475409836065" />
-          <attvalue for="7" value="0.04590163934426229" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.022950819672131147" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="AUSTRIAN ECONOMICS CENTER" label="AUSTRIAN ECONOMICS CENTER">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="8.537395544493005" />
-        <viz:position x="531.9607543945312" y="66.76116228103638" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Austria" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.7796610169491526" />
-          <attvalue for="7" value="0.2033898305084746" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.01694915254237288" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" label="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="700.4429626464844" y="-132.6527452468872" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Poland" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.5555555555555556" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.4444444444444444" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="502.61890411376953" y="-299.1408920288086" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="1.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="EBS CENTRE FOR FREE ECONOMIC THOUGHT" label="EBS CENTRE FOR FREE ECONOMIC THOUGHT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.6206103170102697" />
-        <viz:position x="559.8287200927734" y="-485.4733085632324" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Estonia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="1.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" label="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.6206103170102697" />
-        <viz:position x="643.3983421325684" y="-24.42033290863037" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Slovakia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9154929577464789" />
-          <attvalue for="7" value="0.08450704225352113" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="CENTER FOR POLITISKE STUDIER (CEPOS)" label="CENTER FOR POLITISKE STUDIER (CEPOS)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.2328401047669075" />
-        <viz:position x="527.435302734375" y="-400.73527336120605" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Denmark" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9655172413793104" />
-          <attvalue for="7" value="0.02586206896551724" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.008620689655172414" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="CENTRE FOR POLICY STUDIES" label="CENTRE FOR POLICY STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="126.96382999420166" y="-44.74012613296509" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.8410596026490066" />
-          <attvalue for="7" value="0.013245033112582781" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.1456953642384106" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.5322436548273615" />
-        <viz:position x="568.7013244628906" y="-344.1122245788574" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="1.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="247.98314094543457" y="224.43444728851318" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5714285714285714" />
-          <attvalue for="7" value="0.42857142857142855" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
@@ -348,7 +63,7 @@
       <node id="LITHUANIAN FREE MARKET INSTITUTE" label="LITHUANIAN FREE MARKET INSTITUTE">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.3679248742313317" />
-        <viz:position x="247.46932983398438" y="-456.2225532531738" z="0.0" />
+        <viz:position x="-698.7739562988281" y="-191.1860990524292" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -356,18 +71,94 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9047619047619048" />
-          <attvalue for="7" value="0.09523809523809523" />
+          <attvalue for="6" value="0.09523809523809523" />
+          <attvalue for="7" value="0.9047619047619048" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
+      <node id="LIBERALES INSTITUT" label="LIBERALES INSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.805707943675262" />
+        <viz:position x="-482.1850776672363" y="-333.01706314086914" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Switzerland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.36" />
+          <attvalue for="7" value="0.64" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.5" />
-        <viz:position x="502.9351043701172" y="204.6586275100708" z="0.0" />
+        <viz:position x="-386.5480327606201" y="-665.6521797180176" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Austria" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.3684210526315789" />
+          <attvalue for="7" value="0.5789473684210527" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.05263157894736842" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" label="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-538.8284111022949" y="-594.4947624206543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Poland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.5555555555555556" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.4444444444444444" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.8726489301975784" />
+        <viz:position x="-211.80925369262695" y="-465.0955009460449" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.3333333333333333" />
+          <attvalue for="7" value="0.6666666666666666" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="11.158878426800186" />
+        <viz:position x="-533.1704521179199" y="-224.85141277313232" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -375,27 +166,46 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.6666666666666666" />
-          <attvalue for="7" value="0.3333333333333333" />
+          <attvalue for="6" value="0.07692307692307693" />
+          <attvalue for="7" value="0.8076923076923077" />
           <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
+          <attvalue for="9" value="0.11538461538461539" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="FREE TRADE EUROPA" label="FREE TRADE EUROPA">
+      <node id="CENTER FOR POLITISKE STUDIER (CEPOS)" label="CENTER FOR POLITISKE STUDIER (CEPOS)">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.8726489301975784" />
-        <viz:position x="95.9707760810852" y="-294.7488212585449" z="0.0" />
+        <viz:size value="5.2328401047669075" />
+        <viz:position x="-298.672456741333" y="-625.8420753479004" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Sweden" />
+          <attvalue for="2" value="Denmark" />
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="1.0" />
-          <attvalue for="7" value="0.0" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.02586206896551724" />
+          <attvalue for="7" value="0.9655172413793104" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.008620689655172414" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-600.5746650695801" y="-454.64301109313965" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.42857142857142855" />
+          <attvalue for="7" value="0.5714285714285714" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
@@ -405,7 +215,7 @@
       <node id="ISTITUTO BRUNO LEONI" label="ISTITUTO BRUNO LEONI">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="9.672549639367478" />
-        <viz:position x="329.1576290130615" y="-44.53125" z="0.0" />
+        <viz:position x="-332.63577461242676" y="-426.7885208129883" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -413,37 +223,37 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9166666666666666" />
-          <attvalue for="7" value="0.058333333333333334" />
+          <attvalue for="6" value="0.058333333333333334" />
+          <attvalue for="7" value="0.9166666666666666" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.025" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="CIVISMO" label="CIVISMO">
+      <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.7061846987825344" />
-        <viz:position x="700.850887298584" y="31.147173643112183" z="0.0" />
+        <viz:size value="1.5" />
+        <viz:position x="61.511077880859375" y="-326.91407203674316" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Spain" />
+          <attvalue for="2" value="Belgium" />
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.8275862068965517" />
-          <attvalue for="7" value="0.10344827586206896" />
+          <attvalue for="6" value="0.3333333333333333" />
+          <attvalue for="7" value="0.6666666666666666" />
           <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.06896551724137931" />
+          <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" label="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY">
+      <node id="CENTRE FOR POLICY STUDIES" label="CENTRE FOR POLICY STUDIES">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="634.7180557250977" y="172.4357557296753" z="0.0" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-125.9474229812622" y="-48.73230814933777" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -451,8 +261,65 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9333333333333333" />
-          <attvalue for="7" value="0.06666666666666667" />
+          <attvalue for="6" value="0.013245033112582781" />
+          <attvalue for="7" value="0.8410596026490066" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.1456953642384106" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" label="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.7374942602176295" />
+        <viz:position x="-233.80099296569824" y="-193.5457992553711" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Slovakia" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.005376344086021506" />
+          <attvalue for="7" value="0.9946236559139785" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" label="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-7.912729382514954" y="-504.7030448913574" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.06666666666666667" />
+          <attvalue for="7" value="0.9333333333333333" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" label="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.395480359802526" />
+        <viz:position x="-406.69575691223145" y="-399.85713958740234" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="France" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.48717948717948717" />
+          <attvalue for="7" value="0.5128205128205128" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
@@ -462,7 +329,7 @@
       <node id="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" label="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.9284912249787496" />
-        <viz:position x="374.4170951843262" y="198.41378688812256" z="0.0" />
+        <viz:position x="-358.0982780456543" y="-534.9694061279297" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -470,8 +337,8 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5333333333333333" />
-          <attvalue for="7" value="0.4666666666666667" />
+          <attvalue for="6" value="0.4666666666666667" />
+          <attvalue for="7" value="0.5333333333333333" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
@@ -481,7 +348,7 @@
       <node id="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" label="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.6367321444239504" />
-        <viz:position x="671.396369934082" y="-303.4032440185547" z="0.0" />
+        <viz:position x="-409.49254989624023" y="22.015031576156616" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -489,27 +356,65 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.6818181818181818" />
-          <attvalue for="7" value="0.2727272727272727" />
+          <attvalue for="6" value="0.2727272727272727" />
+          <attvalue for="7" value="0.6818181818181818" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.045454545454545456" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="LIBERAUX.ORG (CONTREPOINTS)" label="LIBERAUX.ORG (CONTREPOINTS)">
+      <node id="ADAM SMITH INSTITUTE" label="ADAM SMITH INSTITUTE">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="12.64160332151522" />
-        <viz:position x="449.31352615356445" y="-7.614343464374542" z="0.0" />
+        <viz:size value="6.072548223361563" />
+        <viz:position x="-163.2193422317505" y="-538.4466934204102" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="France" />
+          <attvalue for="2" value="uk" />
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.7023255813953488" />
-          <attvalue for="7" value="0.29767441860465116" />
+          <attvalue for="6" value="0.08319467554076539" />
+          <attvalue for="7" value="0.9001663893510815" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.014975041597337771" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" label="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6206103170102697" />
+        <viz:position x="11.928659677505493" y="-132.2167682647705" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Slovakia" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.08450704225352113" />
+          <attvalue for="7" value="0.9154929577464789" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EBS CENTRE FOR FREE ECONOMIC THOUGHT" label="EBS CENTRE FOR FREE ECONOMIC THOUGHT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6206103170102697" />
+        <viz:position x="-245.38813591003418" y="-686.5165328979492" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Estonia" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
@@ -519,7 +424,7 @@
       <node id="SCIENTIFIC RESEARCH MISES CENTER" label="SCIENTIFIC RESEARCH MISES CENTER">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.8726489301975784" />
-        <viz:position x="88.46018314361572" y="75.88542938232422" z="0.0" />
+        <viz:position x="-642.6056098937988" y="-382.7130603790283" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -527,18 +432,37 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.35294117647058826" />
-          <attvalue for="7" value="0.17647058823529413" />
+          <attvalue for="6" value="0.17647058823529413" />
+          <attvalue for="7" value="0.35294117647058826" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.47058823529411764" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="ADAM SMITH INSTITUTE" label="ADAM SMITH INSTITUTE">
+      <node id="LIBERAUX.ORG (CONTREPOINTS)" label="LIBERAUX.ORG (CONTREPOINTS)">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="6.072548223361563" />
-        <viz:position x="597.9781150817871" y="-165.58330535888672" z="0.0" />
+        <viz:size value="12.64160332151522" />
+        <viz:position x="-97.2653317451477" y="-234.4563102722168" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="France" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.29767441860465116" />
+          <attvalue for="7" value="0.7023255813953488" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="-334.77922439575195" y="-149.6674633026123" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -546,337 +470,94 @@
           <attvalue for="3" value="europe" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.9001663893510815" />
-          <attvalue for="7" value="0.08319467554076539" />
+          <attvalue for="6" value="0.04590163934426229" />
+          <attvalue for="7" value="0.9311475409836065" />
           <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.014975041597337771" />
+          <attvalue for="9" value="0.022950819672131147" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="Gärtner, Edgar (author)" label="Gärtner, Edgar (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="218.69118690490723" y="165.93847274780273" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Book, Joakim (author)" label="Book, Joakim (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="540.0663757324219" y="-65.9123969078064" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="McMaken, Ryan (author)" label="McMaken, Ryan (author)">
-        <viz:color r="2" g="224" b="232" />
+      <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
+        <viz:color r="242" g="92" b="5" />
         <viz:size value="3.5322436548273615" />
-        <viz:position x="500.2785873413086" y="171.4141845703125" z="0.0" />
+        <viz:position x="-514.5317459106445" y="-45.594202280044556" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="Fink, Alexander (author)" label="Fink, Alexander (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="663.035888671875" y="-341.3305377960205" z="0.0" />
+      <node id="CIVISMO" label="CIVISMO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.7061846987825344" />
+        <viz:position x="-179.29677486419678" y="-490.2605438232422" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.10344827586206896" />
+          <attvalue for="7" value="0.8275862068965517" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.06896551724137931" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="Kurz, Fabian (author)" label="Kurz, Fabian (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="653.4467124938965" y="-291.6672420501709" z="0.0" />
+      <node id="FREE TRADE EUROPA" label="FREE TRADE EUROPA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.8726489301975784" />
+        <viz:position x="-650.7184982299805" y="-152.03626155853271" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Sweden" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="Sharman, Hugh (author)" label="Sharman, Hugh (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="568.0159378051758" y="-244.5765209197998" z="0.0" />
+      <node id="AUSTRIAN ECONOMICS CENTER" label="AUSTRIAN ECONOMICS CENTER">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="8.537395544493005" />
+        <viz:position x="-94.1890811920166" y="-398.83758544921875" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Robinson, Colin (author)" label="Robinson, Colin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9635271602167546" />
-        <viz:position x="345.43776512145996" y="-335.43293952941895" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Furfari, Samuele (author)" label="Furfari, Samuele (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9284912249787496" />
-        <viz:position x="340.24643898010254" y="2.0122267305850983" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Wirtz, Bill (author)" label="Wirtz, Bill (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="436.790714263916" y="81.32332563400269" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Lindzen, Richard S. (author)" label="Lindzen, Richard S. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.652853971837631" />
-        <viz:position x="233.293776512146" y="15.441858172416687" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Reichert, Götz (author)" label="Reichert, Götz (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.7365008611261605" />
-        <viz:position x="745.3726959228516" y="-115.22846460342407" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Tupy, Marian L. (author)" label="Tupy, Marian L. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.738428353609896" />
-        <viz:position x="326.5528392791748" y="60.945396423339844" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Austria" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.2033898305084746" />
+          <attvalue for="7" value="0.7796610169491526" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.01694915254237288" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
       <node id="Prior, Bruno (author)" label="Prior, Bruno (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.842916843206485" />
-        <viz:position x="300.74426651000977" y="-357.14412689208984" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Lacalle, Daniel (author)" label="Lacalle, Daniel (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.111077283807473" />
-        <viz:position x="612.5765419006348" y="41.89740300178528" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Romanchuk, Yaroslav (author)" label="Romanchuk, Yaroslav (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.888770757611259" />
-        <viz:position x="144.23333644866943" y="100.9912919998169" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Ridley, Matt (author)" label="Ridley, Matt (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.941537145307832" />
-        <viz:position x="199.04193878173828" y="-143.51284503936768" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Ågerup, Martin (author)" label="Ågerup, Martin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.1346759237612845" />
-        <viz:position x="452.38314628601074" y="-436.1733913421631" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Vlachynský, Martin (author)" label="Vlachynský, Martin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.7213724328039492" />
-        <viz:position x="113.14821481704712" y="-212.3303461074829" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Lavecchia, Luciano (author)" label="Lavecchia, Luciano (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="207.65117168426514" y="-228.92658233642578" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Šilėnas, Žilvinas (author)" label="Šilėnas, Žilvinas (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.384046701645012" />
-        <viz:position x="217.7054786682129" y="-386.47130012512207" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Worstall, Tim (author)" label="Worstall, Tim (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.1609148855444715" />
-        <viz:position x="602.5665092468262" y="-59.50573682785034" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="North, Richard D. (author)" label="North, Richard D. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.1346759237612845" />
-        <viz:position x="431.1737251281738" y="-139.50851440429688" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Coyne, Christopher J. (author)" label="Coyne, Christopher J. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="478.1393337249756" y="-293.54204177856445" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Bonn, Moritz (author)" label="Bonn, Moritz (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.3115784768028025" />
-        <viz:position x="733.3414077758789" y="-185.94908237457275" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Niemietz, Kristian (author)" label="Niemietz, Kristian (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.384046701645012" />
-        <viz:position x="339.41330909729004" y="-154.3399715423584" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Singer, S. Fred (author)" label="Singer, S. Fred (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.75734246143422" />
-        <viz:position x="482.15429306030273" y="-78.5764217376709" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Gosden, Emily (author)" label="Gosden, Emily (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="184.00134086608887" y="1.1636076495051384" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Philippe, Cécile (author)" label="Philippe, Cécile (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.258748215378575" />
-        <viz:position x="230.96569061279297" y="-100.39475440979004" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Stagnaro, Carlo (author)" label="Stagnaro, Carlo (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="6.359369720608331" />
-        <viz:position x="280.96166610717773" y="-205.98448276519775" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Hodgson, Glen (author)" label="Hodgson, Glen (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.888770757611259" />
-        <viz:position x="109.69791412353516" y="-310.6834602355957" z="0.0" />
+        <viz:position x="-447.38762855529785" y="-175.28124332427979" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -887,7 +568,7 @@
       <node id="Lawson, Nigel (author)" label="Lawson, Nigel (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.6367321444239504" />
-        <viz:position x="392.49621391296387" y="-152.9734468460083" z="0.0" />
+        <viz:position x="-310.8877658843994" y="-318.4167766571045" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -895,21 +576,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="Schneider, Henrique (author)" label="Schneider, Henrique (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9284912249787496" />
-        <viz:position x="297.6937007904053" y="177.41243362426758" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="Mengden, Alexander (author)" label="Mengden, Alexander (author)">
+      <node id="Sharman, Hugh (author)" label="Sharman, Hugh (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.5161218274136807" />
-        <viz:position x="416.3814640045166" y="-375.94164848327637" z="0.0" />
+        <viz:position x="-182.88858890533447" y="-595.0357246398926" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -917,10 +587,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="Zitelmann, Rainer (author)" label="Zitelmann, Rainer (author)">
+      <node id="Niemietz, Kristian (author)" label="Niemietz, Kristian (author)">
         <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.652853971837631" />
-        <viz:position x="472.47819900512695" y="-185.89993000030518" z="0.0" />
+        <viz:size value="3.384046701645012" />
+        <viz:position x="-372.1956253051758" y="-145.76464176177979" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -928,10 +598,32 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="Booth, Philip (author)" label="Booth, Philip (author)">
+      <node id="Kurz, Fabian (author)" label="Kurz, Fabian (author)">
         <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.0491015419890197" />
-        <viz:position x="289.8552989959717" y="-299.9491596221924" z="0.0" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-494.33000564575195" y="-10.014445781707764" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Reichert, Götz (author)" label="Reichert, Götz (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.7365008611261605" />
+        <viz:position x="-492.2831726074219" y="-615.8770179748535" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Romanchuk, Yaroslav (author)" label="Romanchuk, Yaroslav (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.888770757611259" />
+        <viz:position x="-620.8451843261719" y="-363.90323638916016" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -942,7 +634,7 @@
       <node id="Brøns-Petersen, Otto (author)" label="Brøns-Petersen, Otto (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="3.7187744980158923" />
-        <viz:position x="526.4096260070801" y="-394.4619083404541" z="0.0" />
+        <viz:position x="-216.34762287139893" y="-676.633358001709" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -950,10 +642,65 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="Klaus, Václav (author)" label="Klaus, Václav (author)">
+      <node id="Mengden, Alexander (author)" label="Mengden, Alexander (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.5161218274136807" />
-        <viz:position x="220.17233848571777" y="-29.94124174118042" z="0.0" />
+        <viz:position x="-547.7791213989258" y="-137.80006885528564" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Coyne, Christopher J. (author)" label="Coyne, Christopher J. (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-291.10424995422363" y="-50.741028785705566" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Book, Joakim (author)" label="Book, Joakim (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-63.6014199256897" y="-387.0534324645996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Fink, Alexander (author)" label="Fink, Alexander (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.6367321444239504" />
+        <viz:position x="-451.3568115234375" y="-42.04706311225891" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Tupy, Marian L. (author)" label="Tupy, Marian L. (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.738428353609896" />
+        <viz:position x="-124.93500709533691" y="-331.9266414642334" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Šilėnas, Žilvinas (author)" label="Šilėnas, Žilvinas (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.384046701645012" />
+        <viz:position x="-612.7506065368652" y="-349.8655700683594" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -964,7 +711,62 @@
       <node id="Nakhle, Carole (author)" label="Nakhle, Carole (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="3.90489258502494" />
-        <viz:position x="389.9603462219238" y="132.5349998474121" z="0.0" />
+        <viz:position x="-274.35627937316895" y="-507.4925422668457" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Hodgson, Glen (author)" label="Hodgson, Glen (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.888770757611259" />
+        <viz:position x="-600.8741569519043" y="-216.0814619064331" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Schneider, Henrique (author)" label="Schneider, Henrique (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.9284912249787496" />
+        <viz:position x="-445.52945137023926" y="-518.0316352844238" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Ridley, Matt (author)" label="Ridley, Matt (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.941537145307832" />
+        <viz:position x="-198.02011013031006" y="-126.91237449645996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Gärtner, Edgar (author)" label="Gärtner, Edgar (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.6367321444239504" />
+        <viz:position x="-581.978645324707" y="-410.39849281311035" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="McMaken, Ryan (author)" label="McMaken, Ryan (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.5322436548273615" />
+        <viz:position x="-24.866636395454407" y="-326.6242504119873" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -975,7 +777,51 @@
       <node id="Michaels, Patrick J. (author)" label="Michaels, Patrick J. (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.75734246143422" />
-        <viz:position x="568.2132339477539" y="1.9973605871200562" z="0.0" />
+        <viz:position x="-45.01526355743408" y="-189.34063911437988" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Robinson, Colin (author)" label="Robinson, Colin (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.9635271602167546" />
+        <viz:position x="-417.37658500671387" y="-143.35450172424316" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Philippe, Cécile (author)" label="Philippe, Cécile (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.258748215378575" />
+        <viz:position x="-348.3844184875488" y="-293.62627029418945" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Lindzen, Richard S. (author)" label="Lindzen, Richard S. (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.652853971837631" />
+        <viz:position x="-492.0051956176758" y="-392.7404308319092" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Lavecchia, Luciano (author)" label="Lavecchia, Luciano (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-508.34564208984375" y="-422.40468978881836" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -986,7 +832,161 @@
       <node id="Nelson, Scott B. (author)" label="Nelson, Scott B. (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.6367321444239504" />
-        <viz:position x="572.7643775939941" y="132.93721675872803" z="0.0" />
+        <viz:position x="-15.90077519416809" y="-485.6210517883301" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Wirtz, Bill (author)" label="Wirtz, Bill (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.6367321444239504" />
+        <viz:position x="-67.80484199523926" y="-316.22992515563965" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Gosden, Emily (author)" label="Gosden, Emily (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-98.38677406311035" y="-120.66165447235107" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Stagnaro, Carlo (author)" label="Stagnaro, Carlo (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="6.359369720608331" />
+        <viz:position x="-385.0272560119629" y="-302.74930000305176" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Zitelmann, Rainer (author)" label="Zitelmann, Rainer (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.652853971837631" />
+        <viz:position x="-267.9345417022705" y="-394.32257652282715" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Klaus, Václav (author)" label="Klaus, Václav (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.5161218274136807" />
+        <viz:position x="-415.4253101348877" y="-437.96690940856934" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Worstall, Tim (author)" label="Worstall, Tim (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.1609148855444715" />
+        <viz:position x="-64.86336708068848" y="-514.3941879272461" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Lacalle, Daniel (author)" label="Lacalle, Daniel (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.111077283807473" />
+        <viz:position x="-180.89391231536865" y="-404.4888210296631" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Singer, S. Fred (author)" label="Singer, S. Fred (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.75734246143422" />
+        <viz:position x="-210.4426145553589" y="-298.0982780456543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Vlachynský, Martin (author)" label="Vlachynský, Martin (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.7213724328039492" />
+        <viz:position x="-311.9260597229004" y="-257.5831604003906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Furfari, Samuele (author)" label="Furfari, Samuele (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.9284912249787496" />
+        <viz:position x="-215.6579303741455" y="-336.6144561767578" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Bonn, Moritz (author)" label="Bonn, Moritz (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.3115784768028025" />
+        <viz:position x="-503.48058700561523" y="-591.1628150939941" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Booth, Philip (author)" label="Booth, Philip (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.0491015419890197" />
+        <viz:position x="-405.5722904205322" y="-192.40094661712646" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="North, Richard D. (author)" label="North, Richard D. (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1346759237612845" />
+        <viz:position x="-220.5339002609253" y="-162.96966075897217" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="author" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="Ågerup, Martin (author)" label="Ågerup, Martin (author)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1346759237612845" />
+        <viz:position x="-311.72801971435547" y="-645.2442741394043" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
@@ -996,550 +996,550 @@
       </node>
     </nodes>
     <edges>
-      <edge source="F. A. V. HAYEK INSTITUTE" target="Ågerup, Martin (author)" id="0" weight="6.0">
+      <edge source="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" target="Coyne, Christopher J. (author)" id="0" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTO JUAN DE MARIANA" target="Lacalle, Daniel (author)" id="1" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Booth, Philip (author)" id="2" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Hodgson, Glen (author)" id="3" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Lavecchia, Luciano (author)" id="4" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Stagnaro, Carlo (author)" id="5" weight="8.253019026401374">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="7.609421264477312" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Mengden, Alexander (author)" id="6" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Philippe, Cécile (author)" id="7" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Prior, Bruno (author)" id="8" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Robinson, Colin (author)" id="9" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Šilėnas, Žilvinas (author)" id="10" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Vlachynský, Martin (author)" id="11" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Klaus, Václav (author)" id="12" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Lindzen, Richard S. (author)" id="13" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Philippe, Cécile (author)" id="14" weight="11.203907630143737">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="10.28986687000145" />
-        </attvalues>
-      </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Stagnaro, Carlo (author)" id="15" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERALES INSTITUT" target="Gärtner, Edgar (author)" id="16" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERALES INSTITUT" target="Lindzen, Richard S. (author)" id="17" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERALES INSTITUT" target="Niemietz, Kristian (author)" id="18" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERALES INSTITUT" target="Romanchuk, Yaroslav (author)" id="19" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERALES INSTITUT" target="Schneider, Henrique (author)" id="20" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Ridley, Matt (author)" id="21" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Tupy, Marian L. (author)" id="22" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Vlachynský, Martin (author)" id="23" weight="13.636678709857112">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="13.11676832171576" />
-        </attvalues>
-      </edge>
-      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Bonn, Moritz (author)" id="24" weight="11.589611566445178">
+      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Bonn, Moritz (author)" id="1" weight="11.589611566445178">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="10.697015424304693" />
         </attvalues>
       </edge>
-      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Reichert, Götz (author)" id="25" weight="13.70535381484811">
+      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Reichert, Götz (author)" id="2" weight="13.70535381484811">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="13.206098722347253" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Booth, Philip (author)" id="26" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Stagnaro, Carlo (author)" id="27" weight="9.692997250244064">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.82690145171431" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Coyne, Christopher J. (author)" id="28" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Lawson, Nigel (author)" id="29" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Niemietz, Kristian (author)" id="30" weight="11.980775207617757">
+      <edge source="LITHUANIAN FREE MARKET INSTITUTE" target="Šilėnas, Žilvinas (author)" id="3" weight="11.980775207617757">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="11.124926071751341" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="North, Richard D. (author)" id="31" weight="9.249880372324549">
+      <edge source="LIBERALES INSTITUT" target="Gärtner, Edgar (author)" id="4" weight="7.054844119373294">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
+          <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Prior, Bruno (author)" id="32" weight="7.745758563110039">
+      <edge source="LIBERALES INSTITUT" target="Lindzen, Richard S. (author)" id="5" weight="7.054844119373294">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
+          <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Ridley, Matt (author)" id="33" weight="8.253019026401374">
+      <edge source="LIBERALES INSTITUT" target="Niemietz, Kristian (author)" id="6" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="Romanchuk, Yaroslav (author)" id="7" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="Schneider, Henrique (author)" id="8" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="Ågerup, Martin (author)" id="9" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Bonn, Moritz (author)" id="10" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Reichert, Götz (author)" id="11" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTO JUAN DE MARIANA" target="Lacalle, Daniel (author)" id="12" weight="8.975823723801675">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.200418808910399" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Booth, Philip (author)" id="13" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Hodgson, Glen (author)" id="14" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Lavecchia, Luciano (author)" id="15" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Stagnaro, Carlo (author)" id="16" weight="8.253019026401374">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="7.609421264477312" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Robinson, Colin (author)" id="34" weight="9.486018700169396">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.641840697046227" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Singer, S. Fred (author)" id="35" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Zitelmann, Rainer (author)" id="36" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="McMaken, Ryan (author)" id="37" weight="6.0">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Mengden, Alexander (author)" id="17" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nakhle, Carole (author)" id="38" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
-        </attvalues>
-      </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nelson, Scott B. (author)" id="39" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Singer, S. Fred (author)" id="40" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Tupy, Marian L. (author)" id="41" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
-        </attvalues>
-      </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Wirtz, Bill (author)" id="42" weight="6.0">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Philippe, Cécile (author)" id="18" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Worstall, Tim (author)" id="43" weight="7.054844119373294">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Prior, Bruno (author)" id="19" weight="7.054844119373294">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
-      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Bonn, Moritz (author)" id="44" weight="6.0">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Robinson, Colin (author)" id="20" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Reichert, Götz (author)" id="45" weight="6.0">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Šilėnas, Žilvinas (author)" id="21" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" target="Coyne, Christopher J. (author)" id="46" weight="6.0">
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Vlachynský, Martin (author)" id="22" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="Brøns-Petersen, Otto (author)" id="47" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" target="Michaels, Patrick J. (author)" id="48" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Ågerup, Martin (author)" id="49" weight="10.571196134406653">
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Ågerup, Martin (author)" id="23" weight="10.571196134406653">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="9.652440561710991" />
         </attvalues>
       </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Brøns-Petersen, Otto (author)" id="50" weight="13.060635978316325">
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Brøns-Petersen, Otto (author)" id="24" weight="13.060635978316325">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="12.389247771673485" />
         </attvalues>
       </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Sharman, Hugh (author)" id="51" weight="6.0">
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Sharman, Hugh (author)" id="25" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="CENTRE FOR POLICY STUDIES" target="Gosden, Emily (author)" id="52" weight="6.0">
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="Gärtner, Edgar (author)" id="26" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="CENTRE FOR POLICY STUDIES" target="Ridley, Matt (author)" id="53" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Fink, Alexander (author)" id="54" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Kurz, Fabian (author)" id="55" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Mengden, Alexander (author)" id="56" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="Gärtner, Edgar (author)" id="57" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LITHUANIAN FREE MARKET INSTITUTE" target="Šilėnas, Žilvinas (author)" id="58" weight="11.980775207617757">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="11.124926071751341" />
-        </attvalues>
-      </edge>
-      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" id="59" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="FREE TRADE EUROPA" target="Hodgson, Glen (author)" id="60" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
-        </attvalues>
-      </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Stagnaro, Carlo (author)" id="61" weight="12.351677360212712">
+      <edge source="ISTITUTO BRUNO LEONI" target="Stagnaro, Carlo (author)" id="27" weight="12.351677360212712">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="11.545121687928027" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Furfari, Samuele (author)" id="62" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Furfari, Samuele (author)" id="28" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Klaus, Václav (author)" id="63" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Klaus, Václav (author)" id="29" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lavecchia, Luciano (author)" id="64" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Lavecchia, Luciano (author)" id="30" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lawson, Nigel (author)" id="65" weight="7.054844119373294">
+      <edge source="ISTITUTO BRUNO LEONI" target="Lawson, Nigel (author)" id="31" weight="7.054844119373294">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lindzen, Richard S. (author)" id="66" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Lindzen, Richard S. (author)" id="32" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Nakhle, Carole (author)" id="67" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Nakhle, Carole (author)" id="33" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Zitelmann, Rainer (author)" id="68" weight="6.0">
+      <edge source="ISTITUTO BRUNO LEONI" target="Zitelmann, Rainer (author)" id="34" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="CIVISMO" target="Lacalle, Daniel (author)" id="69" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
-        </attvalues>
-      </edge>
-      <edge source="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" target="Nelson, Scott B. (author)" id="70" weight="6.0">
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" id="35" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Nakhle, Carole (author)" id="71" weight="6.0">
+      <edge source="CENTRE FOR POLICY STUDIES" target="Gosden, Emily (author)" id="36" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Schneider, Henrique (author)" id="72" weight="9.249880372324549">
+      <edge source="CENTRE FOR POLICY STUDIES" target="Ridley, Matt (author)" id="37" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Ridley, Matt (author)" id="38" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Tupy, Marian L. (author)" id="39" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Vlachynský, Martin (author)" id="40" weight="13.636678709857112">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="13.11676832171576" />
+        </attvalues>
+      </edge>
+      <edge source="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" target="Nelson, Scott B. (author)" id="41" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Klaus, Václav (author)" id="42" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Lindzen, Richard S. (author)" id="43" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Philippe, Cécile (author)" id="44" weight="11.203907630143737">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="10.28986687000145" />
+        </attvalues>
+      </edge>
+      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Stagnaro, Carlo (author)" id="45" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Nakhle, Carole (author)" id="46" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Schneider, Henrique (author)" id="47" weight="9.249880372324549">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="8.434960374473993" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Kurz, Fabian (author)" id="73" weight="6.0">
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Kurz, Fabian (author)" id="48" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Fink, Alexander (author)" id="74" weight="7.054844119373294">
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Fink, Alexander (author)" id="49" weight="7.054844119373294">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Book, Joakim (author)" id="75" weight="6.0">
+      <edge source="ADAM SMITH INSTITUTE" target="Sharman, Hugh (author)" id="50" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Furfari, Samuele (author)" id="76" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Gosden, Emily (author)" id="77" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Michaels, Patrick J. (author)" id="78" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Lacalle, Daniel (author)" id="79" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="McMaken, Ryan (author)" id="80" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="North, Richard D. (author)" id="81" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Philippe, Cécile (author)" id="82" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Ridley, Matt (author)" id="83" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Tupy, Marian L. (author)" id="84" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Wirtz, Bill (author)" id="85" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
-        </attvalues>
-      </edge>
-      <edge source="SCIENTIFIC RESEARCH MISES CENTER" target="Romanchuk, Yaroslav (author)" id="86" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
-        </attvalues>
-      </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Sharman, Hugh (author)" id="87" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
-        <attvalues>
-          <attvalue for="12" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Worstall, Tim (author)" id="88" weight="15.0">
+      <edge source="ADAM SMITH INSTITUTE" target="Worstall, Tim (author)" id="51" weight="15.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="15.0" />
         </attvalues>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Zitelmann, Rainer (author)" id="89" weight="6.0">
+      <edge source="ADAM SMITH INSTITUTE" target="Zitelmann, Rainer (author)" id="52" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
         </attvalues>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Book, Joakim (author)" id="90" weight="6.0">
+      <edge source="ADAM SMITH INSTITUTE" target="Book, Joakim (author)" id="53" weight="6.0">
         <viz:color r="192" g="192" b="192" />
         <attvalues>
           <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" target="Michaels, Patrick J. (author)" id="54" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="Brøns-Petersen, Otto (author)" id="55" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="SCIENTIFIC RESEARCH MISES CENTER" target="Romanchuk, Yaroslav (author)" id="56" weight="8.975823723801675">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.200418808910399" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Book, Joakim (author)" id="57" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Furfari, Samuele (author)" id="58" weight="9.249880372324549">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.434960374473993" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Gosden, Emily (author)" id="59" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Michaels, Patrick J. (author)" id="60" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Lacalle, Daniel (author)" id="61" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="McMaken, Ryan (author)" id="62" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="North, Richard D. (author)" id="63" weight="7.745758563110039">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="7.217480187236997" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Philippe, Cécile (author)" id="64" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Ridley, Matt (author)" id="65" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Tupy, Marian L. (author)" id="66" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Wirtz, Bill (author)" id="67" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Booth, Philip (author)" id="68" weight="9.249880372324549">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.434960374473993" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Stagnaro, Carlo (author)" id="69" weight="9.692997250244064">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.82690145171431" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Coyne, Christopher J. (author)" id="70" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Lawson, Nigel (author)" id="71" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Niemietz, Kristian (author)" id="72" weight="11.980775207617757">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="11.124926071751341" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="North, Richard D. (author)" id="73" weight="9.249880372324549">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.434960374473993" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Prior, Bruno (author)" id="74" weight="7.745758563110039">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="7.217480187236997" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Ridley, Matt (author)" id="75" weight="8.253019026401374">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="7.609421264477312" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Robinson, Colin (author)" id="76" weight="9.486018700169396">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.641840697046227" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Singer, S. Fred (author)" id="77" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Zitelmann, Rainer (author)" id="78" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Fink, Alexander (author)" id="79" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Kurz, Fabian (author)" id="80" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Mengden, Alexander (author)" id="81" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="CIVISMO" target="Lacalle, Daniel (author)" id="82" weight="7.745758563110039">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="7.217480187236997" />
+        </attvalues>
+      </edge>
+      <edge source="FREE TRADE EUROPA" target="Hodgson, Glen (author)" id="83" weight="8.975823723801675">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.200418808910399" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="McMaken, Ryan (author)" id="84" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nakhle, Carole (author)" id="85" weight="8.975823723801675">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="8.200418808910399" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nelson, Scott B. (author)" id="86" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Singer, S. Fred (author)" id="87" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Tupy, Marian L. (author)" id="88" weight="7.745758563110039">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="7.217480187236997" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Wirtz, Bill (author)" id="89" weight="6.0">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="Worstall, Tim (author)" id="90" weight="7.054844119373294">
+        <viz:color r="192" g="192" b="192" />
+        <attvalues>
+          <attvalue for="12" value="6.712180254904616" />
         </attvalues>
       </edge>
     </edges>

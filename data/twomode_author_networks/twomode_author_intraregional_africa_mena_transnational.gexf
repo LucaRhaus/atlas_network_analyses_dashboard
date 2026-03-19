@@ -14,8 +14,8 @@
       <attribute id="3" title="region" type="string" />
       <attribute id="4" title="has_climate_content" type="boolean" />
       <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="obstruction" type="double" />
-      <attribute id="7" title="denial" type="double" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
       <attribute id="8" title="nan" type="double" />
       <attribute id="9" title="affirmative" type="double" />
       <attribute id="10" title="color" type="string" />
@@ -25,7 +25,7 @@
       <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.5" />
-        <viz:position x="-102.18056917190552" y="56.50311470031738" z="0.0" />
+        <viz:position x="-33.406838178634644" y="-4.8144713044166565" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -33,8 +33,8 @@
           <attvalue for="3" value="africa_mena" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.0379746835443038" />
-          <attvalue for="7" value="0.189873417721519" />
+          <attvalue for="6" value="0.189873417721519" />
+          <attvalue for="7" value="0.0379746835443038" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.7721518987341772" />
           <attvalue for="10" value="#f25c05" />
@@ -44,7 +44,7 @@
       <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.5" />
-        <viz:position x="-55.99346995353699" y="95.8795952796936" z="0.0" />
+        <viz:position x="25.844473242759705" y="-33.004571199417114" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -52,8 +52,8 @@
           <attvalue for="3" value="africa_mena" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.7608695652173914" />
-          <attvalue for="7" value="0.20434782608695654" />
+          <attvalue for="6" value="0.20434782608695654" />
+          <attvalue for="7" value="0.7608695652173914" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.034782608695652174" />
           <attvalue for="10" value="#f25c05" />
@@ -63,7 +63,7 @@
       <node id="Manuel, Trevor (author)" label="Manuel, Trevor (author)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="15.0" />
-        <viz:position x="-45.29903769493103" y="73.04051399230957" z="0.0" />
+        <viz:position x="2.652254104614258" y="-7.46672049164772" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="author" />
