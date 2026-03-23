@@ -11,30 +11,68 @@
       <attribute id="3" title="region" type="string" />
       <attribute id="4" title="has_climate_content" type="boolean" />
       <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="denial" type="double" />
+      <attribute id="6" title="obstruction" type="double" />
       <attribute id="7" title="nan" type="double" />
-      <attribute id="8" title="affirmative" type="double" />
-      <attribute id="9" title="obstruction" type="double" />
+      <attribute id="8" title="denial" type="double" />
+      <attribute id="9" title="affirmative" type="double" />
       <attribute id="10" title="color" type="string" />
       <attribute id="11" title="hex_color" type="string" />
       <attribute id="12" title="main_categories" type="string" />
     </attributes>
     <nodes>
-      <node id="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" label="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)">
+      <node id="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" label="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="138.2936191558838" y="91.00573539733887" z="0.0" />
+        <viz:size value="15.0" />
+        <viz:position x="-386.36226654052734" y="227.10268020629883" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Ghana" />
+          <attvalue for="2" value="Israel" />
           <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
+          <attvalue for="4" value="false" />
           <attvalue for="5" value="false" />
           <attvalue for="6" value="0.0" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CHALE INSTITUTE" label="CHALE INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1363636363636362" />
+        <viz:position x="-415.77693939208984" y="227.75283813476562" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Nigeria" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INENG" label="INENG">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-367.72647857666016" y="178.81574630737305" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
@@ -42,7 +80,7 @@
       <node id="LEBANESE INSTITUTE FOR MARKET STUDIES" label="LEBANESE INSTITUTE FOR MARKET STUDIES">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.3181818181818183" />
-        <viz:position x="175.08556365966797" y="-180.03822326660156" z="0.0" />
+        <viz:position x="-317.3797607421875" y="169.01004791259766" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -58,98 +96,21 @@
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="TACHARUT" label="TACHARUT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-4.642597436904907" y="-126.15236282348633" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Israel" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="false" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="INENG" label="INENG">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="86.50196075439453" y="21.420886516571045" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="South Africa" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="false" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="CHALE INSTITUTE" label="CHALE INSTITUTE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.1363636363636362" />
-        <viz:position x="-37.97344446182251" y="-47.05711841583252" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Nigeria" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="false" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
       <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="10.090909090909092" />
-        <viz:position x="90.61450958251953" y="-77.53361225128174" z="0.0" />
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="11.727272727272727" />
+        <viz:position x="-423.10741424560547" y="384.9523162841797" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
           <attvalue for="2" value="South Africa" />
           <attvalue for="3" value="africa_mena" />
           <attvalue for="4" value="true" />
           <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2974683544303797" />
+          <attvalue for="6" value="0.6645569620253164" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0379746835443038" />
-          <attvalue for="9" value="0.6645569620253164" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="CENTRE FOR DEVELOPMENT AND ENTERPRISE" label="CENTRE FOR DEVELOPMENT AND ENTERPRISE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.590909090909092" />
-        <viz:position x="184.54429626464844" y="-116.37296676635742" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="South Africa" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
+          <attvalue for="8" value="0.2974683544303797" />
+          <attvalue for="9" value="0.0379746835443038" />
           <attvalue for="10" value="#f25c05" />
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
@@ -157,7 +118,7 @@
       <node id="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" label="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.7272727272727275" />
-        <viz:position x="-8.437653183937073" y="-69.05957698822021" z="0.0" />
+        <viz:position x="-327.35340118408203" y="189.03385162353516" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -173,37 +134,18 @@
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="-6.6586315631866455" y="21.10671043395996" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Kenya" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.189873417721519" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.7721518987341772" />
-          <attvalue for="9" value="0.0379746835443038" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="GATEWAY RESEARCH CENTRE" label="GATEWAY RESEARCH CENTRE">
+      <node id="ECONOMIC ASSOCIATION OF NAMIBIA" label="ECONOMIC ASSOCIATION OF NAMIBIA">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="2.3181818181818183" />
-        <viz:position x="151.586332321167" y="67.95916557312012" z="0.0" />
+        <viz:position x="-289.45627212524414" y="37.976295948028564" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Uganda" />
+          <attvalue for="2" value="Namibia" />
           <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="false" />
+          <attvalue for="4" value="true" />
           <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
+          <attvalue for="6" value="1.0" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
@@ -211,67 +153,10 @@
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="IMANI CENTER FOR POLICY AND EDUCATION" label="IMANI CENTER FOR POLICY AND EDUCATION">
+      <node id="TACHARUT" label="TACHARUT">
         <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.545454545454546" />
-        <viz:position x="207.0332908630371" y="-42.41127014160156" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Ghana" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" label="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.181818181818182" />
-        <viz:position x="22.164316177368164" y="-111.02118492126465" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Cote d'Ivoire (Ivory Coast)" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="AFRICANLIBERTY.ORG" label="AFRICANLIBERTY.ORG">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.545454545454546" />
-        <viz:position x="120.23270606994629" y="1.7218181490898132" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Nigeria" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" label="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="15.0" />
-        <viz:position x="87.69012451171875" y="-179.07962799072266" z="0.0" />
+        <viz:size value="1.5" />
+        <viz:position x="-161.5897560119629" y="143.32708358764648" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -287,30 +172,48 @@
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="8.045454545454545" />
-        <viz:position x="52.286009788513184" y="34.3847393989563" z="0.0" />
+      <node id="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" label="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-142.04517364501953" y="217.4296760559082" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="2" value="South Africa" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Ghana" />
           <attvalue for="3" value="africa_mena" />
           <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.20434782608695654" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="1.0" />
           <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.034782608695652174" />
-          <attvalue for="9" value="0.7608695652173914" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AFRICANLIBERTY.ORG" label="AFRICANLIBERTY.ORG">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="-154.00879859924316" y="286.7198181152344" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Nigeria" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
       <node id="ETHICAL AFRICAN ORGANIZATION" label="ETHICAL AFRICAN ORGANIZATION">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="1.9090909090909092" />
-        <viz:position x="244.37118530273438" y="-73.4894323348999" z="0.0" />
+        <viz:position x="-187.74150848388672" y="139.26997184753418" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -319,6 +222,120 @@
           <attvalue for="4" value="false" />
           <attvalue for="5" value="false" />
           <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-263.9444160461426" y="111.91083908081055" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Kenya" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.0379746835443038" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.189873417721519" />
+          <attvalue for="9" value="0.7721518987341772" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="8.045454545454545" />
+        <viz:position x="-315.2459907531738" y="99.38583374023438" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.7608695652173914" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.20434782608695654" />
+          <attvalue for="9" value="0.034782608695652174" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="IMANI CENTER FOR POLICY AND EDUCATION" label="IMANI CENTER FOR POLICY AND EDUCATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.954545454545455" />
+        <viz:position x="-133.38956832885742" y="150.70740699768066" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Ghana" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="GATEWAY RESEARCH CENTRE" label="GATEWAY RESEARCH CENTRE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-354.4217300415039" y="87.90233612060547" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Uganda" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR DEVELOPMENT AND ENTERPRISE" label="CENTRE FOR DEVELOPMENT AND ENTERPRISE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.590909090909092" />
+        <viz:position x="-102.59299278259277" y="329.00169372558594" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" label="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.181818181818182" />
+        <viz:position x="-284.00035858154297" y="343.64620208740234" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Cote d'Ivoire (Ivory Coast)" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="1.0" />
           <attvalue for="7" value="0.0" />
           <attvalue for="8" value="0.0" />
           <attvalue for="9" value="0.0" />
@@ -329,7 +346,7 @@
       <node id="JERUSALEM INSTITUTE FOR MARKET STUDIES" label="JERUSALEM INSTITUTE FOR MARKET STUDIES">
         <viz:color r="242" g="92" b="5" />
         <viz:size value="6.40909090909091" />
-        <viz:position x="196.95178985595703" y="27.714641094207764" z="0.0" />
+        <viz:position x="-175.43447494506836" y="419.6942138671875" z="0.0" />
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="thinktank" />
@@ -345,29 +362,130 @@
           <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
         </attvalues>
       </node>
-      <node id="ECONOMIC ASSOCIATION OF NAMIBIA" label="ECONOMIC ASSOCIATION OF NAMIBIA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="77.89573669433594" y="69.24917221069336" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Namibia" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="1.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
-        </attvalues>
-      </node>
-      <node id="TECHNICAL FOOD INDUSTRIES CO. (CMO)" label="TECHNICAL FOOD INDUSTRIES CO. (CMO)">
+      <node id="NEXUS CONSULTING GHANA" label="NEXUS CONSULTING GHANA">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="146.64294242858887" y="-156.85967445373535" z="0.0" />
+        <viz:position x="-218.0626678466797" y="76.47858619689941" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INDEPENDENT AGENCY SELECTION" label="INDEPENDENT AGENCY SELECTION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-156.0708713531494" y="309.05237197875977" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INTERDISCIPLINARY CENTER HERZLIYA" label="INTERDISCIPLINARY CENTER HERZLIYA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-196.34469985961914" y="199.06194686889648" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="EFFICIENT PRIVATE CLIENTS" label="EFFICIENT PRIVATE CLIENTS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-320.0912094116211" y="244.50504302978516" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" label="F. A. HAYEK PROGRAM FOR ADVANCED STUDY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-475.14163970947266" y="288.6297035217285" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AFRICAN LIBERTY" label="AFRICAN LIBERTY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-463.4698486328125" y="258.5523796081543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CARDIFF UNIVERSITY" label="CARDIFF UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-170.8828353881836" y="161.07421875" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED" label="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-120.99349975585938" y="265.16530990600586" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FRENCH ECONOMIST" label="FRENCH ECONOMIST">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-434.12696838378906" y="193.02440643310547" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AFFAIRS (MAIN EMPLOYER)" label="INSTITUTE OF ECONOMIC AFFAIRS (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-87.45488166809082" y="329.9098205566406" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="I&amp;J FISHING" label="I&amp;J FISHING">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-124.91043090820312" y="392.5471496582031" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -376,10 +494,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="COMMUNITY BANKING SUPERVISION AUTHORITY" label="COMMUNITY BANKING SUPERVISION AUTHORITY">
+      <node id="TALENT 10 HOLDINGS" label="TALENT 10 HOLDINGS">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="67.74681091308594" y="-106.37310981750488" z="0.0" />
+        <viz:position x="-303.5409927368164" y="435.23101806640625" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -388,10 +506,34 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH" label="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH">
+      <node id="HOOVER INSTITUTION (MAIN EMPLOYER)" label="HOOVER INSTITUTION (MAIN EMPLOYER)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="139.74258422851562" y="31.81649923324585" z="0.0" />
+        <viz:position x="-99.14196968078613" y="252.32427597045898" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CATO INSTITUTE (MAIN EMPLOYER)" label="CATO INSTITUTE (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-96.7953872680664" y="265.2798652648926" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NETANYA ACADEMIC COLLEGE" label="NETANYA ACADEMIC COLLEGE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-222.21494674682617" y="449.2539978027344" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -400,10 +542,22 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="THE TECHNION" label="THE TECHNION">
+      <node id="OPTIMUM COAL" label="OPTIMUM COAL">
         <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="123.69938850402832" y="-150.62286376953125" z="0.0" />
+        <viz:size value="1.5" />
+        <viz:position x="-124.80225563049316" y="106.70955657958984" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Energy production &amp; Extractive Industries" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="COUNCIL OF FOREIGN RELATIONS" label="COUNCIL OF FOREIGN RELATIONS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-120.1919937133789" y="394.2985153198242" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -412,142 +566,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="119.49979782104492" y="65.97819328308105" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="PSG NAMIBIA" label="PSG NAMIBIA">
+      <node id="SOCIAL LICENCE LIMITED" label="SOCIAL LICENCE LIMITED">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="60.158348083496094" y="74.97604370117188" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="UNIVERSITY OF HAIFA" label="UNIVERSITY OF HAIFA">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.7272727272727275" />
-        <viz:position x="140.89292526245117" y="-151.25070571899414" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="IMANI" label="IMANI">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="126.17966651916504" y="-8.579766750335693" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="EFFICIENT PRIVATE CLIENTS" label="EFFICIENT PRIVATE CLIENTS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="17.809942960739136" y="-39.88027811050415" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="STEVE BIKO FOUNDATION" label="STEVE BIKO FOUNDATION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="118.25861930847168" y="-85.13602256774902" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="TEL AVIV UNIVERSITY" label="TEL AVIV UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.545454545454546" />
-        <viz:position x="62.5214147567749" y="-99.70743179321289" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="OPEN QUEST MEDIA LLC" label="OPEN QUEST MEDIA LLC">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="80.53825378417969" y="19.47304129600525" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED" label="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="215.97135543823242" y="-116.35553359985352" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="GN TOWELL CONSULTANCY" label="GN TOWELL CONSULTANCY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="54.03420925140381" y="-71.83823108673096" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="GEORGE MASON UNIVERSITY" label="GEORGE MASON UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="215.48540115356445" y="15.923318862915039" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="TELKOM" label="TELKOM">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="211.3509178161621" y="-70.3962230682373" z="0.0" />
+        <viz:position x="-219.1727066040039" y="448.5646438598633" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -559,179 +581,11 @@
       <node id="MONT PELERIN SOCIETY" label="MONT PELERIN SOCIETY">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="2.3181818181818183" />
-        <viz:position x="33.76619338989258" y="-36.12736940383911" z="0.0" />
+        <viz:position x="-330.5792236328125" y="450.37914276123047" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
           <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="HUNTERS" label="HUNTERS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-11.303975582122803" y="-119.46615219116211" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Information Technology and Software" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="I&amp;J FISHING" label="I&amp;J FISHING">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="178.54999542236328" y="-53.84727478027344" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Energy production &amp; Extractive Industries" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="BAR-ILAN UNIVERSITY" label="BAR-ILAN UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.1363636363636362" />
-        <viz:position x="120.40128707885742" y="-137.19757080078125" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="UNIVERSITY OF CALIFORNIA / LOS ANGELES" label="UNIVERSITY OF CALIFORNIA / LOS ANGELES">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="56.877760887145996" y="47.38145351409912" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="SHALEM COLLEGE, JERUSALEM" label="SHALEM COLLEGE, JERUSALEM">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="166.73025131225586" y="48.70852470397949" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS" label="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="22.951157093048096" y="-156.70639991760254" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" label="MERCATUS CENTER AT GEORGE MASON UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="211.92447662353516" y="-16.284170150756836" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="NETANYA ACADEMIC COLLEGE" label="NETANYA ACADEMIC COLLEGE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="71.39078617095947" y="-201.43072128295898" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="THE ISRAELIS PARTY" label="THE ISRAELIS PARTY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="123.84699821472168" y="-144.18856620788574" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="No categorization" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="LAWYERS FOR HUMAN RIGHTS" label="LAWYERS FOR HUMAN RIGHTS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="76.19645118713379" y="-80.95736503601074" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="THE JOURNAL OF LAW AND ECONOMICS" label="THE JOURNAL OF LAW AND ECONOMICS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="177.2941017150879" y="50.463762283325195" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="COUNCIL OF FOREIGN RELATIONS" label="COUNCIL OF FOREIGN RELATIONS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="157.65159606933594" y="-16.808143854141235" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="MPEDIGREE" label="MPEDIGREE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="233.1471824645996" y="-23.57835054397583" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Information Technology and Software" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="INVESTEC WEALTH" label="INVESTEC WEALTH">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-4.227903783321381" y="20.39161205291748" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
           <attvalue for="10" value="#02e0e8" />
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
@@ -739,287 +593,11 @@
       <node id="AMERICAN BAR ASSOCIATION" label="AMERICAN BAR ASSOCIATION">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="-29.760234355926514" y="-60.65143585205078" z="0.0" />
+        <viz:position x="-421.12003326416016" y="656.2843322753906" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
           <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="BEN GURION UNIVERSITY" label="BEN GURION UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="112.75045394897461" y="-134.7261142730713" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="CARDIFF UNIVERSITY" label="CARDIFF UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="23.47789764404297" y="80.65442085266113" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="STELLENBOSCH UNIVERSITY" label="STELLENBOSCH UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="138.88324737548828" y="-67.81386852264404" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="WEBBER WENTZEL" label="WEBBER WENTZEL">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="100.9116268157959" y="-87.4631118774414" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING" label="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="101.35517120361328" y="-136.2028694152832" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ARAB OPEN UNIVERSITY" label="ARAB OPEN UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="142.2389793395996" y="-189.15807723999023" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="SAKELIGA" label="SAKELIGA">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="58.47367286682129" y="-14.960758686065674" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="FIRST RAND" label="FIRST RAND">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="219.86299514770508" y="-94.32427406311035" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="CATO INSTITUTE" label="CATO INSTITUTE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-1.8931831419467926" y="-6.158174276351929" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION" label="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="200.57952880859375" y="-128.5411834716797" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="READ TO LEAD FOUNDATION" label="READ TO LEAD FOUNDATION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-34.75034475326538" y="3.9862897992134094" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="BARCLAYS AFRICA GROUP" label="BARCLAYS AFRICA GROUP">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="143.07826042175293" y="-69.69533920288086" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ENTREPRENEUR" label="ENTREPRENEUR">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="53.059048652648926" y="-44.69715595245361" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="No categorization" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ENERGY FOR GROWTH HUB" label="ENERGY FOR GROWTH HUB">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="108.05933952331543" y="98.09810638427734" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)" label="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="42.95265197753906" y="53.62452030181885" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="LEX PRAXIS INCORPORATED" label="LEX PRAXIS INCORPORATED">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="143.02078247070312" y="-36.65624141693115" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="NATIONAL BUSINESS INITIATIVE" label="NATIONAL BUSINESS INITIATIVE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="189.73997116088867" y="-129.47351455688477" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="SASFIN" label="SASFIN">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="141.57878875732422" y="-35.684380531311035" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="BELLATRIX INVESTMENT MANAGERS" label="BELLATRIX INVESTMENT MANAGERS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="76.06956481933594" y="74.2641830444336" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ATLAS NETWORK" label="ATLAS NETWORK">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-18.02500605583191" y="-69.84854221343994" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="UNIVERSITY OF CHICAGO" label="UNIVERSITY OF CHICAGO">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="191.14259719848633" y="48.07693004608154" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="CLEMSON UNIVERSITY" label="CLEMSON UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="188.3305549621582" y="-28.082783222198486" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" label="F. A. HAYEK PROGRAM FOR ADVANCED STUDY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="201.11194610595703" y="35.61105251312256" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
           <attvalue for="10" value="#02e0e8" />
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
@@ -1027,7 +605,7 @@
       <node id="ARIZONA STATE UNIVERSITY" label="ARIZONA STATE UNIVERSITY">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="237.25948333740234" y="-2.6289835572242737" z="0.0" />
+        <viz:position x="-105.45032501220703" y="370.2863311767578" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1036,34 +614,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="CATHOLIC UNIVERSITY OF VENDÉE" label="CATHOLIC UNIVERSITY OF VENDÉE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="19.19757604598999" y="-94.9637508392334" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="FRENCH ECONOMIST" label="FRENCH ECONOMIST">
+      <node id="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING" label="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="11.763325929641724" y="-129.66981887817383" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="No categorization" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AFRICAN LIBERTY" label="AFRICAN LIBERTY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="3.4492814540863037" y="-36.05399131774902" z="0.0" />
+        <viz:position x="-331.8419647216797" y="208.9375877380371" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1072,34 +626,10 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA" label="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA">
+      <node id="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH" label="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="-4.341920614242554" y="1.7807784676551819" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE" label="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="215.92443466186523" y="-52.33529090881348" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Consumer Services &amp; Retail Sector" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AMITY UNIVERSITY DUBAI" label="AMITY UNIVERSITY DUBAI">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="197.87670135498047" y="-159.88239288330078" z="0.0" />
+        <viz:position x="-224.58200454711914" y="99.25362586975098" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1108,10 +638,22 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="HEBREW UNIVERSITY" label="HEBREW UNIVERSITY">
+      <node id="HUNTERS" label="HUNTERS">
         <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.363636363636363" />
-        <viz:position x="104.83613014221191" y="-121.97563171386719" z="0.0" />
+        <viz:size value="1.5" />
+        <viz:position x="-141.8932056427002" y="157.1964168548584" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Information Technology and Software" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="SHALEM COLLEGE, JERUSALEM" label="SHALEM COLLEGE, JERUSALEM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-158.3299160003662" y="415.1559066772461" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1120,206 +662,26 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="RDC CONSULTING SERVICES" label="RDC CONSULTING SERVICES">
+      <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS (MAIN EMPLOYER)" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="-340.8303451538086" y="418.68560791015625" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="WEBBER WENTZEL" label="WEBBER WENTZEL">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.9090909090909092" />
-        <viz:position x="94.48264122009277" y="-88.62196922302246" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="NDEJJE UNIVERSITY" label="NDEJJE UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="106.63652420043945" y="53.52047920227051" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="SOCIAL LICENCE LIMITED" label="SOCIAL LICENCE LIMITED">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="83.42179298400879" y="-13.677618503570557" z="0.0" />
+        <viz:position x="-425.5462646484375" y="261.38683319091797" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
           <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ELIZADE UNIVERSITY" label="ELIZADE UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-27.41305112838745" y="-63.134684562683105" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)" label="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="218.8371467590332" y="-41.250243186950684" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Government" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="THE GREENVILLE CLEAN TEAM" label="THE GREENVILLE CLEAN TEAM">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="247.2083854675293" y="-59.04388904571533" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Consumer Services &amp; Retail Sector" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="THE WOOD STUDIO UGANDA" label="THE WOOD STUDIO UGANDA">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="156.38595581054688" y="73.55626583099365" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="QUO VADIS COMMUNICATIONS" label="QUO VADIS COMMUNICATIONS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="129.19594764709473" y="-75.23313522338867" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="HOOVER INSTITUTION" label="HOOVER INSTITUTION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="141.33130073547363" y="30.996921062469482" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="OPTIMUM COAL" label="OPTIMUM COAL">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="141.21009826660156" y="-109.11919593811035" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Energy production &amp; Extractive Industries" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="INTERDISCIPLINARY CENTER HERZLIYA" label="INTERDISCIPLINARY CENTER HERZLIYA">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="89.13979530334473" y="-179.86064910888672" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="ISRAELI ACADEMIC CENTRE IN CAIRO" label="ISRAELI ACADEMIC CENTRE IN CAIRO">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="39.9185848236084" y="-184.75366592407227" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="NEXUS CONSULTING GHANA" label="NEXUS CONSULTING GHANA">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="161.6395378112793" y="-62.80417442321777" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="PARIS DAUPHINE UNIVERSITY" label="PARIS DAUPHINE UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="21.72353744506836" y="-62.23671913146973" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="GEORGE WASHINGTON UNIVERSITY" label="GEORGE WASHINGTON UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="220.1400375366211" y="8.807424902915955" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES" label="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="70.96171855926514" y="41.73786163330078" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="TALENT 10 HOLDINGS" label="TALENT 10 HOLDINGS">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="149.9282455444336" y="-127.70769119262695" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
           <attvalue for="10" value="#02e0e8" />
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
@@ -1327,67 +689,7 @@
       <node id="MONASA ADVISORY AND ASSOCIATES" label="MONASA ADVISORY AND ASSOCIATES">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="84.59165573120117" y="89.80329513549805" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AIX-MARSEILLE UNIVERSITY" label="AIX-MARSEILLE UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.3181818181818183" />
-        <viz:position x="11.714882850646973" y="-115.83535194396973" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="VETERANS AFFAIRS MED CTR WASHINGTON DC" label="VETERANS AFFAIRS MED CTR WASHINGTON DC">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="242.55796432495117" y="-97.34167098999023" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Health Care &amp; Pharmaceuticals" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="FRIEDRICH NAUMANN FOUNDATION" label="FRIEDRICH NAUMANN FOUNDATION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="23.50750207901001" y="-148.42453002929688" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="Foundations &amp; Interest groups" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="AFE BABALOLA UNIVERSITY" label="AFE BABALOLA UNIVERSITY">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="-24.589531421661377" y="-79.49081897735596" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="University" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="INDEPENDENT AGENCY SELECTION" label="INDEPENDENT AGENCY SELECTION">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.5" />
-        <viz:position x="27.151272296905518" y="51.497788429260254" z="0.0" />
+        <viz:position x="-466.74022674560547" y="271.4154243469238" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1399,7 +701,7 @@
       <node id="USAFI COMFORT LTD" label="USAFI COMFORT LTD">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.9090909090909092" />
-        <viz:position x="0.1612030528485775" y="-8.439342379570007" z="0.0" />
+        <viz:position x="-362.86643981933594" y="413.1903839111328" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1408,10 +710,430 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="NEW YORK UNIVERSITY" label="NEW YORK UNIVERSITY">
+      <node id="UNIVERSITÉ BRETAGNE SUD" label="UNIVERSITÉ BRETAGNE SUD">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-437.3366928100586" y="201.3355827331543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="LEX PRAXIS INCORPORATED" label="LEX PRAXIS INCORPORATED">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.9090909090909092" />
-        <viz:position x="115.36276817321777" y="15.142157077789307" z="0.0" />
+        <viz:position x="-251.00313186645508" y="445.3895950317383" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="OPEN QUEST MEDIA LLC" label="OPEN QUEST MEDIA LLC">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-332.6515579223633" y="137.6453971862793" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="IMANI" label="IMANI">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-376.17897033691406" y="222.3776626586914" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF CHICAGO" label="UNIVERSITY OF CHICAGO">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-80.4627799987793" y="294.17797088623047" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" label="MERCATUS CENTER AT GEORGE MASON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-117.11044311523438" y="324.44786071777344" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MPEDIGREE" label="MPEDIGREE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-118.80026817321777" y="126.8520450592041" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Information Technology and Software" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AMITY UNIVERSITY DUBAI" label="AMITY UNIVERSITY DUBAI">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-307.2088050842285" y="455.2355194091797" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="READ TO LEAD FOUNDATION" label="READ TO LEAD FOUNDATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-230.37469863891602" y="123.76158714294434" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CLEMSON UNIVERSITY" label="CLEMSON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-133.61254692077637" y="189.71546173095703" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ELIZADE UNIVERSITY" label="ELIZADE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-202.73664474487305" y="341.20128631591797" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)" label="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-234.69755172729492" y="103.22152137756348" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="VETERANS AFFAIRS MED CTR WASHINGTON DC" label="VETERANS AFFAIRS MED CTR WASHINGTON DC">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-101.23324394226074" y="246.99302673339844" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Health Care &amp; Pharmaceuticals" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="COMMUNITY BANKING SUPERVISION AUTHORITY" label="COMMUNITY BANKING SUPERVISION AUTHORITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-204.47574615478516" y="123.00641059875488" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="SASFIN" label="SASFIN">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-361.4618682861328" y="455.4731750488281" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ATLAS NETWORK (MAIN EMPLOYER)" label="ATLAS NETWORK (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-441.65470123291016" y="308.7704658508301" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES" label="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-268.20629119873047" y="426.75079345703125" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="THE ISRAELIS PARTY" label="THE ISRAELIS PARTY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-272.54173278808594" y="120.01204490661621" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="TEL AVIV UNIVERSITY" label="TEL AVIV UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="-183.16417694091797" y="260.2265739440918" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FRIEDRICH NAUMANN FOUNDATION" label="FRIEDRICH NAUMANN FOUNDATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-370.3345489501953" y="283.6126518249512" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION (MAIN EMPLOYER)" label="FREE MARKET FOUNDATION (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="-401.56620025634766" y="149.90029335021973" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)" label="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-194.90842819213867" y="93.18215370178223" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HEBREW UNIVERSITY" label="HEBREW UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.363636363636363" />
+        <viz:position x="-265.28953552246094" y="279.9310302734375" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AIX-MARSEILLE UNIVERSITY" label="AIX-MARSEILLE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-216.51168823242188" y="334.12696838378906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF HAIFA" label="UNIVERSITY OF HAIFA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.7272727272727275" />
+        <viz:position x="-170.0883674621582" y="278.05707931518555" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ENERGY FOR GROWTH HUB" label="ENERGY FOR GROWTH HUB">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-163.42363357543945" y="171.9597625732422" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="QUO VADIS COMMUNICATIONS" label="QUO VADIS COMMUNICATIONS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-221.95144653320312" y="177.27832794189453" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BAR-ILAN UNIVERSITY" label="BAR-ILAN UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1363636363636362" />
+        <viz:position x="-172.38496780395508" y="209.2959213256836" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS" label="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-325.34095764160156" y="442.45189666748047" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA" label="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-184.84220504760742" y="116.64959907531738" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ISRAELI ACADEMIC CENTRE IN CAIRO" label="ISRAELI ACADEMIC CENTRE IN CAIRO">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-124.72009658813477" y="209.47046279907227" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BELLATRIX INVESTMENT MANAGERS" label="BELLATRIX INVESTMENT MANAGERS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-351.69342041015625" y="333.95320892333984" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="RDC CONSULTING SERVICES" label="RDC CONSULTING SERVICES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-294.82173919677734" y="90.59974670410156" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="THE JOURNAL OF LAW AND ECONOMICS" label="THE JOURNAL OF LAW AND ECONOMICS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-188.45985412597656" y="418.11038970947266" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GEORGE MASON UNIVERSITY" label="GEORGE MASON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-227.0973014831543" y="452.00252532958984" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF CALIFORNIA / LOS ANGELES" label="UNIVERSITY OF CALIFORNIA / LOS ANGELES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-398.82911682128906" y="152.75617599487305" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1423,7 +1145,7 @@
       <node id="NEW YORK UNIVERSITY STERN SCHOOL OF BUSINESS" label="NEW YORK UNIVERSITY STERN SCHOOL OF BUSINESS">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="105.24259567260742" y="-166.9378662109375" z="0.0" />
+        <viz:position x="-85.86572647094727" y="277.9427909851074" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1432,26 +1154,38 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
-      <node id="JOHANNESBURG STOCK EXCHANGE" label="JOHANNESBURG STOCK EXCHANGE">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="1.9090909090909092" />
-        <viz:position x="63.8124942779541" y="-77.01882362365723" z="0.0" />
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="constituency" />
-          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
-        </attvalues>
-      </node>
-      <node id="UNIVERSITÉ BRETAGNE SUD" label="UNIVERSITÉ BRETAGNE SUD">
+      <node id="ARAB OPEN UNIVERSITY" label="ARAB OPEN UNIVERSITY">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="29.535531997680664" y="-134.2688274383545" z="0.0" />
+        <viz:position x="-185.79788208007812" y="325.9630584716797" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
           <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="IMANI CENTER FOR POLICY AND EDUCATION (MAIN EMPLOYER)" label="IMANI CENTER FOR POLICY AND EDUCATION (MAIN EMPLOYER)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-88.77219200134277" y="224.76734161376953" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="NaN" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION" label="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-103.09388160705566" y="180.3986358642578" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
           <attvalue for="10" value="#02e0e8" />
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
@@ -1459,7 +1193,7 @@
       <node id="STANDARD BANK GROUP (AFFILIATED ENTITIES)" label="STANDARD BANK GROUP (AFFILIATED ENTITIES)">
         <viz:color r="2" g="224" b="232" />
         <viz:size value="1.5" />
-        <viz:position x="209.20490264892578" y="-119.97693061828613" z="0.0" />
+        <viz:position x="-227.94479370117188" y="180.58902740478516" z="0.0" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="constituency" />
@@ -1468,336 +1202,645 @@
           <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
         </attvalues>
       </node>
+      <node id="STELLENBOSCH UNIVERSITY" label="STELLENBOSCH UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-242.91078567504883" y="432.71759033203125" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AFE BABALOLA UNIVERSITY" label="AFE BABALOLA UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-421.5545654296875" y="400.7876968383789" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="THE WOOD STUDIO UGANDA" label="THE WOOD STUDIO UGANDA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-417.7955627441406" y="156.42358779907227" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ENTREPRENEUR" label="ENTREPRENEUR">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-182.50621795654297" y="231.6217041015625" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="THE TECHNION" label="THE TECHNION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-152.26914405822754" y="213.57521057128906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="THE GREENVILLE CLEAN TEAM" label="THE GREENVILLE CLEAN TEAM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-237.34580993652344" y="168.15364837646484" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Consumer Services &amp; Retail Sector" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="SAKELIGA" label="SAKELIGA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-219.8811149597168" y="202.3175048828125" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CATHOLIC UNIVERSITY OF VENDÉE" label="CATHOLIC UNIVERSITY OF VENDÉE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-339.8539733886719" y="103.91693115234375" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="PARIS DAUPHINE UNIVERSITY" label="PARIS DAUPHINE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-308.1892776489258" y="135.1424789428711" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NEW YORK UNIVERSITY" label="NEW YORK UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-101.24510765075684" y="326.6692352294922" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="LAWYERS FOR HUMAN RIGHTS" label="LAWYERS FOR HUMAN RIGHTS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-223.09720993041992" y="195.88394165039062" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NDEJJE UNIVERSITY" label="NDEJJE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-239.47580337524414" y="69.63752269744873" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BARCLAYS AFRICA GROUP" label="BARCLAYS AFRICA GROUP">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-252.1410369873047" y="470.2659225463867" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE" label="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-132.3788356781006" y="231.55614852905273" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Consumer Services &amp; Retail Sector" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FIRST RAND" label="FIRST RAND">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-69.59250926971436" y="287.69744873046875" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="PSG NAMIBIA" label="PSG NAMIBIA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-383.99768829345703" y="363.3232116699219" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="TECHNICAL FOOD INDUSTRIES CO. (CMO)" label="TECHNICAL FOOD INDUSTRIES CO. (CMO)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-174.4410514831543" y="182.52573013305664" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Energy production &amp; Extractive Industries" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INVESTEC WEALTH" label="INVESTEC WEALTH">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-201.85083389282227" y="161.8893814086914" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="STEVE BIKO FOUNDATION" label="STEVE BIKO FOUNDATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="-421.4229202270508" y="151.48362159729004" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NATIONAL BUSINESS INITIATIVE" label="NATIONAL BUSINESS INITIATIVE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-260.54880142211914" y="171.91160202026367" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GEORGE WASHINGTON UNIVERSITY" label="GEORGE WASHINGTON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-173.14590454101562" y="413.1090545654297" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GN TOWELL CONSULTANCY" label="GN TOWELL CONSULTANCY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-300.74731826782227" y="459.09244537353516" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="JOHANNESBURG STOCK EXCHANGE" label="JOHANNESBURG STOCK EXCHANGE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="-286.0808753967285" y="448.8469696044922" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="TELKOM" label="TELKOM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-79.43113327026367" y="338.18431854248047" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BEN GURION UNIVERSITY" label="BEN GURION UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.5" />
+        <viz:position x="-65.095534324646" y="338.2044982910156" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" target="ENERGY FOR GROWTH HUB" id="0" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="BAR-ILAN UNIVERSITY" id="0" weight="5">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" target="INSTITUTE OF ECONOMIC AFFAIRS" id="1" weight="2">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="BEN GURION UNIVERSITY" id="1" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="TECHNICAL FOOD INDUSTRIES CO. (CMO)" id="2" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="INTERDISCIPLINARY CENTER HERZLIYA" id="2" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="AMITY UNIVERSITY DUBAI" id="3" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="ISRAELI ACADEMIC CENTRE IN CAIRO" id="3" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="ARAB OPEN UNIVERSITY" id="4" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="HEBREW UNIVERSITY" id="4" weight="8">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="TACHARUT" target="HUNTERS" id="5" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING" id="5" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="INENG" target="FREE MARKET FOUNDATION" id="6" weight="2">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="NETANYA ACADEMIC COLLEGE" id="6" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="INENG" target="IMANI" id="7" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE TECHNION" id="7" weight="3">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CHALE INSTITUTE" target="AFE BABALOLA UNIVERSITY" id="8" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE ISRAELIS PARTY" id="8" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CHALE INSTITUTE" target="ELIZADE UNIVERSITY" id="9" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="NEW YORK UNIVERSITY STERN SCHOOL OF BUSINESS" id="9" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CHALE INSTITUTE" target="AMERICAN BAR ASSOCIATION" id="10" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="TEL AVIV UNIVERSITY" id="10" weight="6">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CHALE INSTITUTE" target="AFRICAN LIBERTY" id="11" weight="1">
+      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="UNIVERSITY OF HAIFA" id="11" weight="4">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CHALE INSTITUTE" target="READ TO LEAD FOUNDATION" id="12" weight="1">
+      <edge source="CHALE INSTITUTE" target="AFE BABALOLA UNIVERSITY" id="12" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="GN TOWELL CONSULTANCY" id="13" weight="1">
+      <edge source="CHALE INSTITUTE" target="ELIZADE UNIVERSITY" id="13" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SOCIAL LICENCE LIMITED" id="14" weight="1">
+      <edge source="CHALE INSTITUTE" target="AMERICAN BAR ASSOCIATION" id="14" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="EFFICIENT PRIVATE CLIENTS" id="15" weight="1">
+      <edge source="CHALE INSTITUTE" target="AFRICAN LIBERTY" id="15" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION" id="16" weight="1">
+      <edge source="CHALE INSTITUTE" target="READ TO LEAD FOUNDATION" id="16" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="STEVE BIKO FOUNDATION" id="17" weight="2">
+      <edge source="INENG" target="FREE MARKET FOUNDATION (MAIN EMPLOYER)" id="17" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SASFIN" id="18" weight="1">
+      <edge source="INENG" target="IMANI" id="18" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="JOHANNESBURG STOCK EXCHANGE" id="19" weight="2">
+      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="TECHNICAL FOOD INDUSTRIES CO. (CMO)" id="19" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="LAWYERS FOR HUMAN RIGHTS" id="20" weight="2">
+      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="AMITY UNIVERSITY DUBAI" id="20" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="WEBBER WENTZEL" id="21" weight="2">
+      <edge source="LEBANESE INSTITUTE FOR MARKET STUDIES" target="ARAB OPEN UNIVERSITY" id="21" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SAKELIGA" id="22" weight="2">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="GN TOWELL CONSULTANCY" id="22" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="ENTREPRENEUR" id="23" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SOCIAL LICENCE LIMITED" id="23" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="RDC CONSULTING SERVICES" id="24" weight="2">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="EFFICIENT PRIVATE CLIENTS" id="24" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="QUO VADIS COMMUNICATIONS" id="25" weight="2">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION (MAIN EMPLOYER)" id="25" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="STELLENBOSCH UNIVERSITY" id="26" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="STEVE BIKO FOUNDATION" id="26" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="AFRICANLIBERTY.ORG" id="27" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SASFIN" id="27" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="BARCLAYS AFRICA GROUP" id="28" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="JOHANNESBURG STOCK EXCHANGE" id="28" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="OPTIMUM COAL" id="29" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="LAWYERS FOR HUMAN RIGHTS" id="29" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED" id="30" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS (MAIN EMPLOYER)" id="30" weight="5">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="STANDARD BANK GROUP (AFFILIATED ENTITIES)" id="31" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="WEBBER WENTZEL" id="31" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="TALENT 10 HOLDINGS" id="32" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="SAKELIGA" id="32" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION" id="33" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="ENTREPRENEUR" id="33" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="STEVE BIKO FOUNDATION" id="34" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="RDC CONSULTING SERVICES" id="34" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="TELKOM" id="35" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="QUO VADIS COMMUNICATIONS" id="35" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="FIRST RAND" id="36" weight="1">
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="STELLENBOSCH UNIVERSITY" id="36" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="I&amp;J FISHING" id="37" weight="1">
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="ATLAS NETWORK (MAIN EMPLOYER)" id="37" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="NATIONAL BUSINESS INITIATIVE" id="38" weight="1">
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="CATO INSTITUTE (MAIN EMPLOYER)" id="38" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="ATLAS NETWORK" id="39" weight="1">
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="AIX-MARSEILLE UNIVERSITY" id="39" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="CATO INSTITUTE" id="40" weight="1">
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="CATHOLIC UNIVERSITY OF VENDÉE" id="40" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="AIX-MARSEILLE UNIVERSITY" id="41" weight="1">
+      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="PSG NAMIBIA" id="41" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="CATHOLIC UNIVERSITY OF VENDÉE" id="42" weight="1">
+      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="MONASA ADVISORY AND ASSOCIATES" id="42" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="OPEN QUEST MEDIA LLC" id="43" weight="1">
+      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="BELLATRIX INVESTMENT MANAGERS" id="43" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="USAFI COMFORT LTD" id="44" weight="1">
+      <edge source="TACHARUT" target="HUNTERS" id="44" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="GATEWAY RESEARCH CENTRE" target="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH" id="45" weight="1">
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" target="ENERGY FOR GROWTH HUB" id="45" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="GATEWAY RESEARCH CENTRE" target="NDEJJE UNIVERSITY" id="46" weight="1">
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS GHANA (IEA)" target="INSTITUTE OF ECONOMIC AFFAIRS (MAIN EMPLOYER)" id="46" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="GATEWAY RESEARCH CENTRE" target="THE WOOD STUDIO UGANDA" id="47" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="SASFIN" id="47" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="MPEDIGREE" id="48" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="IMANI" id="48" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="NEXUS CONSULTING GHANA" id="49" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS (MAIN EMPLOYER)" id="49" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE" id="50" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="LEX PRAXIS INCORPORATED" id="50" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="IMANI" id="51" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="OPEN QUEST MEDIA LLC" id="51" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="LEX PRAXIS INCORPORATED" id="52" weight="1">
+      <edge source="AFRICANLIBERTY.ORG" target="USAFI COMFORT LTD" id="52" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)" id="53" weight="1">
+      <edge source="ETHICAL AFRICAN ORGANIZATION" target="THE GREENVILLE CLEAN TEAM" id="53" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="AIX-MARSEILLE UNIVERSITY" id="54" weight="2">
+      <edge source="ETHICAL AFRICAN ORGANIZATION" target="VETERANS AFFAIRS MED CTR WASHINGTON DC" id="54" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="CATHOLIC UNIVERSITY OF VENDÉE" id="55" weight="1">
+      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="OPEN QUEST MEDIA LLC" id="55" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="UNIVERSITÉ BRETAGNE SUD" id="56" weight="1">
+      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="USAFI COMFORT LTD" id="56" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="PARIS DAUPHINE UNIVERSITY" id="57" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="MONT PELERIN SOCIETY" id="57" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="MONT PELERIN SOCIETY" id="58" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="PARIS DAUPHINE UNIVERSITY" id="58" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="FRIEDRICH NAUMANN FOUNDATION" id="59" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="CARDIFF UNIVERSITY" id="59" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="FRENCH ECONOMIST" id="60" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="NEW YORK UNIVERSITY" id="60" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS" id="61" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="SAKELIGA" id="61" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="COMMUNITY BANKING SUPERVISION AUTHORITY" id="62" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="EFFICIENT PRIVATE CLIENTS" id="62" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AFRICANLIBERTY.ORG" target="SASFIN" id="63" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA" id="63" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AFRICANLIBERTY.ORG" target="IMANI" id="64" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="FREE MARKET FOUNDATION (MAIN EMPLOYER)" id="64" weight="3">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AFRICANLIBERTY.ORG" target="LEX PRAXIS INCORPORATED" id="65" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="INDEPENDENT AGENCY SELECTION" id="65" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AFRICANLIBERTY.ORG" target="OPEN QUEST MEDIA LLC" id="66" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES" id="66" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="AFRICANLIBERTY.ORG" target="USAFI COMFORT LTD" id="67" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="ENTREPRENEUR" id="67" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="BAR-ILAN UNIVERSITY" id="68" weight="5">
+      <edge source="FREE MARKET FOUNDATION" target="INVESTEC WEALTH" id="68" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="BEN GURION UNIVERSITY" id="69" weight="1">
+      <edge source="FREE MARKET FOUNDATION" target="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)" id="69" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="INTERDISCIPLINARY CENTER HERZLIYA" id="70" weight="2">
+      <edge source="FREE MARKET FOUNDATION" target="UNIVERSITY OF CALIFORNIA / LOS ANGELES" id="70" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="ISRAELI ACADEMIC CENTRE IN CAIRO" id="71" weight="1">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="MPEDIGREE" id="71" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="HEBREW UNIVERSITY" id="72" weight="8">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="NEXUS CONSULTING GHANA" id="72" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE ISRAELI INSTITUTE FOR ECONOMIC PLANNING" id="73" weight="1">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="BUDGET PLACE CLOTHING OUTLET AND LAUNDRY SERVICE" id="73" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="NETANYA ACADEMIC COLLEGE" id="74" weight="1">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="IMANI" id="74" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE TECHNION" id="75" weight="3">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="IMANI CENTER FOR POLICY AND EDUCATION (MAIN EMPLOYER)" id="75" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="THE ISRAELIS PARTY" id="76" weight="1">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="LEX PRAXIS INCORPORATED" id="76" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="NEW YORK UNIVERSITY STERN SCHOOL OF BUSINESS" id="77" weight="1">
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID, SINCE 2008)" id="77" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="TEL AVIV UNIVERSITY" id="78" weight="6">
+      <edge source="GATEWAY RESEARCH CENTRE" target="MAKERERE UNIVERSITY SCHOOL OF PUBLIC HEALTH" id="78" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ISRAEL CENTER FOR SOCIAL &amp; ECONOMIC PROGRESS" target="UNIVERSITY OF HAIFA" id="79" weight="4">
+      <edge source="GATEWAY RESEARCH CENTRE" target="NDEJJE UNIVERSITY" id="79" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="PARIS DAUPHINE UNIVERSITY" id="80" weight="1">
+      <edge source="GATEWAY RESEARCH CENTRE" target="THE WOOD STUDIO UGANDA" id="80" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="MONT PELERIN SOCIETY" id="81" weight="2">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="BARCLAYS AFRICA GROUP" id="81" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="CARDIFF UNIVERSITY" id="82" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="OPTIMUM COAL" id="82" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="NEW YORK UNIVERSITY" id="83" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="VALUE CAPITAL PARTNERS PROPRIETARY LIMITED" id="83" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="SAKELIGA" id="84" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="STANDARD BANK GROUP (AFFILIATED ENTITIES)" id="84" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="EFFICIENT PRIVATE CLIENTS" id="85" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="TALENT 10 HOLDINGS" id="85" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="NATIONAL EMPLOYERS ASSOCIATION OF SOUTH AFRICA" id="86" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="DG MURRAY TRUST AND ROTHSCHILD FOUNDATION" id="86" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="INDEPENDENT AGENCY SELECTION" id="87" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="STEVE BIKO FOUNDATION" id="87" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="AFRICAN COUNCIL OF HAWKERS AND INFORMAL BUSINESSES" id="88" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="TELKOM" id="88" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="ENTREPRENEUR" id="89" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="FIRST RAND" id="89" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="INVESTEC WEALTH" id="90" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="I&amp;J FISHING" id="90" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="NATIONAL AFRICAN SKILLS DEVELOPMENT CENTRE (CEO)" id="91" weight="1">
+      <edge source="CENTRE FOR DEVELOPMENT AND ENTERPRISE" target="NATIONAL BUSINESS INITIATIVE" id="91" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="UNIVERSITY OF CALIFORNIA / LOS ANGELES" id="92" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="AIX-MARSEILLE UNIVERSITY" id="92" weight="2">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ETHICAL AFRICAN ORGANIZATION" target="THE GREENVILLE CLEAN TEAM" id="93" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="CATHOLIC UNIVERSITY OF VENDÉE" id="93" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ETHICAL AFRICAN ORGANIZATION" target="VETERANS AFFAIRS MED CTR WASHINGTON DC" id="94" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="UNIVERSITÉ BRETAGNE SUD" id="94" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="COUNCIL OF FOREIGN RELATIONS" id="95" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="MONT PELERIN SOCIETY" id="95" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="UNIVERSITY OF CHICAGO" id="96" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="PARIS DAUPHINE UNIVERSITY" id="96" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="THE JOURNAL OF LAW AND ECONOMICS" id="97" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="FRIEDRICH NAUMANN FOUNDATION" id="97" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="ARIZONA STATE UNIVERSITY" id="98" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="FRENCH ECONOMIST" id="98" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="CLEMSON UNIVERSITY" id="99" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="AMERICAN INDEPENDENT DIRECTOR ON CORPORATE BOARDS" id="99" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="100" weight="1">
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="COMMUNITY BANKING SUPERVISION AUTHORITY" id="100" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="GEORGE MASON UNIVERSITY" id="101" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="COUNCIL OF FOREIGN RELATIONS" id="101" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="102" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="THE JOURNAL OF LAW AND ECONOMICS" id="102" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="GEORGE WASHINGTON UNIVERSITY" id="103" weight="2">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="UNIVERSITY OF CHICAGO" id="103" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="NEW YORK UNIVERSITY" id="104" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="ARIZONA STATE UNIVERSITY" id="104" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="HOOVER INSTITUTION" id="105" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="CLEMSON UNIVERSITY" id="105" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="SHALEM COLLEGE, JERUSALEM" id="106" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="106" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="PSG NAMIBIA" id="107" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="GEORGE MASON UNIVERSITY" id="107" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="MONASA ADVISORY AND ASSOCIATES" id="108" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="108" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
-      <edge source="ECONOMIC ASSOCIATION OF NAMIBIA" target="BELLATRIX INVESTMENT MANAGERS" id="109" weight="1">
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="GEORGE WASHINGTON UNIVERSITY" id="109" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="NEW YORK UNIVERSITY" id="110" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="HOOVER INSTITUTION (MAIN EMPLOYER)" id="111" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="JERUSALEM INSTITUTE FOR MARKET STUDIES" target="SHALEM COLLEGE, JERUSALEM" id="112" weight="1">
         <viz:color r="192" g="192" b="192" />
       </edge>
     </edges>
