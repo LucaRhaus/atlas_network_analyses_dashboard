@@ -1,0 +1,2968 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-23">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="country" type="string" />
+      <attribute id="3" title="region" type="string" />
+      <attribute id="4" title="has_climate_content" type="boolean" />
+      <attribute id="5" title="has_denial_content" type="boolean" />
+      <attribute id="6" title="denial" type="double" />
+      <attribute id="7" title="nan" type="double" />
+      <attribute id="8" title="affirmative" type="double" />
+      <attribute id="9" title="obstruction" type="double" />
+      <attribute id="10" title="color" type="string" />
+      <attribute id="11" title="hex_color" type="string" />
+      <attribute id="12" title="main_categories" type="string" />
+    </attributes>
+    <nodes>
+      <node id="MEDICINE &amp; LIBERTY" label="MEDICINE &amp; LIBERTY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.954545454545455" />
+        <viz:position x="1776.0068893432617" y="461.0467529296875" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Switzerland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVITA" label="CIVITA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="523.2725143432617" y="841.2769889831543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Norway" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0462046204620462" />
+          <attvalue for="9" value="0.9537953795379538" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LIBERA FOUNDATION" label="LIBERA FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="535.122127532959" y="-406.576509475708" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Finland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" label="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="595.2041244506836" y="742.1487236022949" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Poland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1922.6632690429688" y="899.6692085266113" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.3333333333333333" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.6666666666666666" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AVENIR SUISSE" label="AVENIR SUISSE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1363636363636362" />
+        <viz:position x="690.5010795593262" y="-573.9976501464844" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Switzerland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.09836065573770492" />
+          <attvalue for="9" value="0.9016393442622951" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="THE FREEDOM ASSOCIATION" label="THE FREEDOM ASSOCIATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.7272727272727275" />
+        <viz:position x="2010.7738494873047" y="-99.74284172058105" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" label="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.8636363636363638" />
+        <viz:position x="908.9663314819336" y="-923.2942771911621" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Liechtenstein" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.4666666666666667" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.5333333333333333" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ISTITUTO BRUNO LEONI" label="ISTITUTO BRUNO LEONI">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1682.2940826416016" y="1062.9098510742188" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Italy" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.058333333333333334" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.025" />
+          <attvalue for="9" value="0.9166666666666666" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="15.0" />
+        <viz:position x="1488.171615600586" y="571.5191459655762" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.04590163934426229" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.022950819672131147" />
+          <attvalue for="9" value="0.9311475409836065" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="EBS CENTRE FOR FREE ECONOMIC THOUGHT" label="EBS CENTRE FOR FREE ECONOMIC THOUGHT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="447.01229095458984" y="-309.6090030670166" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Estonia" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="GENEVA NETWORK" label="GENEVA NETWORK">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="1089.4242095947266" y="-721.713809967041" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2282.4300384521484" y="183.94271850585938" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR POLITISKE STUDIER (CEPOS)" label="CENTER FOR POLITISKE STUDIER (CEPOS)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.181818181818182" />
+        <viz:position x="1967.4797058105469" y="-458.50951194763184" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Denmark" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.02586206896551724" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.008620689655172414" />
+          <attvalue for="9" value="0.9655172413793104" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR MARKET ECONOMICS" label="INSTITUTE FOR MARKET ECONOMICS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.454545454545454" />
+        <viz:position x="957.0903396606445" y="-756.4750671386719" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Bulgaria" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.03333333333333333" />
+          <attvalue for="9" value="0.9666666666666667" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="RED FLORIDABLANCA" label="RED FLORIDABLANCA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="1304.380989074707" y="-409.3850898742676" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" label="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.2727272727272725" />
+        <viz:position x="949.1181564331055" y="370.0276851654053" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="France" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.2727272727272727" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.045454545454545456" />
+          <attvalue for="9" value="0.6818181818181818" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" label="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.954545454545455" />
+        <viz:position x="2153.502960205078" y="116.66785955429077" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="2" value="Belgium" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INITIATIVE FOR FREE TRADE" label="INITIATIVE FOR FREE TRADE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.454545454545454" />
+        <viz:position x="985.1597213745117" y="-661.446475982666" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE TRADE EUROPA" label="FREE TRADE EUROPA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1439.0351486206055" y="-482.71533966064453" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Sweden" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LITHUANIAN FREE MARKET INSTITUTE" label="LITHUANIAN FREE MARKET INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="1650.241470336914" y="-669.8890113830566" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Lithuania" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.09523809523809523" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.9047619047619048" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" label="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="1150.6325912475586" y="1159.522819519043" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="France" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="WALTER EUCKEN INSTITUT" label="WALTER EUCKEN INSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1628.2843780517578" y="1010.2334976196289" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14285714285714285" />
+          <attvalue for="9" value="0.8571428571428571" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="2224.196090698242" y="2.356998771429062" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.7272727272727275" />
+        <viz:position x="2087.6962280273438" y="714.221248626709" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Belgium" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.3333333333333333" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.6666666666666666" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="COBDEN CENTRE" label="COBDEN CENTRE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.090909090909091" />
+        <viz:position x="482.38792419433594" y="-336.29756927490234" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AGENDA AUSTRIA" label="AGENDA AUSTRIA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="793.5586738586426" y="714.9326705932617" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Austria" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="574.3501853942871" y="822.2700691223145" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Belgium" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.07692307692307693" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.11538461538461539" />
+          <attvalue for="9" value="0.8076923076923077" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" label="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.6818181818181817" />
+        <viz:position x="1209.726333618164" y="529.7071266174316" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Romania" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVISMO" label="CIVISMO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="582.4614143371582" y="637.5518989562988" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.10344827586206896" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.06896551724137931" />
+          <attvalue for="9" value="0.8275862068965517" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" label="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.090909090909091" />
+        <viz:position x="907.0636940002441" y="1015.9913635253906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" label="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="1490.478515625" y="1089.6104049682617" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.07142857142857142" />
+          <attvalue for="9" value="0.9025974025974026" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREEDOM RESEARCH ASSOCIATION" label="FREEDOM RESEARCH ASSOCIATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1363636363636362" />
+        <viz:position x="1555.4318618774414" y="-47.80381679534912" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Turkey" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="NETWORK FOR A FREE SOCIETY" label="NETWORK FOR A FREE SOCIETY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1672.3179244995117" y="1024.2998886108398" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CONSERVATIVES FOR LIBERTY" label="CONSERVATIVES FOR LIBERTY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1086.4497756958008" y="-311.2784957885742" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="1.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" label="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="2264.413604736328" y="229.2941379547119" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="uk" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.06666666666666667" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.9333333333333333" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR FREE ENTERPRISE" label="INSTITUTE FOR FREE ENTERPRISE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.954545454545455" />
+        <viz:position x="464.66291427612305" y="405.11987686157227" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)" label="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1480.828742980957" y="467.8959846496582" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Spain" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.2727272727272725" />
+        <viz:position x="2092.6881408691406" y="636.6116523742676" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Germany" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.42857142857142855" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.5714285714285714" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LIBERALES INSTITUT" label="LIBERALES INSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.090909090909091" />
+        <viz:position x="1325.127182006836" y="-688.3404922485352" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Switzerland" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.36" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.64" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.0" />
+        <viz:position x="1872.8203582763672" y="-474.7302532196045" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Austria" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.3684210526315789" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.05263157894736842" />
+          <attvalue for="9" value="0.5789473684210527" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" label="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.318181818181818" />
+        <viz:position x="312.3362159729004" y="257.261438369751" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Italy" />
+          <attvalue for="3" value="europe" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AMERICA MEANS BUSINESS" label="AMERICA MEANS BUSINESS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="494.5591735839844" y="592.2779273986816" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR ECONOMIC STUDIES EUROPE" label="INSTITUTE FOR ECONOMIC STUDIES EUROPE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1871.0640335083008" y="975.4487228393555" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR THE STUDY OF ECONOMIC LIBERTY" label="CENTER FOR THE STUDY OF ECONOMIC LIBERTY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1679.8616409301758" y="-511.79615020751953" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HUDSON INSTITUTE" label="HUDSON INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1049.307746887207" y="-500.2712059020996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GEORGE MASON UNIVERSITY" label="GEORGE MASON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.5" />
+        <viz:position x="2047.5794219970703" y="-198.83256912231445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="RESEARCH INSTITUTE OF INDUSTRIAL ECONOMICS" label="RESEARCH INSTITUTE OF INDUSTRIAL ECONOMICS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="1288.9741516113281" y="14.964116513729095" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GOVERMENT NEW ZEALAND" label="GOVERMENT NEW ZEALAND">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1406.6176986694336" y="-493.99383544921875" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="SOCIAL AFFAIRS UNIT" label="SOCIAL AFFAIRS UNIT">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="930.8343887329102" y="1089.613037109375" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MODERATERNA (CONSERVATIVE PARTY)" label="MODERATERNA (CONSERVATIVE PARTY)">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1325.459861755371" y="-190.51716327667236" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ASCOT LLOYD" label="ASCOT LLOYD">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1436.477165222168" y="1058.9665603637695" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="KONSERVATIVE" label="KONSERVATIVE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1497.2262954711914" y="-41.19764685630798" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NEW ZEALAND PARLIMENT" label="NEW ZEALAND PARLIMENT">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2256.1983489990234" y="217.63306617736816" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF ERFURT" label="UNIVERSITY OF ERFURT">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1437.3464584350586" y="-254.38284873962402" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="LONDON SCHOOL OF ECONOMICS" label="LONDON SCHOOL OF ECONOMICS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="1267.569465637207" y="13.313604891300201" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF TRIER" label="UNIVERSITY OF TRIER">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="2065.331497192383" y="731.6584396362305" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AARHUS UNIVERSITY" label="AARHUS UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.7272727272727275" />
+        <viz:position x="1326.7846298217773" y="178.70667457580566" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FRASER INSTITUTE" label="FRASER INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="1892.1080017089844" y="834.8344802856445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INVESTMENT ADVISOR" label="INVESTMENT ADVISOR">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.2272727272727275" />
+        <viz:position x="1151.788330078125" y="-94.56287384033203" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF LEIPZIG" label="UNIVERSITY OF LEIPZIG">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.1818181818181817" />
+        <viz:position x="2248.2192993164062" y="339.89745140075684" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN HOSPITAL OF PARIS" label="AMERICAN HOSPITAL OF PARIS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1192.4473571777344" y="1026.3766479492188" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Health Care &amp; Pharmaceuticals" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GRADUATE INSTITUTE OF EUROPEAN STUDIES" label="GRADUATE INSTITUTE OF EUROPEAN STUDIES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="2111.982650756836" y="-104.09950017929077" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="KIEL INSTITUTE FOR THE WORLD ECONOMY" label="KIEL INSTITUTE FOR THE WORLD ECONOMY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="2157.765655517578" y="550.0978660583496" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CHASE FOUNDATION OF VIRGINIA" label="CHASE FOUNDATION OF VIRGINIA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="243.69818687438965" y="188.0186891555786" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HARVARD UNIVERSITY" label="HARVARD UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1282.44140625" y="-213.92603874206543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF GENOVA" label="UNIVERSITY OF GENOVA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="1224.9565887451172" y="-412.08120346069336" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FRIEDRICH NAUMANN FOUNDATION" label="FRIEDRICH NAUMANN FOUNDATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="471.3365364074707" y="-216.75843715667725" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITÉ CATHOLIQUE DE L'OUEST" label="UNIVERSITÉ CATHOLIQUE DE L'OUEST">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2130.3598022460938" y="-262.607946395874" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NEW YORK UNIVERSITY" label="NEW YORK UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="2262.294158935547" y="351.2892723083496" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF LUZERN" label="UNIVERSITY OF LUZERN">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="551.2265396118164" y="800.4171180725098" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" label="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="1064.8584365844727" y="258.3112621307373" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HU BERLIN" label="HU BERLIN">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1713.6957550048828" y="-551.590404510498" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ASSOCIATION OF PRIVATE ENTERPRISE EDUCATION" label="ASSOCIATION OF PRIVATE ENTERPRISE EDUCATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="448.02517890930176" y="321.00717544555664" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF ZURICH" label="UNIVERSITY OF ZURICH">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1759.1096878051758" y="1043.4037399291992" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUT LIBÉRAL" label="INSTITUT LIBÉRAL">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1131.5830993652344" y="598.546314239502" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MONT PELERIN SOCIETY" label="MONT PELERIN SOCIETY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.8636363636363638" />
+        <viz:position x="1592.0038604736328" y="768.4338569641113" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="REBOUNDTAG LTD" label="REBOUNDTAG LTD">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1231.9840621948242" y="828.0509948730469" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Information Technology and Software" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BRITISH DRESSAGE" label="BRITISH DRESSAGE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1427.501220703125" y="-754.3547058105469" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF BIRMINGHAM" label="UNIVERSITY OF BIRMINGHAM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1872.4907684326172" y="-584.8263359069824" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF POTSDAM" label="UNIVERSITY OF POTSDAM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2283.3119201660156" y="163.62778186798096" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CHAPMAN UNIVERSITY" label="CHAPMAN UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1269.3990325927734" y="1196.5821075439453" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="STATE POLICY NETWORK" label="STATE POLICY NETWORK">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1125.904541015625" y="851.9585037231445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ECIPE" label="ECIPE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1956.0765838623047" y="-515.899829864502" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INDUSTRIE UND FINANZKONTOR ETABLISSEMENT" label="INDUSTRIE UND FINANZKONTOR ETABLISSEMENT">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1726.9183731079102" y="928.9514350891113" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF GENEVA" label="UNIVERSITY OF GENEVA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="1432.8363418579102" y="-522.7613067626953" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="KONSERVATIVE FOLKEPARTI" label="KONSERVATIVE FOLKEPARTI">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1472.446517944336" y="-809.5063591003418" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" label="F. A. HAYEK PROGRAM FOR ADVANCED STUDY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1586.3111114501953" y="233.80934715270996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF ST. GALLEN" label="UNIVERSITY OF ST. GALLEN">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="1940.9539031982422" y="792.0488548278809" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="KING'S COLLEGE LONDON" label="KING'S COLLEGE LONDON">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="1320.7153701782227" y="17.82361328601837" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL" label="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="582.121524810791" y="860.9580230712891" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AIX-MARSEILLE UNIVERSITY" label="AIX-MARSEILLE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.1818181818181817" />
+        <viz:position x="1601.7177200317383" y="731.4935874938965" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY REY JUAN CARLOS MADRID" label="UNIVERSITY REY JUAN CARLOS MADRID">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.7272727272727275" />
+        <viz:position x="1666.4183807373047" y="1058.7733840942383" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTIONAL ANALYSIS AND DEVELOPMENT-ELEUTHERIA" label="INSTITUTIONAL ANALYSIS AND DEVELOPMENT-ELEUTHERIA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="781.4690780639648" y="597.652473449707" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MANAGEMENT CONSULTANT" label="MANAGEMENT CONSULTANT">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.2272727272727275" />
+        <viz:position x="459.717321395874" y="362.6820945739746" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FLOSSBACH VON STORCH RESEARCH INSTITUTE" label="FLOSSBACH VON STORCH RESEARCH INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1117.8385162353516" y="981.8253707885742" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CONSUMER CHOICE CENTER" label="CONSUMER CHOICE CENTER">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="929.2218017578125" y="-603.5573387145996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MCMASTER INVESTMENTS" label="MCMASTER INVESTMENTS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="412.4750518798828" y="475.874719619751" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" label="MERCATUS CENTER AT GEORGE MASON UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1363636363636362" />
+        <viz:position x="977.5215911865234" y="-373.0253791809082" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY VERONA" label="UNIVERSITY VERONA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="973.8898086547852" y="938.6909294128418" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF SUSSEX" label="UNIVERSITY OF SUSSEX">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1513.6623001098633" y="-590.7855606079102" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="JOURNALIST" label="JOURNALIST">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1424.7449111938477" y="1075.063819885254" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FREELANCE" label="FREELANCE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1415.837287902832" y="-762.9925918579102" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="CATO INSTITUTE" label="CATO INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.545454545454546" />
+        <viz:position x="614.0170097351074" y="-267.4369525909424" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="BRUNO LEONI INSTITUTE" label="BRUNO LEONI INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="479.09777641296387" y="705.5049705505371" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FOUNDATION FOR ECONOMIC EDUCATION" label="FOUNDATION FOR ECONOMIC EDUCATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="355.56100845336914" y="55.52494168281555" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ATLAS NETWORK" label="ATLAS NETWORK">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.090909090909091" />
+        <viz:position x="486.7612838745117" y="-59.101635217666626" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF ANGERS" label="UNIVERSITY OF ANGERS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2147.1963500976562" y="669.1534423828125" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH" label="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="756.0851669311523" y="364.4702625274658" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UK" label="UK">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.6818181818181817" />
+        <viz:position x="779.3500328063965" y="826.9131088256836" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GEORGETOWN UNIVERSITY" label="GEORGETOWN UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1821.6546249389648" y="-348.1315326690674" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="YALE UNIVERSITY" label="YALE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2255.9042358398438" y="452.8066921234131" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="AMERICAN ENTERPRISE INSTITUTE" label="AMERICAN ENTERPRISE INSTITUTE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.1818181818181817" />
+        <viz:position x="1437.6991653442383" y="-676.0664749145508" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="VETERINARY MEDICAL INDUSTRY ASSOCIATION" label="VETERINARY MEDICAL INDUSTRY ASSOCIATION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="2048.140411376953" y="-137.21527576446533" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="KING JUAN CARLOS UNIVERSITY MADRID" label="KING JUAN CARLOS UNIVERSITY MADRID">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.3181818181818183" />
+        <viz:position x="2238.317184448242" y="-167.46891975402832" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF BUENOS AIRES" label="UNIVERSITY OF BUENOS AIRES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="255.56671142578125" y="79.54994916915894" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FREE SOCIAL NETWORKS" label="FREE SOCIAL NETWORKS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1145.3747177124023" y="-557.9729461669922" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FAES" label="FAES">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1045.6467819213867" y="244.72277641296387" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP" label="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="711.6372871398926" y="1011.7924118041992" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF WARSAW" label="UNIVERSITY OF WARSAW">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1863.4626388549805" y="972.3189926147461" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NATIONAL UNIVERSITY OF SINGAPORE" label="NATIONAL UNIVERSITY OF SINGAPORE">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1468.7773132324219" y="-702.8306579589844" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF LIECHTENSTEIN" label="UNIVERSITY OF LIECHTENSTEIN">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1166.1855697631836" y="1160.6896591186523" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY SAN PABLO/CEU MADRID" label="UNIVERSITY SAN PABLO/CEU MADRID">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="1932.648696899414" y="728.0084037780762" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FOUNDATION 'FÜRST LIECHTENSTEIN'" label="FOUNDATION 'FÜRST LIECHTENSTEIN'">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="744.184627532959" y="686.4970207214355" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Foundations &amp; Interest groups" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="LIBERA UNIVERSITÀ INTERNAZIONALE DEGLI STUDI SOCIALI" label="LIBERA UNIVERSITÀ INTERNAZIONALE DEGLI STUDI SOCIALI">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="668.9384078979492" y="544.7690391540527" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF CHICAGO" label="UNIVERSITY OF CHICAGO">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="1502.973747253418" y="-660.7055282592773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="UNIVERSITY OF MANNHEIM" label="UNIVERSITY OF MANNHEIM">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="2155.7645416259766" y="-310.46753883361816" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="NYU SCHOOL OF LAW" label="NYU SCHOOL OF LAW">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="2245.521926879883" y="-704.7097206115723" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="RETIRED" label="RETIRED">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1572.5034713745117" y="75.64923048019409" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="No categorization" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="GERMAN BUNDESTAG" label="GERMAN BUNDESTAG">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="1877.52685546875" y="145.6803274154663" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ALCUIN ADVISORS" label="ALCUIN ADVISORS">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.6363636363636362" />
+        <viz:position x="946.6248893737793" y="1114.7854614257812" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="HOOVER INSTITUTION" label="HOOVER INSTITUTION">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="2.045454545454546" />
+        <viz:position x="2041.2565612792969" y="-377.0323848724365" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="PARIS DAUPHINE UNIVERSITY" label="PARIS DAUPHINE UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="1217.4740982055664" y="-70.47166585922241" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="SINGAPORE MANAGEMENT UNIVERSITY" label="SINGAPORE MANAGEMENT UNIVERSITY">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.772727272727273" />
+        <viz:position x="1174.6424102783203" y="-723.5635185241699" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="COMMONWEALTH OF VIRGINIA" label="COMMONWEALTH OF VIRGINIA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="550.0590705871582" y="549.3524551391602" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Government" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN REPÚBLICA" label="FUNDACIÓN REPÚBLICA">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="1.9090909090909092" />
+        <viz:position x="825.2394676208496" y="721.1640930175781" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="constituency" />
+          <attvalue for="12" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="MEDICINE &amp; LIBERTY" target="CONSUMER CHOICE CENTER" id="0" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="KING JUAN CARLOS UNIVERSITY MADRID" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="UNIVERSITY REY JUAN CARLOS MADRID" id="2" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="3" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="UNIVERSITY OF GENEVA" id="4" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="UNIVERSITY OF GENOVA" id="5" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="UNIVERSITY OF BUENOS AIRES" id="6" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="PARIS DAUPHINE UNIVERSITY" id="7" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="FLOSSBACH VON STORCH RESEARCH INSTITUTE" id="8" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="HU BERLIN" id="9" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="INSTITUT LIBÉRAL" id="10" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="INVESTMENT ADVISOR" id="11" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MEDICINE &amp; LIBERTY" target="MANAGEMENT CONSULTANT" id="12" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVITA" target="KONSERVATIVE FOLKEPARTI" id="13" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVITA" target="VETERINARY MEDICAL INDUSTRY ASSOCIATION" id="14" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVITA" target="KONSERVATIVE" id="15" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVITA" target="MODERATERNA (CONSERVATIVE PARTY)" id="16" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERA FOUNDATION" target="FOUNDATION FOR ECONOMIC EDUCATION" id="17" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERA FOUNDATION" target="ATLAS NETWORK" id="18" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERA FOUNDATION" target="CATO INSTITUTE" id="19" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="CHASE FOUNDATION OF VIRGINIA" id="20" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="AMERICA MEANS BUSINESS" id="21" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="COMMONWEALTH OF VIRGINIA" id="22" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP" id="23" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="MCMASTER INVESTMENTS" id="24" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="25" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="ATLAS NETWORK" id="26" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="FRASER INSTITUTE" id="27" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" id="28" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="FUNDACIÓN REPÚBLICA" id="29" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH" id="30" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="MONT PELERIN SOCIETY" id="31" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL" id="32" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="SOCIAL AFFAIRS UNIT" id="33" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="POLISH-AMERICAN FOUNDATION FOR ECONOMIC RESEARCH AND EDUCATION" target="STATE POLICY NETWORK" id="34" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO JUAN DE MARIANA" target="KING JUAN CARLOS UNIVERSITY MADRID" id="35" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO JUAN DE MARIANA" target="UNIVERSITY REY JUAN CARLOS MADRID" id="36" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AVENIR SUISSE" target="UNIVERSITY OF ERFURT" id="37" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AVENIR SUISSE" target="UNIVERSITY OF ST. GALLEN" id="38" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AVENIR SUISSE" target="UNIVERSITY OF ZURICH" id="39" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AVENIR SUISSE" target="INVESTMENT ADVISOR" id="40" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AVENIR SUISSE" target="MANAGEMENT CONSULTANT" id="41" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE FREEDOM ASSOCIATION" target="UK" id="42" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE FREEDOM ASSOCIATION" target="INSTITUTE OF ECONOMIC AFFAIRS" id="43" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE FREEDOM ASSOCIATION" target="INVESTMENT ADVISOR" id="44" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE FREEDOM ASSOCIATION" target="MANAGEMENT CONSULTANT" id="45" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE FREEDOM ASSOCIATION" target="UNIVERSITY OF SUSSEX" id="46" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="CHAPMAN UNIVERSITY" id="47" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="GEORGE MASON UNIVERSITY" id="48" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="ASSOCIATION OF PRIVATE ENTERPRISE EDUCATION" id="49" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="CATO INSTITUTE" id="50" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="CENTER FOR THE STUDY OF ECONOMIC LIBERTY" id="51" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="52" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="UNIVERSITY SAN PABLO/CEU MADRID" id="53" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="UNIVERSITY OF ZURICH" id="54" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="INDUSTRIE UND FINANZKONTOR ETABLISSEMENT" id="55" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="FOUNDATION 'FÜRST LIECHTENSTEIN'" id="56" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="LIBERA UNIVERSITÀ INTERNAZIONALE DEGLI STUDI SOCIALI" id="57" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="UNIVERSITY VERONA" id="58" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="BRUNO LEONI INSTITUTE" id="59" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="AARHUS UNIVERSITY" id="60" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="RESEARCH INSTITUTE OF INDUSTRIAL ECONOMICS" id="61" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="62" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="AMERICAN ENTERPRISE INSTITUTE" id="63" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="ATLAS NETWORK" id="64" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="FREE SOCIAL NETWORKS" id="65" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="BRITISH DRESSAGE" id="66" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="NETWORK FOR A FREE SOCIETY" id="67" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF BIRMINGHAM" id="68" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="CHAPMAN UNIVERSITY" id="69" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="GEORGE MASON UNIVERSITY" id="70" weight="12">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="ASSOCIATION OF PRIVATE ENTERPRISE EDUCATION" id="71" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="CATO INSTITUTE" id="72" weight="6">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="CENTER FOR THE STUDY OF ECONOMIC LIBERTY" id="73" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="74" weight="7">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="ECIPE" id="75" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="NATIONAL UNIVERSITY OF SINGAPORE" id="76" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="HOOVER INSTITUTION" id="77" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="NEW YORK UNIVERSITY" id="78" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="NYU SCHOOL OF LAW" id="79" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF CHICAGO" id="80" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UK" id="81" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="BRUNO LEONI INSTITUTE" id="82" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="KING'S COLLEGE LONDON" id="83" weight="5">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="LONDON SCHOOL OF ECONOMICS" id="84" weight="5">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="FRASER INSTITUTE" id="85" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY SAN PABLO/CEU MADRID" id="86" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="INVESTMENT ADVISOR" id="87" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="MANAGEMENT CONSULTANT" id="88" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="SINGAPORE MANAGEMENT UNIVERSITY" id="89" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="PARIS DAUPHINE UNIVERSITY" id="90" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="MONT PELERIN SOCIETY" id="91" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF BUENOS AIRES" id="92" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="93" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF GENEVA" id="94" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF GENOVA" id="95" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="UNIVERSITY OF MANNHEIM" id="96" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="FREEDOM RESEARCH ASSOCIATION" id="97" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="ATLAS NETWORK" id="98" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="CATO INSTITUTE" id="99" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" id="100" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="GENEVA NETWORK" target="CATO INSTITUTE" id="101" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="UNIVERSITY OF LEIPZIG" id="102" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="GERMAN BUNDESTAG" id="103" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="KONSERVATIVE FOLKEPARTI" id="104" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="AARHUS UNIVERSITY" id="105" weight="7">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="VETERINARY MEDICAL INDUSTRY ASSOCIATION" id="106" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="HOOVER INSTITUTION" id="107" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="NEW YORK UNIVERSITY" id="108" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="NYU SCHOOL OF LAW" id="109" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="UNIVERSITY OF CHICAGO" id="110" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="111" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="FREELANCE" id="112" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="113" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="UNIVERSITY OF GENEVA" id="114" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="UNIVERSITY OF GENOVA" id="115" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="KONSERVATIVE" id="116" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="RETIRED" id="117" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="RESEARCH INSTITUTE OF INDUSTRIAL ECONOMICS" id="118" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="MODERATERNA (CONSERVATIVE PARTY)" id="119" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="HARVARD UNIVERSITY" id="120" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="GEORGE MASON UNIVERSITY" id="121" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="HOOVER INSTITUTION" id="122" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="CATO INSTITUTE" id="123" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="AMERICAN ENTERPRISE INSTITUTE" id="124" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="HUDSON INSTITUTE" id="125" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR MARKET ECONOMICS" target="UNIVERSITY OF BIRMINGHAM" id="126" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="CHASE FOUNDATION OF VIRGINIA" id="127" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="AMERICA MEANS BUSINESS" id="128" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="COMMONWEALTH OF VIRGINIA" id="129" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP" id="130" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="MCMASTER INVESTMENTS" id="131" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="132" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="ATLAS NETWORK" id="133" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="FRASER INSTITUTE" id="134" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" id="135" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="FUNDACIÓN REPÚBLICA" id="136" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH" id="137" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="MONT PELERIN SOCIETY" id="138" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL" id="139" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="SOCIAL AFFAIRS UNIT" id="140" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="RED FLORIDABLANCA" target="STATE POLICY NETWORK" id="141" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="INDUSTRIE UND FINANZKONTOR ETABLISSEMENT" id="142" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="AIX-MARSEILLE UNIVERSITY" id="143" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="INSTITUTE FOR ECONOMIC STUDIES EUROPE" id="144" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITÉ CATHOLIQUE DE L'OUEST" id="145" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITY OF WARSAW" id="146" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="147" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITY OF GENEVA" id="148" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITY OF GENOVA" id="149" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITY OF ERFURT" id="150" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="UNIVERSITY OF LEIPZIG" id="151" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="HU BERLIN" id="152" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="INSTITUT LIBÉRAL" id="153" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="ASCOT LLOYD" id="154" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="FREE TRADE EUROPA" id="155" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="AMERICAN ENTERPRISE INSTITUTE" id="156" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="HUDSON INSTITUTE" id="157" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="UNIVERSITY OF SUSSEX" id="158" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="ECIPE" id="159" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="NATIONAL UNIVERSITY OF SINGAPORE" id="160" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="LONDON SCHOOL OF ECONOMICS" id="161" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="GEORGETOWN UNIVERSITY" id="162" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="GOVERMENT NEW ZEALAND" id="163" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="NEW ZEALAND PARLIMENT" id="164" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="MONT PELERIN SOCIETY" id="165" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="KIEL INSTITUTE FOR THE WORLD ECONOMY" id="166" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="RETIRED" id="167" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="YALE UNIVERSITY" id="168" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="INVESTMENT ADVISOR" id="169" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN CENTRE FOR INTERNATIONAL POLITICAL ECONOMY" target="MANAGEMENT CONSULTANT" id="170" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INITIATIVE FOR FREE TRADE" target="FAES" id="171" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INITIATIVE FOR FREE TRADE" target="UK" id="172" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INITIATIVE FOR FREE TRADE" target="GOVERMENT NEW ZEALAND" id="173" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INITIATIVE FOR FREE TRADE" target="NEW ZEALAND PARLIMENT" id="174" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INITIATIVE FOR FREE TRADE" target="MONT PELERIN SOCIETY" id="175" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREE TRADE EUROPA" target="FREELANCE" id="176" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREE TRADE EUROPA" target="JOURNALIST" id="177" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LITHUANIAN FREE MARKET INSTITUTE" target="KING'S COLLEGE LONDON" id="178" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="AIX-MARSEILLE UNIVERSITY" id="179" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="INSTITUTE FOR ECONOMIC STUDIES EUROPE" id="180" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="ALCUIN ADVISORS" id="181" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="AMERICAN HOSPITAL OF PARIS" id="182" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="ATLAS NETWORK" id="183" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="THE INSTITUTE FOR ECONOMIC STUDIES - EUROPE" target="CATO INSTITUTE" id="184" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="WALTER EUCKEN INSTITUT" target="UNIVERSITY OF ERFURT" id="185" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="WALTER EUCKEN INSTITUT" target="UNIVERSITY OF LUZERN" id="186" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="WALTER EUCKEN INSTITUT" target="UNIVERSITY OF ST. GALLEN" id="187" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="WALTER EUCKEN INSTITUT" target="UNIVERSITY OF LIECHTENSTEIN" id="188" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" target="UNIVERSITY OF ERFURT" id="189" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="UK" id="190" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="KING JUAN CARLOS UNIVERSITY MADRID" id="191" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="UNIVERSITY REY JUAN CARLOS MADRID" id="192" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="UNIVERSITY OF TRIER" id="193" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="UNIVERSITY OF POTSDAM" id="194" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="GERMAN BUNDESTAG" id="195" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="FOUNDATION 'FÜRST LIECHTENSTEIN'" id="196" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="REBOUNDTAG LTD" id="197" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="INVESTMENT ADVISOR" id="198" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="MANAGEMENT CONSULTANT" id="199" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="ASCOT LLOYD" id="200" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="GEORGE MASON UNIVERSITY" id="201" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="202" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="203" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="UK" id="204" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="INSTITUTIONAL ANALYSIS AND DEVELOPMENT-ELEUTHERIA" id="205" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="KING JUAN CARLOS UNIVERSITY MADRID" id="206" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="UNIVERSITY REY JUAN CARLOS MADRID" id="207" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="REBOUNDTAG LTD" id="208" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="INVESTMENT ADVISOR" id="209" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="MANAGEMENT CONSULTANT" id="210" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COBDEN CENTRE" target="JOURNALIST" id="211" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AGENDA AUSTRIA" target="FRIEDRICH NAUMANN FOUNDATION" id="212" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AGENDA AUSTRIA" target="UNIVERSITY OF LUZERN" id="213" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AGENDA AUSTRIA" target="UNIVERSITY OF ST. GALLEN" id="214" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="BRUNO LEONI INSTITUTE" id="215" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="216" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="GEORGE MASON UNIVERSITY" id="217" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="218" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="AIX-MARSEILLE UNIVERSITY" id="219" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="INSTITUTE FOR ECONOMIC STUDIES EUROPE" id="220" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="221" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="ATLAS NETWORK" id="222" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="MONT PELERIN SOCIETY" id="223" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="NEW YORK UNIVERSITY" id="224" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="CATO INSTITUTE" id="225" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="PARIS DAUPHINE UNIVERSITY" id="226" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER OF INSTITUTIONAL ANALYSIS AND DEVELOPMENT ELEUTHERIA (CADI)" target="INSTITUTIONAL ANALYSIS AND DEVELOPMENT-ELEUTHERIA" id="227" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVISMO" target="UNIVERSITY SAN PABLO/CEU MADRID" id="228" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" id="229" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="CHASE FOUNDATION OF VIRGINIA" id="230" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="AMERICA MEANS BUSINESS" id="231" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="COMMONWEALTH OF VIRGINIA" id="232" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP" id="233" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="MCMASTER INVESTMENTS" id="234" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="235" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="ATLAS NETWORK" id="236" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="FRASER INSTITUTE" id="237" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="FUNDACIÓN REPÚBLICA" id="238" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH" id="239" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="MONT PELERIN SOCIETY" id="240" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL" id="241" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="SOCIAL AFFAIRS UNIT" id="242" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="STATE POLICY NETWORK" id="243" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL PARA LA LIBERTAD" target="CATO INSTITUTE" id="244" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="UNIVERSITY OF WARSAW" id="245" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="246" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="GEORGE MASON UNIVERSITY" id="247" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="248" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="GEORGETOWN UNIVERSITY" id="249" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="LONDON SCHOOL OF ECONOMICS" id="250" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="SINGAPORE MANAGEMENT UNIVERSITY" id="251" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="ATLAS NETWORK" id="252" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="CATO INSTITUTE" id="253" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="FREE SOCIAL NETWORKS" id="254" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="BRITISH DRESSAGE" id="255" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM RESEARCH ASSOCIATION" target="NETWORK FOR A FREE SOCIETY" id="256" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CONSERVATIVES FOR LIBERTY" target="UK" id="257" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" target="UNIVERSITY OF SUSSEX" id="258" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="ALCUIN ADVISORS" id="259" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="AMERICAN HOSPITAL OF PARIS" id="260" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="FRIEDRICH NAUMANN FOUNDATION" id="261" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="ATLAS NETWORK" id="262" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="CATO INSTITUTE" id="263" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="F. A. HAYEK PROGRAM FOR ADVANCED STUDY" id="264" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="GEORGE MASON UNIVERSITY" id="265" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="MERCATUS CENTER AT GEORGE MASON UNIVERSITY" id="266" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="UNIVERSITY OF MANNHEIM" id="267" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="UNIVERSITY OF TRIER" id="268" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="AIX-MARSEILLE UNIVERSITY" id="269" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="INSTITUTE FOR ECONOMIC STUDIES EUROPE" id="270" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="KING'S COLLEGE LONDON" id="271" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="CONSUMER CHOICE CENTER" id="272" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="INVESTMENT ADVISOR" id="273" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE FOR FREE ENTERPRISE" target="MANAGEMENT CONSULTANT" id="274" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)" target="FAES" id="275" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)" target="UNIVERSITY REY JUAN CARLOS MADRID" id="276" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO ATLÁNTICO DE GOBIERNO (IADG)" target="YALE UNIVERSITY" id="277" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="KIEL INSTITUTE FOR THE WORLD ECONOMY" id="278" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="UNIVERSITY OF LEIPZIG" id="279" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="UNIVERSITY OF ANGERS" id="280" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="UNIVERSITY OF POTSDAM" id="281" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="FLOSSBACH VON STORCH RESEARCH INSTITUTE" id="282" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="GERMAN BUNDESTAG" id="283" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="INVESTMENT ADVISOR" id="284" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="MANAGEMENT CONSULTANT" id="285" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY REY JUAN CARLOS MADRID" id="286" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="HU BERLIN" id="287" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="INSTITUT LIBÉRAL" id="288" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF ANGERS" id="289" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF MANNHEIM" id="290" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF LEIPZIG" id="291" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF LIECHTENSTEIN" id="292" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="KING JUAN CARLOS UNIVERSITY MADRID" id="293" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF ST. GALLEN" id="294" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY VERONA" id="295" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="INVESTMENT ADVISOR" id="296" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="MANAGEMENT CONSULTANT" id="297" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="298" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF GENEVA" id="299" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF GENOVA" id="300" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="KIEL INSTITUTE FOR THE WORLD ECONOMY" id="301" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITY OF ZURICH" id="302" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="UNIVERSITÉ CATHOLIQUE DE L'OUEST" id="303" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="CHAPMAN UNIVERSITY" id="304" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="KING JUAN CARLOS UNIVERSITY MADRID" id="305" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="UNIVERSITY REY JUAN CARLOS MADRID" id="306" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="NEW YORK UNIVERSITY" id="307" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="AIX-MARSEILLE UNIVERSITY" id="308" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="UNIVERSITY OF TRIER" id="309" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="GRADUATE INSTITUTE OF EUROPEAN STUDIES" id="310" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="UNIVERSITY OF GENEVA" id="311" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="UNIVERSITY OF GENOVA" id="312" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="INDUSTRIE UND FINANZKONTOR ETABLISSEMENT" id="313" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="INVESTMENT ADVISOR" id="314" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="MANAGEMENT CONSULTANT" id="315" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="LIBERA UNIVERSITÀ INTERNAZIONALE DEGLI STUDI SOCIALI" id="316" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="AMERICAN ENTERPRISE INSTITUTE" id="317" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="CHASE FOUNDATION OF VIRGINIA" id="318" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="AMERICA MEANS BUSINESS" id="319" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="COMMONWEALTH OF VIRGINIA" id="320" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="GOVERNOR\'S COMMISSION ON ENVIRONMENTAL STEWARDSHIP" id="321" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="MCMASTER INVESTMENTS" id="322" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="ACTON INSTITUTE FOR THE STUDY OF RELIGION AND LIBERTY" id="323" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="ATLAS NETWORK" id="324" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="FRASER INSTITUTE" id="325" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="FUNDACIÓN REPÚBLICA" id="326" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="HISPANIC AMERICAN CENTER OF ECONOMIC RESEARCH" id="327" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="MONT PELERIN SOCIETY" id="328" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="NSTITUTO DE ESTUDIOS ECONÓMICOS Y DE ETICA SOCIAL" id="329" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="SOCIAL AFFAIRS UNIT" id="330" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="STATE POLICY NETWORK" id="331" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="FOUNDATION FOR ECONOMIC EDUCATION" id="332" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="HARVARD UNIVERSITY" id="333" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="KING JUAN CARLOS UNIVERSITY MADRID" id="334" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="UNIVERSITY REY JUAN CARLOS MADRID" id="335" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TOCQUEVILLE-ACTON CENTRO STUDI E RICERCHE" target="GEORGE MASON UNIVERSITY" id="336" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
