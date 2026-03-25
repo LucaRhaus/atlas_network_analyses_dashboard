@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-25">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="denial" type="double" />
+      <attribute id="6" title="affirmative" type="double" />
+      <attribute id="7" title="nan" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
+      <attribute id="9" title="color" type="string" />
+      <attribute id="10" title="hex_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" label="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.55" />
+        <viz:position x="-100.84417343139648" y="-6.821874976158142" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Guatemala" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.2" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO FE Y LIBERTAD" label="INSTITUTO FE Y LIBERTAD">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.199999999999999" />
+        <viz:position x="-92.09652900695801" y="17.990354299545288" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Guatemala" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.2857142857142857" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7142857142857143" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN INTERNACIONAL BASES" label="FUNDACIÓN INTERNACIONAL BASES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.55" />
+        <viz:position x="-96.3613510131836" y="-35.89338541030884" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Argentina" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.1111111111111111" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8888888888888888" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO MISES BRASIL" label="INSTITUTO MISES BRASIL">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.55" />
+        <viz:position x="-120.34665107727051" y="-43.82228374481201" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Brazil" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.7894736842105263" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.21052631578947367" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ECONINTECH" label="ECONINTECH">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.8999999999999995" />
+        <viz:position x="-137.12159156799316" y="43.616647720336914" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Venezuela" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.38461538461538464" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6153846153846154" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EL OJO DIGITAL" label="EL OJO DIGITAL">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="8.25" />
+        <viz:position x="-121.43362045288086" y="31.371219158172607" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Argentina" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.1" />
+          <attvalue for="6" value="0.025" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.875" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" label="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="-136.24127388000488" y="9.939526915550232" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Argentina" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.3235294117647059" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6764705882352942" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN PARA EL PROGRESO" label="FUNDACIÓN PARA EL PROGRESO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.55" />
+        <viz:position x="-161.34624481201172" y="30.77749729156494" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Chile" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.2222222222222222" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7777777777777778" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ESTUDIANTES POR LA LIBERTAD" label="ESTUDIANTES POR LA LIBERTAD">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-92.77620315551758" y="38.921287059783936" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Ecuador" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.07142857142857142" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.9285714285714286" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACION LIBERTAD Y PROGRESO" label="FUNDACION LIBERTAD Y PROGRESO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.8999999999999995" />
+        <viz:position x="-126.73572540283203" y="-13.16745400428772" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Argentina" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.2857142857142857" />
+          <attvalue for="6" value="0.07142857142857142" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6428571428571429" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO ACTON ARGENTINA" label="INSTITUTO ACTON ARGENTINA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-150.12826919555664" y="-14.644454717636108" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Argentina" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.46153846153846156" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5384615384615384" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO LIBERAL" label="INSTITUTO LIBERAL">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.199999999999999" />
+        <viz:position x="-75.92351913452148" y="-16.617926359176636" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Brazil" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.42857142857142855" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5714285714285714" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FUNDACIÓN LIBERTAD Y DESARROLLO" label="FUNDACIÓN LIBERTAD Y DESARROLLO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-186.60711288452148" y="-2.595852017402649" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Chile" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.061224489795918366" />
+          <attvalue for="6" value="0.061224489795918366" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.8775510204081632" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO LIBERTAD" label="INSTITUTO LIBERTAD">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-186.29541397094727" y="14.82433795928955" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Costa Rica" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.42857142857142855" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5714285714285714" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO DE ESTUDIOS DE LA SOCIEDAD" label="INSTITUTO DE ESTUDIOS DE LA SOCIEDAD">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-166.94622039794922" y="7.550826072692871" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Chile" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.07142857142857142" />
+          <attvalue for="6" value="0.14285714285714285" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7857142857142857" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="HORIZONTAL CHILE" label="HORIZONTAL CHILE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-168.7264633178711" y="-20.249855518341064" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Chile" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.38461538461538464" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6153846153846154" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRO DE INVESTIGACIÓN DE LA EMPRESA" label="CENTRO DE INVESTIGACIÓN DE LA EMPRESA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-183.96202087402344" y="-24.760725498199463" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Chile" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO MILLENIUM" label="INSTITUTO MILLENIUM">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.8499999999999996" />
+        <viz:position x="-72.87472724914551" y="2.7811598777770996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Brazil" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.1388888888888889" />
+          <attvalue for="6" value="0.19444444444444445" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6666666666666666" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.8499999999999996" />
+        <viz:position x="-113.51287841796875" y="-61.20081424713135" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Belgium" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.3333333333333333" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6666666666666666" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LAMPADIA" label="LAMPADIA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-161.34294509887695" y="-54.129719734191895" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Peru" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.14583333333333334" />
+          <attvalue for="6" value="0.10416666666666667" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.75" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CAMINOS DE LA LIBERTAD" label="CAMINOS DE LA LIBERTAD">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-170.46630859375" y="-41.752963066101074" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Mexico" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.5" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="MÉXICO EVALÚA" label="MÉXICO EVALÚA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-140.97339630126953" y="-59.54231262207031" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Mexico" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.4074074074074074" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5925925925925926" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRO DE INVESTIGACION PARA EL DESARROLLO, A.C." label="CENTRO DE INVESTIGACION PARA EL DESARROLLO, A.C.">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-145.36250114440918" y="-40.49582481384277" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Mexico" />
+          <attvalue for="2" value="latin_america" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5555555555555556" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.4444444444444444" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" target="INSTITUTO FE Y LIBERTAD" id="0" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" target="FUNDACIÓN INTERNACIONAL BASES" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" target="INSTITUTO MISES BRASIL" id="2" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO FE Y LIBERTAD" target="ESTUDIANTES POR LA LIBERTAD" id="3" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL BASES" target="INSTITUTO MISES BRASIL" id="4" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL BASES" target="FUNDACION LIBERTAD Y PROGRESO" id="5" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN INTERNACIONAL BASES" target="INSTITUTO LIBERAL" id="6" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO MISES BRASIL" target="LUDWIG VON MISES INSTITUTE EUROPE" id="7" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ECONINTECH" target="EL OJO DIGITAL" id="8" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ECONINTECH" target="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" id="9" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ECONINTECH" target="FUNDACIÓN PARA EL PROGRESO" id="10" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EL OJO DIGITAL" target="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" id="11" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EL OJO DIGITAL" target="FUNDACIÓN PARA EL PROGRESO" id="12" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="FUNDACIÓN PARA EL PROGRESO" id="13" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="FUNDACION LIBERTAD Y PROGRESO" id="14" weight="4">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="INSTITUTO ACTON ARGENTINA" id="15" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN PARA EL PROGRESO" target="INSTITUTO DE ESTUDIOS DE LA SOCIEDAD" id="16" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTO LIBERAL" target="INSTITUTO MILLENIUM" id="17" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FUNDACIÓN LIBERTAD Y DESARROLLO" target="INSTITUTO LIBERTAD" id="18" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="HORIZONTAL CHILE" target="CENTRO DE INVESTIGACIÓN DE LA EMPRESA" id="19" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LAMPADIA" target="CAMINOS DE LA LIBERTAD" id="20" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MÉXICO EVALÚA" target="CENTRO DE INVESTIGACION PARA EL DESARROLLO, A.C." id="21" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>

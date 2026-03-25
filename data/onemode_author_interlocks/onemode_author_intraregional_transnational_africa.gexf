@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-25">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="denial" type="double" />
+      <attribute id="6" title="affirmative" type="double" />
+      <attribute id="7" title="nan" type="double" />
+      <attribute id="8" title="obstruction" type="double" />
+      <attribute id="9" title="color" type="string" />
+      <attribute id="10" title="hex_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="8.25" />
+        <viz:position x="126.78389549255371" y="-20.833959579467773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="South Africa" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.2974683544303797" />
+          <attvalue for="6" value="0.0379746835443038" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.6645569620253164" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="179.39687728881836" y="-53.72954845428467" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="South Africa" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.20434782608695654" />
+          <attvalue for="6" value="0.034782608695652174" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.7608695652173914" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="189.56842422485352" y="-42.02902317047119" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Kenya" />
+          <attvalue for="2" value="africa_mena" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.189873417721519" />
+          <attvalue for="6" value="0.7721518987341772" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0379746835443038" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION" id="0" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="INTER REGION ECONOMIC NETWORK (IREN)" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
