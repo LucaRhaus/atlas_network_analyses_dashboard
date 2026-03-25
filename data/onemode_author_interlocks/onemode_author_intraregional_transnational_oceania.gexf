@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-25">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="affirmative" type="double" />
+      <attribute id="6" title="obstruction" type="double" />
+      <attribute id="7" title="nan" type="double" />
+      <attribute id="8" title="denial" type="double" />
+      <attribute id="9" title="color" type="string" />
+      <attribute id="10" title="hex_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="INSTITUTE OF PUBLIC AFFAIRS" label="INSTITUTE OF PUBLIC AFFAIRS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="12.75" />
+        <viz:position x="344.16011810302734" y="25.19432306289673" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0017241379310344827" />
+          <attvalue for="6" value="0.756896551724138" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.2413793103448276" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ADVOCATA INSTITUTE" label="ADVOCATA INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="362.82115936279297" y="-11.803834438323975" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Sri Lanka" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR INDEPENDENT STUDIES" label="CENTRE FOR INDEPENDENT STUDIES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="345.5243682861328" y="3.381020724773407" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.022900763358778626" />
+          <attvalue for="6" value="0.8549618320610687" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.12213740458015267" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="MANNKAL ECONOMIC EDUCATION FOUNDATION" label="MANNKAL ECONOMIC EDUCATION FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.0" />
+        <viz:position x="325.3004837036133" y="12.600266933441162" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.4339622641509434" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.5660377358490566" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="THE NEW ZEALAND INITIATIVE" label="THE NEW ZEALAND INITIATIVE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.0" />
+        <viz:position x="354.11815643310547" y="26.26185894012451" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="New Zealand" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.15335463258785942" />
+          <attvalue for="6" value="0.8274760383386581" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.019169329073482427" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUSTRALIAN LIBERTARIAN SOCIETY" label="AUSTRALIAN LIBERTARIAN SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.0" />
+        <viz:position x="384.8120880126953" y="-4.6255844831466675" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUSTRALIAN INSTITUTE FOR PROGRESS" label="AUSTRALIAN INSTITUTE FOR PROGRESS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="377.53448486328125" y="15.755864381790161" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.8672566371681416" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.13274336283185842" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUSTRALIAN TAXPAYERS' ALLIANCE" label="AUSTRALIAN TAXPAYERS' ALLIANCE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.75" />
+        <viz:position x="401.2117004394531" y="25.352375507354736" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Australia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ALTERNATE SOLUTIONS INSTITUTE" label="ALTERNATE SOLUTIONS INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="358.41461181640625" y="53.80859375" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Pakistan" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5555555555555556" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.4444444444444444" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)" label="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="377.4757385253906" y="50.27264595031738" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Pakistan" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.125" />
+          <attvalue for="6" value="0.875" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR INDONESIAN POLICY STUDIES" label="CENTER FOR INDONESIAN POLICY STUDIES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.75" />
+        <viz:position x="369.7646713256836" y="-31.269261837005615" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Indonesia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" label="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.75" />
+        <viz:position x="352.03983306884766" y="-32.36083269119263" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Malaysia" />
+          <attvalue for="2" value="oceania_asia" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.5238095238095238" />
+          <attvalue for="6" value="0.47619047619047616" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="INSTITUTE OF PUBLIC AFFAIRS" target="ADVOCATA INSTITUTE" id="0" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF PUBLIC AFFAIRS" target="AUSTRALIAN LIBERTARIAN SOCIETY" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF PUBLIC AFFAIRS" target="AUSTRALIAN INSTITUTE FOR PROGRESS" id="2" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF PUBLIC AFFAIRS" target="CENTRE FOR INDEPENDENT STUDIES" id="3" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="MANNKAL ECONOMIC EDUCATION FOUNDATION" id="4" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="THE NEW ZEALAND INITIATIVE" id="5" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="AUSTRALIAN LIBERTARIAN SOCIETY" id="6" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="AUSTRALIAN INSTITUTE FOR PROGRESS" id="7" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="MANNKAL ECONOMIC EDUCATION FOUNDATION" target="THE NEW ZEALAND INITIATIVE" id="8" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUSTRALIAN LIBERTARIAN SOCIETY" target="AUSTRALIAN INSTITUTE FOR PROGRESS" id="9" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUSTRALIAN INSTITUTE FOR PROGRESS" target="AUSTRALIAN TAXPAYERS' ALLIANCE" id="10" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ALTERNATE SOLUTIONS INSTITUTE" target="POLICY RESEARCH INSTITUTE OF MARKET ECONOMY (PRIME)" id="11" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR INDONESIAN POLICY STUDIES" target="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" id="12" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
