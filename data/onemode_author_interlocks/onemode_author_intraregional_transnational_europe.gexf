@@ -1,0 +1,739 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-25">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="country" type="string" />
+      <attribute id="2" title="region" type="string" />
+      <attribute id="3" title="has_climate_content" type="boolean" />
+      <attribute id="4" title="has_denial_content" type="boolean" />
+      <attribute id="5" title="nan" type="double" />
+      <attribute id="6" title="obstruction" type="double" />
+      <attribute id="7" title="affirmative" type="double" />
+      <attribute id="8" title="denial" type="double" />
+      <attribute id="9" title="color" type="string" />
+      <attribute id="10" title="hex_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="CENTER FOR POLITISKE STUDIER (CEPOS)" label="CENTER FOR POLITISKE STUDIER (CEPOS)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.4000000000000004" />
+        <viz:position x="301.52660369873047" y="356.7923355102539" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Denmark" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9655172413793104" />
+          <attvalue for="7" value="0.008620689655172414" />
+          <attvalue for="8" value="0.02586206896551724" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.4000000000000004" />
+        <viz:position x="317.0266342163086" y="374.1572570800781" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Austria" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5789473684210527" />
+          <attvalue for="7" value="0.05263157894736842" />
+          <attvalue for="8" value="0.3684210526315789" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LIBERAUX.ORG (CONTREPOINTS)" label="LIBERAUX.ORG (CONTREPOINTS)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="9.6" />
+        <viz:position x="390.9915542602539" y="348.4111022949219" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="France" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.7023255813953488" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.29767441860465116" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUT DES LIBERTES" label="INSTITUT DES LIBERTES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="324.93274688720703" y="345.4642105102539" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="France" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ADAM SMITH INSTITUTE" label="ADAM SMITH INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="5.1" />
+        <viz:position x="349.7806930541992" y="327.6107406616211" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="uk" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9001663893510815" />
+          <attvalue for="7" value="0.014975041597337771" />
+          <attvalue for="8" value="0.08319467554076539" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="386.30870819091797" y="301.4067268371582" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="uk" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9311475409836065" />
+          <attvalue for="7" value="0.022950819672131147" />
+          <attvalue for="8" value="0.04590163934426229" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="7.3500000000000005" />
+        <viz:position x="401.1366653442383" y="268.0009460449219" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Belgium" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.8076923076923077" />
+          <attvalue for="7" value="0.11538461538461539" />
+          <attvalue for="8" value="0.07692307692307693" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRE FOR POLICY STUDIES" label="CENTRE FOR POLICY STUDIES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="9.149999999999999" />
+        <viz:position x="404.2290496826172" y="308.7550163269043" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="uk" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.8410596026490066" />
+          <attvalue for="7" value="0.1456953642384106" />
+          <attvalue for="8" value="0.013245033112582781" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EBS CENTRE FOR FREE ECONOMIC THOUGHT" label="EBS CENTRE FOR FREE ECONOMIC THOUGHT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="327.51522064208984" y="391.54186248779297" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Estonia" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="ISTITUTO BRUNO LEONI" label="ISTITUTO BRUNO LEONI">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.8999999999999995" />
+        <viz:position x="341.9782257080078" y="287.4029541015625" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Italy" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9166666666666666" />
+          <attvalue for="7" value="0.025" />
+          <attvalue for="8" value="0.058333333333333334" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LIBERALES INSTITUT" label="LIBERALES INSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.199999999999999" />
+        <viz:position x="314.9095344543457" y="262.0627784729004" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Switzerland" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.64" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.36" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="370.08811950683594" y="231.2168312072754" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Germany" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5714285714285714" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.42857142857142855" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE TRADE EUROPA" label="FREE TRADE EUROPA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="452.16907501220703" y="315.24757385253906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Sweden" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" label="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.65" />
+        <viz:position x="361.72035217285156" y="258.01733016967773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="France" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5128205128205128" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.48717948717948717" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVISMO" label="CIVISMO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9500000000000002" />
+        <viz:position x="389.716796875" y="392.1335220336914" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Spain" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.8275862068965517" />
+          <attvalue for="7" value="0.06896551724137931" />
+          <attvalue for="8" value="0.10344827586206896" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9500000000000002" />
+        <viz:position x="413.57627868652344" y="383.5227584838867" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Spain" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.6666666666666666" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.3333333333333333" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUSTRIAN ECONOMICS CENTER" label="AUSTRIAN ECONOMICS CENTER">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.0" />
+        <viz:position x="348.77208709716797" y="363.27613830566406" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Austria" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.7796610169491526" />
+          <attvalue for="7" value="0.01694915254237288" />
+          <attvalue for="8" value="0.2033898305084746" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.4000000000000004" />
+        <viz:position x="437.13504791259766" y="271.91144943237305" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Germany" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" label="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9500000000000002" />
+        <viz:position x="429.15279388427734" y="361.2822723388672" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Slovakia" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9154929577464789" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.08450704225352113" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" label="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.4000000000000004" />
+        <viz:position x="303.7944221496582" y="308.0331802368164" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Liechtenstein" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5333333333333333" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.4666666666666667" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" label="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="361.04862213134766" y="396.0219955444336" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="uk" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9333333333333333" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.06666666666666667" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" label="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9500000000000002" />
+        <viz:position x="351.4352035522461" y="226.81190490722656" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Germany" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9025974025974026" />
+          <attvalue for="7" value="0.07142857142857142" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" label="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.9500000000000002" />
+        <viz:position x="337.567138671875" y="232.03081130981445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Poland" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.5555555555555556" />
+          <attvalue for="7" value="0.4444444444444444" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" label="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.75" />
+        <viz:position x="428.4395217895508" y="331.70982360839844" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Slovakia" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9946236559139785" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005376344086021506" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" label="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="2.4000000000000004" />
+        <viz:position x="441.6022491455078" y="294.1712188720703" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="France" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.6818181818181818" />
+          <attvalue for="7" value="0.045454545454545456" />
+          <attvalue for="8" value="0.2727272727272727" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="SCIENTIFIC RESEARCH MISES CENTER" label="SCIENTIFIC RESEARCH MISES CENTER">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="289.86705780029297" y="271.71316146850586" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Belarus" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.35294117647058826" />
+          <attvalue for="7" value="0.47058823529411764" />
+          <attvalue for="8" value="0.17647058823529413" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="TIMBRO" label="TIMBRO">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="287.0421028137207" y="335.14087677001953" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Sweden" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9615384615384616" />
+          <attvalue for="7" value="0.038461538461538464" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="THE RATIO INSTITUTE" label="THE RATIO INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="280.9919738769531" y="319.8750305175781" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Sweden" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AVENIR SUISSE" label="AVENIR SUISSE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="288.7770652770996" y="289.3469047546387" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Switzerland" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9016393442622951" />
+          <attvalue for="7" value="0.09836065573770492" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LITHUANIAN FREE MARKET INSTITUTE" label="LITHUANIAN FREE MARKET INSTITUTE">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="414.04144287109375" y="239.38722610473633" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Lithuania" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.9047619047619048" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.09523809523809523" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="321.1998748779297" y="320.31578063964844" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="thinktank" />
+          <attvalue for="1" value="Germany" />
+          <attvalue for="2" value="europe" />
+          <attvalue for="3" value="true" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="#f25c05" />
+          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="F. A. V. HAYEK INSTITUTE" id="0" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="EBS CENTRE FOR FREE ECONOMIC THOUGHT" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="ADAM SMITH INSTITUTE" id="2" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="F. A. V. HAYEK INSTITUTE" target="AUSTRIAN ECONOMICS CENTER" id="3" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="INSTITUT DES LIBERTES" id="4" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="ADAM SMITH INSTITUTE" id="5" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="ISTITUTO BRUNO LEONI" id="6" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="CENTRE FOR POLICY STUDIES" id="7" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="CIVISMO" id="8" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="INSTITUTO JUAN DE MARIANA" id="9" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="AUSTRIAN ECONOMICS CENTER" id="10" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" id="11" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="INSTITUTE OF ECONOMIC AFFAIRS" id="12" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" id="13" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" id="14" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" id="15" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" id="16" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ADAM SMITH INSTITUTE" target="CENTRE FOR POLICY STUDIES" id="17" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ADAM SMITH INSTITUTE" target="INSTITUTE OF ECONOMIC AFFAIRS" id="18" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ADAM SMITH INSTITUTE" target="AUSTRIAN ECONOMICS CENTER" id="19" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ADAM SMITH INSTITUTE" target="ISTITUTO BRUNO LEONI" id="20" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" id="21" weight="5">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="CENTRE FOR POLICY STUDIES" id="22" weight="13">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="ISTITUTO BRUNO LEONI" id="23" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="LIBERALES INSTITUT" id="24" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" id="25" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="AUSTRIAN ECONOMICS CENTER" id="26" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" id="27" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" id="28" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="FREE TRADE EUROPA" id="29" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="PROMETHEUS - DAS FREIHEITSINSTITUT" id="30" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" id="31" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="LITHUANIAN FREE MARKET INSTITUTE" id="32" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="ISTITUTO BRUNO LEONI" id="33" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" id="34" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRE FOR POLICY STUDIES" target="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" id="35" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" id="36" weight="3">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="LIBERALES INSTITUT" id="37" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" id="38" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="ISTITUTO BRUNO LEONI" target="AUSTRIAN ECONOMICS CENTER" id="39" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="FRIEDRICH A. VON HAYEK SOCIETY" id="40" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" id="41" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="SCIENTIFIC RESEARCH MISES CENTER" id="42" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" id="43" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBERALES INSTITUT" target="AVENIR SUISSE" id="44" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CIVISMO" target="INSTITUTO JUAN DE MARIANA" id="45" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" id="46" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" id="47" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUSTRIAN ECONOMICS CENTER" target="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" id="48" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" id="49" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" id="50" weight="2">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="TIMBRO" target="THE RATIO INSTITUTE" id="51" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
