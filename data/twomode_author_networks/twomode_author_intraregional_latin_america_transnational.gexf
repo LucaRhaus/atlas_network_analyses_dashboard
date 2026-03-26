@@ -1,544 +1,565 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-19">
-    <creator>NetworkX 3.6.1</creator>
-  </meta>
-  <graph defaultedgetype="undirected" mode="static" name="">
-    <attributes mode="static" class="edge">
-      <attribute id="12" title="raw_weight" type="double" />
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="bipartite" title="bipartite" type="integer"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="country" title="country" type="string"/>
+      <attribute id="region" title="region" type="string"/>
+      <attribute id="has_climate_content" title="has_climate_content" type="boolean"/>
+      <attribute id="has_denial_content" title="has_denial_content" type="boolean"/>
+      <attribute id="denial" title="denial" type="double"/>
+      <attribute id="obstruction" title="obstruction" type="double"/>
+      <attribute id="nan" title="nan" type="integer"/>
+      <attribute id="affirmative" title="affirmative" type="double"/>
+      <attribute id="hex_color" title="hex_color" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
     </attributes>
-    <attributes mode="static" class="node">
-      <attribute id="0" title="bipartite" type="long" />
-      <attribute id="1" title="type" type="string" />
-      <attribute id="2" title="country" type="string" />
-      <attribute id="3" title="region" type="string" />
-      <attribute id="4" title="has_climate_content" type="boolean" />
-      <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
-      <attribute id="9" title="affirmative" type="double" />
-      <attribute id="10" title="color" type="string" />
-      <attribute id="11" title="hex_color" type="string" />
+    <attributes class="edge">
+      <attribute id="raw_weight" title="raw_weight" type="double"/>
+      <attribute id="rawWeight" title="rawWeight" type="double"/>
     </attributes>
     <nodes>
       <node id="INSTITUTO LIBERAL" label="INSTITUTO LIBERAL">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="20.678704977035522" y="-166.03102684020996" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Brazil" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.42857142857142855" />
-          <attvalue for="7" value="0.5714285714285714" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Brazil"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.42857142857142855"/>
+          <attvalue for="obstruction" value="0.5714285714285714"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="79.30974565183267" y="-26.38171036871949" z="0"/>
       </node>
       <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="-145.13238430023193" y="36.67324662208557" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Belgium" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.3333333333333333" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Belgium"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.3333333333333333"/>
+          <attvalue for="obstruction" value="0.6666666666666666"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="-10.647603988647461" y="80.17681121826172" z="0"/>
       </node>
       <node id="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" label="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-88.09126138687134" y="-123.77958297729492" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Guatemala" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2" />
-          <attvalue for="7" value="0.8" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Guatemala"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2"/>
+          <attvalue for="obstruction" value="0.8"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="47.03946304321289" y="19.0192813873291" z="0"/>
       </node>
       <node id="ESTUDIANTES POR LA LIBERTAD" label="ESTUDIANTES POR LA LIBERTAD">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="29.14376735687256" y="179.52937602996826" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Ecuador" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.07142857142857142" />
-          <attvalue for="7" value="0.9285714285714286" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Ecuador"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.07142857142857142"/>
+          <attvalue for="obstruction" value="0.9285714285714286"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-46.50103804171792" y="76.9821093860535" z="0"/>
       </node>
       <node id="FUNDACIÓN PARA EL PROGRESO" label="FUNDACIÓN PARA EL PROGRESO">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.1524019495425866" />
-        <viz:position x="31.148983240127563" y="-26.11214518547058" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Chile" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2222222222222222" />
-          <attvalue for="7" value="0.7777777777777778" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Chile"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2222222222222222"/>
+          <attvalue for="obstruction" value="0.7777777777777778"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="3.1524019495425866"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="3.1524019495425866"/>
+        <viz:position x="12.690080642700195" y="-11.317415237426758" z="0"/>
       </node>
       <node id="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" label="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="102.67120599746704" y="41.26321792602539" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Argentina" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.3235294117647059" />
-          <attvalue for="7" value="0.6764705882352942" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Argentina"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.3235294117647059"/>
+          <attvalue for="obstruction" value="0.6764705882352942"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="-66.66268200109346" y="26.44919682047722" z="0"/>
       </node>
       <node id="FUNDACIÓN LIBERTAD Y DESARROLLO" label="FUNDACIÓN LIBERTAD Y DESARROLLO">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="150.13119220733643" y="-52.979936599731445" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Chile" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.061224489795918366" />
-          <attvalue for="7" value="0.8775510204081632" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.061224489795918366" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Chile"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.061224489795918366"/>
+          <attvalue for="obstruction" value="0.8775510204081632"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.061224489795918366"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-48.983177185058594" y="-84.47635650634766" z="0"/>
       </node>
       <node id="INSTITUTO MISES BRASIL" label="INSTITUTO MISES BRASIL">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="9.398398700304941" />
-        <viz:position x="-84.2403244972229" y="-45.269315242767334" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Brazil" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.7894736842105263" />
-          <attvalue for="7" value="0.21052631578947367" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Brazil"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.7894736842105263"/>
+          <attvalue for="obstruction" value="0.21052631578947367"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="9.398398700304941"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="9.398398700304941"/>
+        <viz:position x="36.95304870605469" y="65.76032257080078" z="0"/>
       </node>
       <node id="FUNDACIÓN INTERNACIONAL BASES" label="FUNDACIÓN INTERNACIONAL BASES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="1.570504568517208" y="-96.11817598342896" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Argentina" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.1111111111111111" />
-          <attvalue for="7" value="0.8888888888888888" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Argentina"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.1111111111111111"/>
+          <attvalue for="obstruction" value="0.8888888888888888"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="86.35668182373047" y="17.556608200073242" z="0"/>
       </node>
       <node id="EL OJO DIGITAL" label="EL OJO DIGITAL">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="7.101601299695059" />
-        <viz:position x="119.85320091247559" y="69.95726823806763" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Argentina" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.1" />
-          <attvalue for="7" value="0.875" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.025" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Argentina"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.1"/>
+          <attvalue for="obstruction" value="0.875"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.025"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="7.101601299695059"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="7.101601299695059"/>
+        <viz:position x="-67.3397159632811" y="-65.83550428495762" z="0"/>
       </node>
       <node id="INSTITUTO FE Y LIBERTAD" label="INSTITUTO FE Y LIBERTAD">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-47.92245268821716" y="184.1935157775879" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Guatemala" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2857142857142857" />
-          <attvalue for="7" value="0.7142857142857143" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Guatemala"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2857142857142857"/>
+          <attvalue for="obstruction" value="0.7142857142857143"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-78.8948443512169" y="43.30250262715458" z="0"/>
       </node>
       <node id="LAMPADIA" label="LAMPADIA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.336758510689583" />
-        <viz:position x="-87.14174509048462" y="109.793701171875" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Peru" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.14583333333333334" />
-          <attvalue for="7" value="0.75" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.10416666666666667" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Peru"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.14583333333333334"/>
+          <attvalue for="obstruction" value="0.75"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.10416666666666667"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.336758510689583"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.336758510689583"/>
+        <viz:position x="29.44755744934082" y="-73.72813081492006" z="0"/>
       </node>
       <node id="INSTITUTO LIBERTAD" label="INSTITUTO LIBERTAD">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="108.34728240966797" y="-118.707754611969" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Costa Rica" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.42857142857142855" />
-          <attvalue for="7" value="0.5714285714285714" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Costa Rica"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.42857142857142855"/>
+          <attvalue for="obstruction" value="0.5714285714285714"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-8.742323875427246" y="-93.90298461914062" z="0"/>
       </node>
       <node id="ECONINTECH" label="ECONINTECH">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="57.64420509338379" y="86.37789487838745" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Venezuela" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.38461538461538464" />
-          <attvalue for="7" value="0.6153846153846154" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Venezuela"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.38461538461538464"/>
+          <attvalue for="obstruction" value="0.6153846153846154"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="-57.173912037060795" y="-43.40059699423521" z="0"/>
       </node>
       <node id="CAMINOS DE LA LIBERTAD" label="CAMINOS DE LA LIBERTAD">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-148.50398540496826" y="138.37175846099854" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Mexico" />
-          <attvalue for="3" value="latin_america" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5" />
-          <attvalue for="7" value="0.5" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Mexico"/>
+          <attvalue for="region" value="latin_america"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.5"/>
+          <attvalue for="obstruction" value="0.5"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="81.19869774214261" y="-43.62474599642957" z="0"/>
       </node>
       <node id="Murphy, Robert P. (author)" label="Murphy, Robert P. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="-157.26237773895264" y="-24.899073243141174" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="3.3532791137695312" y="54.699928283691406" z="0"/>
       </node>
       <node id="Larraín, Luis (author)" label="Larraín, Luis (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="132.47182846069336" y="-58.7231183052063" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="-27.842533111572266" y="-86.78401184082031" z="0"/>
       </node>
       <node id="Chapas, Jorge David (author)" label="Chapas, Jorge David (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="13.001291155815125" y="169.12978649139404" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="-64.42427825927734" y="64.40126037597656" z="0"/>
       </node>
       <node id="Ridley, Matt (author)" label="Ridley, Matt (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="9.398398700304941" />
-        <viz:position x="-80.59775590896606" y="-86.83539390563965" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="9.398398700304941"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="9.398398700304941"/>
+        <viz:position x="63.95491027832031" y="40.359527587890625" z="0"/>
       </node>
       <node id="McMaken, Ryan (author)" label="McMaken, Ryan (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="-81.4287257194519" y="35.53296089172363" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="15.94898796081543" y="91.56341552734375" z="0"/>
       </node>
       <node id="Zitelmann, Rainer (author)" label="Zitelmann, Rainer (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.449199350152471" />
-        <viz:position x="25.95788061618805" y="-107.0075011253357" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.449199350152471"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.449199350152471"/>
+        <viz:position x="84.42357635498047" y="-10.184615135192871" z="0"/>
       </node>
       <node id="Kaiser, Axel (author)" label="Kaiser, Axel (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="15.0" />
-        <viz:position x="64.62686777114868" y="52.2431480884552" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="15"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="15"/>
+        <viz:position x="-18.096467971801758" y="-21.881176370455858" z="0"/>
       </node>
       <node id="Rallo, Juan Ramón (author)" label="Rallo, Juan Ramón (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="11.050800649847528" />
-        <viz:position x="112.73517608642578" y="84.50420379638672" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="11.050800649847528"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="11.050800649847528"/>
+        <viz:position x="-77.3344497680664" y="-3.0844790935516357" z="0"/>
       </node>
       <node id="Lomborg, Bjørn (author)" label="Lomborg, Bjørn (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="9.285957860842055" />
-        <viz:position x="-78.0346941947937" y="109.3360447883606" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="9.285957860842055"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="9.285957860842055"/>
+        <viz:position x="58.03254581290594" y="-54.66193055857242" z="0"/>
       </node>
     </nodes>
     <edges>
-      <edge source="INSTITUTO LIBERAL" target="Zitelmann, Rainer (author)" id="0" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="0" source="INSTITUTO LIBERAL" target="Zitelmann, Rainer (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" id="1" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="1" source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="Murphy, Robert P. (author)" id="2" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="2" source="LUDWIG VON MISES INSTITUTE EUROPE" target="Murphy, Robert P. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" target="Ridley, Matt (author)" id="3" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="3" source="CENTRO DE ESTUDIOS ECONÓMICO-SOCIALES (CEES)" target="Ridley, Matt (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ESTUDIANTES POR LA LIBERTAD" target="Chapas, Jorge David (author)" id="4" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="4" source="ESTUDIANTES POR LA LIBERTAD" target="Chapas, Jorge David (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN PARA EL PROGRESO" target="Kaiser, Axel (author)" id="5" weight="10.553173723857398">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="5" source="FUNDACIÓN PARA EL PROGRESO" target="Kaiser, Axel (author)" weight="10.553173723857398">
         <attvalues>
-          <attvalue for="12" value="8.510486510860169" />
+          <attvalue for="raw_weight" value="8.510486510860169"/>
+          <attvalue for="rawWeight" value="10.553173723857398"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="Kaiser, Axel (author)" id="6" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="6" source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="Kaiser, Axel (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="Rallo, Juan Ramón (author)" id="7" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="7" source="FUNDACIÓN ATLAS PARA UNA SOCIEDAD LIBRE" target="Rallo, Juan Ramón (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN LIBERTAD Y DESARROLLO" target="Larraín, Luis (author)" id="8" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="8" source="FUNDACIÓN LIBERTAD Y DESARROLLO" target="Larraín, Luis (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO MISES BRASIL" target="Murphy, Robert P. (author)" id="9" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="9" source="INSTITUTO MISES BRASIL" target="Murphy, Robert P. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO MISES BRASIL" target="Ridley, Matt (author)" id="10" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="10" source="INSTITUTO MISES BRASIL" target="Ridley, Matt (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO MISES BRASIL" target="McMaken, Ryan (author)" id="11" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="11" source="INSTITUTO MISES BRASIL" target="McMaken, Ryan (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN INTERNACIONAL BASES" target="Ridley, Matt (author)" id="12" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="12" source="FUNDACIÓN INTERNACIONAL BASES" target="Ridley, Matt (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FUNDACIÓN INTERNACIONAL BASES" target="Zitelmann, Rainer (author)" id="13" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="13" source="FUNDACIÓN INTERNACIONAL BASES" target="Zitelmann, Rainer (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EL OJO DIGITAL" target="Kaiser, Axel (author)" id="14" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="14" source="EL OJO DIGITAL" target="Kaiser, Axel (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EL OJO DIGITAL" target="Rallo, Juan Ramón (author)" id="15" weight="10.553173723857398">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="15" source="EL OJO DIGITAL" target="Rallo, Juan Ramón (author)" weight="10.553173723857398">
         <attvalues>
-          <attvalue for="12" value="8.510486510860169" />
+          <attvalue for="raw_weight" value="8.510486510860169"/>
+          <attvalue for="rawWeight" value="10.553173723857398"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO FE Y LIBERTAD" target="Chapas, Jorge David (author)" id="16" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="16" source="INSTITUTO FE Y LIBERTAD" target="Chapas, Jorge David (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LAMPADIA" target="Lomborg, Bjørn (author)" id="17" weight="15.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="17" source="LAMPADIA" target="Lomborg, Bjørn (author)" weight="15">
         <attvalues>
-          <attvalue for="12" value="11.829169161401975" />
+          <attvalue for="raw_weight" value="11.829169161401975"/>
+          <attvalue for="rawWeight" value="15"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO LIBERTAD" target="Larraín, Luis (author)" id="18" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="18" source="INSTITUTO LIBERTAD" target="Larraín, Luis (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ECONINTECH" target="Kaiser, Axel (author)" id="19" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="19" source="ECONINTECH" target="Kaiser, Axel (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ECONINTECH" target="Rallo, Juan Ramón (author)" id="20" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="20" source="ECONINTECH" target="Rallo, Juan Ramón (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CAMINOS DE LA LIBERTAD" target="Lomborg, Bjørn (author)" id="21" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="21" source="CAMINOS DE LA LIBERTAD" target="Lomborg, Bjørn (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
     </edges>
   </graph>

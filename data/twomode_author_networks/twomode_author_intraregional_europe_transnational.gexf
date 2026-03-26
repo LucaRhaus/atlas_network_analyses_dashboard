@@ -1,1546 +1,1636 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-19">
-    <creator>NetworkX 3.6.1</creator>
-  </meta>
-  <graph defaultedgetype="undirected" mode="static" name="">
-    <attributes mode="static" class="edge">
-      <attribute id="12" title="raw_weight" type="double" />
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="bipartite" title="bipartite" type="integer"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="country" title="country" type="string"/>
+      <attribute id="region" title="region" type="string"/>
+      <attribute id="has_climate_content" title="has_climate_content" type="boolean"/>
+      <attribute id="has_denial_content" title="has_denial_content" type="boolean"/>
+      <attribute id="denial" title="denial" type="double"/>
+      <attribute id="obstruction" title="obstruction" type="double"/>
+      <attribute id="nan" title="nan" type="integer"/>
+      <attribute id="affirmative" title="affirmative" type="double"/>
+      <attribute id="hex_color" title="hex_color" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
     </attributes>
-    <attributes mode="static" class="node">
-      <attribute id="0" title="bipartite" type="long" />
-      <attribute id="1" title="type" type="string" />
-      <attribute id="2" title="country" type="string" />
-      <attribute id="3" title="region" type="string" />
-      <attribute id="4" title="has_climate_content" type="boolean" />
-      <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
-      <attribute id="9" title="affirmative" type="double" />
-      <attribute id="10" title="color" type="string" />
-      <attribute id="11" title="hex_color" type="string" />
+    <attributes class="edge">
+      <attribute id="raw_weight" title="raw_weight" type="double"/>
+      <attribute id="rawWeight" title="rawWeight" type="double"/>
     </attributes>
     <nodes>
       <node id="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" label="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-267.731294631958" y="20.885725021362305" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Germany"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="72.46463775634766" y="174.70486450195312" z="0"/>
       </node>
       <node id="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" label="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="4.531957510515282" />
-        <viz:position x="-491.80572509765625" y="-613.3131980895996" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.9025974025974026" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.07142857142857142" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Germany"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="0.9025974025974026"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.07142857142857142"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="4.531957510515282"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="4.531957510515282"/>
+        <viz:position x="-73.32894897460938" y="-145.3026885986328" z="0"/>
       </node>
       <node id="LITHUANIAN FREE MARKET INSTITUTE" label="LITHUANIAN FREE MARKET INSTITUTE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.3679248742313317" />
-        <viz:position x="-698.7739562988281" y="-191.1860990524292" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Lithuania" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.09523809523809523" />
-          <attvalue for="7" value="0.9047619047619048" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Lithuania"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.09523809523809523"/>
+          <attvalue for="obstruction" value="0.9047619047619048"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.3679248742313317"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.3679248742313317"/>
+        <viz:position x="-188.92454528808594" y="30.126279830932617" z="0"/>
       </node>
       <node id="LIBERALES INSTITUT" label="LIBERALES INSTITUT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.805707943675262" />
-        <viz:position x="-482.1850776672363" y="-333.01706314086914" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Switzerland" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.36" />
-          <attvalue for="7" value="0.64" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Switzerland"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.36"/>
+          <attvalue for="obstruction" value="0.64"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.805707943675262"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.805707943675262"/>
+        <viz:position x="-153.47256469726562" y="-41.48256301879883" z="0"/>
       </node>
       <node id="F. A. V. HAYEK INSTITUTE" label="F. A. V. HAYEK INSTITUTE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-386.5480327606201" y="-665.6521797180176" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Austria" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.3684210526315789" />
-          <attvalue for="7" value="0.5789473684210527" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.05263157894736842" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Austria"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.3684210526315789"/>
+          <attvalue for="obstruction" value="0.5789473684210527"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.05263157894736842"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-12.209227561950684" y="-191.99530029296875" z="0"/>
       </node>
       <node id="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" label="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-538.8284111022949" y="-594.4947624206543" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Poland" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.5555555555555556" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.4444444444444444" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Poland"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="0.5555555555555556"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.4444444444444444"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="-94.64260864257812" y="-168.8369903564453" z="0"/>
       </node>
       <node id="INSTITUTO JUAN DE MARIANA" label="INSTITUTO JUAN DE MARIANA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.8726489301975784" />
-        <viz:position x="-211.80925369262695" y="-465.0955009460449" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Spain" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.3333333333333333" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Spain"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.3333333333333333"/>
+          <attvalue for="obstruction" value="0.6666666666666666"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.8726489301975784"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.8726489301975784"/>
+        <viz:position x="183.68972778320312" y="50.95845031738281" z="0"/>
       </node>
       <node id="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" label="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="11.158878426800186" />
-        <viz:position x="-533.1704521179199" y="-224.85141277313232" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Belgium" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.07692307692307693" />
-          <attvalue for="7" value="0.8076923076923077" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.11538461538461539" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Belgium"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.07692307692307693"/>
+          <attvalue for="obstruction" value="0.8076923076923077"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.11538461538461539"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="11.158878426800186"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="11.158878426800186"/>
+        <viz:position x="-108.8448486328125" y="85.5091781616211" z="0"/>
       </node>
       <node id="CENTER FOR POLITISKE STUDIER (CEPOS)" label="CENTER FOR POLITISKE STUDIER (CEPOS)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.2328401047669075" />
-        <viz:position x="-298.672456741333" y="-625.8420753479004" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Denmark" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.02586206896551724" />
-          <attvalue for="7" value="0.9655172413793104" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.008620689655172414" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Denmark"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.02586206896551724"/>
+          <attvalue for="obstruction" value="0.9655172413793104"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.008620689655172414"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.2328401047669075"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.2328401047669075"/>
+        <viz:position x="30.697343826293945" y="-166.24490356445312" z="0"/>
       </node>
       <node id="FRIEDRICH A. VON HAYEK SOCIETY" label="FRIEDRICH A. VON HAYEK SOCIETY">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-600.5746650695801" y="-454.64301109313965" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.42857142857142855" />
-          <attvalue for="7" value="0.5714285714285714" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Germany"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.42857142857142855"/>
+          <attvalue for="obstruction" value="0.5714285714285714"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-159.54080200195312" y="-107.48589324951172" z="0"/>
       </node>
       <node id="ISTITUTO BRUNO LEONI" label="ISTITUTO BRUNO LEONI">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="9.672549639367478" />
-        <viz:position x="-332.63577461242676" y="-426.7885208129883" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Italy" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.058333333333333334" />
-          <attvalue for="7" value="0.9166666666666666" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.025" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Italy"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.058333333333333334"/>
+          <attvalue for="obstruction" value="0.9166666666666666"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.025"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="9.672549639367478"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="9.672549639367478"/>
+        <viz:position x="-26.732786178588867" y="-50.43124008178711" z="0"/>
       </node>
       <node id="LUDWIG VON MISES INSTITUTE EUROPE" label="LUDWIG VON MISES INSTITUTE EUROPE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="61.511077880859375" y="-326.91407203674316" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Belgium" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.3333333333333333" />
-          <attvalue for="7" value="0.6666666666666666" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Belgium"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.3333333333333333"/>
+          <attvalue for="obstruction" value="0.6666666666666666"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="183.15061950683594" y="-63.6963005065918" z="0"/>
       </node>
       <node id="CENTRE FOR POLICY STUDIES" label="CENTRE FOR POLICY STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-125.9474229812622" y="-48.73230814933777" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.013245033112582781" />
-          <attvalue for="7" value="0.8410596026490066" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.1456953642384106" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="uk"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.013245033112582781"/>
+          <attvalue for="obstruction" value="0.8410596026490066"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.1456953642384106"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="118.62648010253906" y="149.2916717529297" z="0"/>
       </node>
       <node id="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" label="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="4.7374942602176295" />
-        <viz:position x="-233.80099296569824" y="-193.5457992553711" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Slovakia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.005376344086021506" />
-          <attvalue for="7" value="0.9946236559139785" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Slovakia"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.005376344086021506"/>
+          <attvalue for="obstruction" value="0.9946236559139785"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="4.7374942602176295"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="4.7374942602176295"/>
+        <viz:position x="51.65266799926758" y="57.09323501586914" z="0"/>
       </node>
       <node id="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" label="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-7.912729382514954" y="-504.7030448913574" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.06666666666666667" />
-          <attvalue for="7" value="0.9333333333333333" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="uk"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.06666666666666667"/>
+          <attvalue for="obstruction" value="0.9333333333333333"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="21.34587287902832" y="-132.51588439941406" z="0"/>
       </node>
       <node id="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" label="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.395480359802526" />
-        <viz:position x="-406.69575691223145" y="-399.85713958740234" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="France" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.48717948717948717" />
-          <attvalue for="7" value="0.5128205128205128" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="France"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.48717948717948717"/>
+          <attvalue for="obstruction" value="0.5128205128205128"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.395480359802526"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.395480359802526"/>
+        <viz:position x="-93.68135070800781" y="-29.454341888427734" z="0"/>
       </node>
       <node id="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" label="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.9284912249787496" />
-        <viz:position x="-358.0982780456543" y="-534.9694061279297" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Liechtenstein" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.4666666666666667" />
-          <attvalue for="7" value="0.5333333333333333" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Liechtenstein"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.4666666666666667"/>
+          <attvalue for="obstruction" value="0.5333333333333333"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.9284912249787496"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.9284912249787496"/>
+        <viz:position x="-36.77995300292969" y="-119.34603118896484" z="0"/>
       </node>
       <node id="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" label="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-409.49254989624023" y="22.015031576156616" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="France" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2727272727272727" />
-          <attvalue for="7" value="0.6818181818181818" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.045454545454545456" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="France"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2727272727272727"/>
+          <attvalue for="obstruction" value="0.6818181818181818"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.045454545454545456"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="25.268049240112305" y="186.4376983642578" z="0"/>
       </node>
       <node id="ADAM SMITH INSTITUTE" label="ADAM SMITH INSTITUTE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="6.072548223361563" />
-        <viz:position x="-163.2193422317505" y="-538.4466934204102" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.08319467554076539" />
-          <attvalue for="7" value="0.9001663893510815" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.014975041597337771" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="uk"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.08319467554076539"/>
+          <attvalue for="obstruction" value="0.9001663893510815"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.014975041597337771"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="6.072548223361563"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="6.072548223361563"/>
+        <viz:position x="134.01124572753906" y="-95.11521911621094" z="0"/>
       </node>
       <node id="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" label="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.6206103170102697" />
-        <viz:position x="11.928659677505493" y="-132.2167682647705" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Slovakia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.08450704225352113" />
-          <attvalue for="7" value="0.9154929577464789" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Slovakia"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.08450704225352113"/>
+          <attvalue for="obstruction" value="0.9154929577464789"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.6206103170102697"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.6206103170102697"/>
+        <viz:position x="158.35061645507812" y="120.2400894165039" z="0"/>
       </node>
       <node id="EBS CENTRE FOR FREE ECONOMIC THOUGHT" label="EBS CENTRE FOR FREE ECONOMIC THOUGHT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.6206103170102697" />
-        <viz:position x="-245.38813591003418" y="-686.5165328979492" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Estonia" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Estonia"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.6206103170102697"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.6206103170102697"/>
+        <viz:position x="98.22542572021484" y="-164.8077850341797" z="0"/>
       </node>
       <node id="SCIENTIFIC RESEARCH MISES CENTER" label="SCIENTIFIC RESEARCH MISES CENTER">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.8726489301975784" />
-        <viz:position x="-642.6056098937988" y="-382.7130603790283" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Belarus" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.17647058823529413" />
-          <attvalue for="7" value="0.35294117647058826" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.47058823529411764" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Belarus"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.17647058823529413"/>
+          <attvalue for="obstruction" value="0.35294117647058826"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.47058823529411764"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.8726489301975784"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.8726489301975784"/>
+        <viz:position x="-192.7673797607422" y="-23.795955657958984" z="0"/>
       </node>
       <node id="LIBERAUX.ORG (CONTREPOINTS)" label="LIBERAUX.ORG (CONTREPOINTS)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="12.64160332151522" />
-        <viz:position x="-97.2653317451477" y="-234.4563102722168" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="France" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.29767441860465116" />
-          <attvalue for="7" value="0.7023255813953488" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="France"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.29767441860465116"/>
+          <attvalue for="obstruction" value="0.7023255813953488"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="12.64160332151522"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="12.64160332151522"/>
+        <viz:position x="124.87654876708984" y="38.851234436035156" z="0"/>
       </node>
       <node id="INSTITUTE OF ECONOMIC AFFAIRS" label="INSTITUTE OF ECONOMIC AFFAIRS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="15.0" />
-        <viz:position x="-334.77922439575195" y="-149.6674633026123" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="uk" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.04590163934426229" />
-          <attvalue for="7" value="0.9311475409836065" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.022950819672131147" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="uk"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.04590163934426229"/>
+          <attvalue for="obstruction" value="0.9311475409836065"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.022950819672131147"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="15"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="15"/>
+        <viz:position x="10.515631675720215" y="100.13471984863281" z="0"/>
       </node>
       <node id="PROMETHEUS - DAS FREIHEITSINSTITUT" label="PROMETHEUS - DAS FREIHEITSINSTITUT">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="3.5322436548273615" />
-        <viz:position x="-514.5317459106445" y="-45.594202280044556" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Germany" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Germany"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="3.5322436548273615"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="3.5322436548273615"/>
+        <viz:position x="-57.10047149658203" y="183.2328338623047" z="0"/>
       </node>
       <node id="CIVISMO" label="CIVISMO">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.7061846987825344" />
-        <viz:position x="-179.29677486419678" y="-490.2605438232422" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Spain" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.10344827586206896" />
-          <attvalue for="7" value="0.8275862068965517" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.06896551724137931" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Spain"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.10344827586206896"/>
+          <attvalue for="obstruction" value="0.8275862068965517"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.06896551724137931"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.7061846987825344"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.7061846987825344"/>
+        <viz:position x="191.2786102294922" y="-14.824294090270996" z="0"/>
       </node>
       <node id="FREE TRADE EUROPA" label="FREE TRADE EUROPA">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.8726489301975784" />
-        <viz:position x="-650.7184982299805" y="-152.03626155853271" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Sweden" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Sweden"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.8726489301975784"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.8726489301975784"/>
+        <viz:position x="-170.3338623046875" y="87.38948059082031" z="0"/>
       </node>
       <node id="AUSTRIAN ECONOMICS CENTER" label="AUSTRIAN ECONOMICS CENTER">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="8.537395544493005" />
-        <viz:position x="-94.1890811920166" y="-398.83758544921875" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Austria" />
-          <attvalue for="3" value="europe" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2033898305084746" />
-          <attvalue for="7" value="0.7796610169491526" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.01694915254237288" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Austria"/>
+          <attvalue for="region" value="europe"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2033898305084746"/>
+          <attvalue for="obstruction" value="0.7796610169491526"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.01694915254237288"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="8.537395544493005"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="8.537395544493005"/>
+        <viz:position x="75.6551513671875" y="-77.35533905029297" z="0"/>
       </node>
       <node id="Prior, Bruno (author)" label="Prior, Bruno (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.842916843206485" />
-        <viz:position x="-447.38762855529785" y="-175.28124332427979" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.842916843206485"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.842916843206485"/>
+        <viz:position x="-79.78343200683594" y="136.724365234375" z="0"/>
       </node>
       <node id="Lawson, Nigel (author)" label="Lawson, Nigel (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-310.8877658843994" y="-318.4167766571045" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="0.33950552344322205" y="-1.2595036029815674" z="0"/>
       </node>
       <node id="Sharman, Hugh (author)" label="Sharman, Hugh (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-182.88858890533447" y="-595.0357246398926" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="83.48835754394531" y="-129.02920532226562" z="0"/>
       </node>
       <node id="Niemietz, Kristian (author)" label="Niemietz, Kristian (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.384046701645012" />
-        <viz:position x="-372.1956253051758" y="-145.76464176177979" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.384046701645012"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.384046701645012"/>
+        <viz:position x="-59.337276458740234" y="43.935325622558594" z="0"/>
       </node>
       <node id="Kurz, Fabian (author)" label="Kurz, Fabian (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-494.33000564575195" y="-10.014445781707764" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="-17.208847045898438" y="196.1743927001953" z="0"/>
       </node>
       <node id="Reichert, Götz (author)" label="Reichert, Götz (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.7365008611261605" />
-        <viz:position x="-492.2831726074219" y="-615.8770179748535" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.7365008611261605"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.7365008611261605"/>
+        <viz:position x="-53.50262451171875" y="-173.0532989501953" z="0"/>
       </node>
       <node id="Romanchuk, Yaroslav (author)" label="Romanchuk, Yaroslav (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.888770757611259" />
-        <viz:position x="-620.8451843261719" y="-363.90323638916016" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.888770757611259"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.888770757611259"/>
+        <viz:position x="-173.35836791992188" y="-11.19301700592041" z="0"/>
       </node>
       <node id="Brøns-Petersen, Otto (author)" label="Brøns-Petersen, Otto (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.7187744980158923" />
-        <viz:position x="-216.34762287139893" y="-676.633358001709" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.7187744980158923"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.7187744980158923"/>
+        <viz:position x="73.189697265625" y="-173.1678466796875" z="0"/>
       </node>
       <node id="Mengden, Alexander (author)" label="Mengden, Alexander (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-547.7791213989258" y="-137.80006885528564" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="-105.76639556884766" y="151.04397583007812" z="0"/>
       </node>
       <node id="Coyne, Christopher J. (author)" label="Coyne, Christopher J. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-291.10424995422363" y="-50.741028785705566" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="48.823001861572266" y="154.8833465576172" z="0"/>
       </node>
       <node id="Book, Joakim (author)" label="Book, Joakim (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-63.6014199256897" y="-387.0534324645996" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="151.29493713378906" y="-16.614459991455078" z="0"/>
       </node>
       <node id="Fink, Alexander (author)" label="Fink, Alexander (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-451.3568115234375" y="-42.04706311225891" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="3.5311107635498047" y="174.03749084472656" z="0"/>
       </node>
       <node id="Tupy, Marian L. (author)" label="Tupy, Marian L. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.738428353609896" />
-        <viz:position x="-124.93500709533691" y="-331.9266414642334" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.738428353609896"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.738428353609896"/>
+        <viz:position x="93.53585815429688" y="-9.742230415344238" z="0"/>
       </node>
       <node id="Šilėnas, Žilvinas (author)" label="Šilėnas, Žilvinas (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.384046701645012" />
-        <viz:position x="-612.7506065368652" y="-349.8655700683594" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.384046701645012"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.384046701645012"/>
+        <viz:position x="-159.6963653564453" y="49.026187896728516" z="0"/>
       </node>
       <node id="Nakhle, Carole (author)" label="Nakhle, Carole (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.90489258502494" />
-        <viz:position x="-274.35627937316895" y="-507.4925422668457" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.90489258502494"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.90489258502494"/>
+        <viz:position x="5.853297710418701" y="-95.96739959716797" z="0"/>
       </node>
       <node id="Hodgson, Glen (author)" label="Hodgson, Glen (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.888770757611259" />
-        <viz:position x="-600.8741569519043" y="-216.0814619064331" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.888770757611259"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.888770757611259"/>
+        <viz:position x="-152.04739379882812" y="109.80664825439453" z="0"/>
       </node>
       <node id="Schneider, Henrique (author)" label="Schneider, Henrique (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9284912249787496" />
-        <viz:position x="-445.52945137023926" y="-518.0316352844238" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.9284912249787496"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.9284912249787496"/>
+        <viz:position x="-104.52799987792969" y="-106.83218383789062" z="0"/>
       </node>
       <node id="Ridley, Matt (author)" label="Ridley, Matt (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.941537145307832" />
-        <viz:position x="-198.02011013031006" y="-126.91237449645996" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="4.941537145307832"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="4.941537145307832"/>
+        <viz:position x="80.42503356933594" y="123.62451934814453" z="0"/>
       </node>
       <node id="Gärtner, Edgar (author)" label="Gärtner, Edgar (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-581.978645324707" y="-410.39849281311035" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="-171.04818725585938" y="-83.06720733642578" z="0"/>
       </node>
       <node id="McMaken, Ryan (author)" label="McMaken, Ryan (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.5322436548273615" />
-        <viz:position x="-24.866636395454407" y="-326.6242504119873" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.5322436548273615"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.5322436548273615"/>
+        <viz:position x="157.9805908203125" y="-43.8133430480957" z="0"/>
       </node>
       <node id="Michaels, Patrick J. (author)" label="Michaels, Patrick J. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.75734246143422" />
-        <viz:position x="-45.01526355743408" y="-189.34063911437988" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.75734246143422"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.75734246143422"/>
+        <viz:position x="158.20614624023438" y="86.607421875" z="0"/>
       </node>
       <node id="Robinson, Colin (author)" label="Robinson, Colin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9635271602167546" />
-        <viz:position x="-417.37658500671387" y="-143.35450172424316" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.9635271602167546"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.9635271602167546"/>
+        <viz:position x="-44.27571105957031" y="145.48428344726562" z="0"/>
       </node>
       <node id="Philippe, Cécile (author)" label="Philippe, Cécile (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.258748215378575" />
-        <viz:position x="-348.3844184875488" y="-293.62627029418945" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="4.258748215378575"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="4.258748215378575"/>
+        <viz:position x="-32.472198486328125" y="8.61020278930664" z="0"/>
       </node>
       <node id="Lindzen, Richard S. (author)" label="Lindzen, Richard S. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.652853971837631" />
-        <viz:position x="-492.0051956176758" y="-392.7404308319092" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.652853971837631"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.652853971837631"/>
+        <viz:position x="-118.978515625" y="-76.00076293945312" z="0"/>
       </node>
       <node id="Lavecchia, Luciano (author)" label="Lavecchia, Luciano (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-508.34564208984375" y="-422.40468978881836" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="-70.32781982421875" y="0.9452744722366333" z="0"/>
       </node>
       <node id="Nelson, Scott B. (author)" label="Nelson, Scott B. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-15.90077519416809" y="-485.6210517883301" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="45.38582992553711" y="-112.68075561523438" z="0"/>
       </node>
       <node id="Wirtz, Bill (author)" label="Wirtz, Bill (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.6367321444239504" />
-        <viz:position x="-67.80484199523926" y="-316.22992515563965" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.6367321444239504"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.6367321444239504"/>
+        <viz:position x="117.69298553466797" y="-32.92284393310547" z="0"/>
       </node>
       <node id="Gosden, Emily (author)" label="Gosden, Emily (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-98.38677406311035" y="-120.66165447235107" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="126.3802719116211" y="108.38985443115234" z="0"/>
       </node>
       <node id="Stagnaro, Carlo (author)" label="Stagnaro, Carlo (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="6.359369720608331" />
-        <viz:position x="-385.0272560119629" y="-302.74930000305176" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="6.359369720608331"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="6.359369720608331"/>
+        <viz:position x="-110.42210388183594" y="14.591509819030762" z="0"/>
       </node>
       <node id="Zitelmann, Rainer (author)" label="Zitelmann, Rainer (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.652853971837631" />
-        <viz:position x="-267.9345417022705" y="-394.32257652282715" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.652853971837631"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.652853971837631"/>
+        <viz:position x="25.69675064086914" y="-39.45412063598633" z="0"/>
       </node>
       <node id="Klaus, Václav (author)" label="Klaus, Václav (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.5161218274136807" />
-        <viz:position x="-415.4253101348877" y="-437.96690940856934" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.5161218274136807"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.5161218274136807"/>
+        <viz:position x="-69.5356216430664" y="-82.65501403808594" z="0"/>
       </node>
       <node id="Worstall, Tim (author)" label="Worstall, Tim (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.1609148855444715" />
-        <viz:position x="-64.86336708068848" y="-514.3941879272461" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="4.1609148855444715"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="4.1609148855444715"/>
+        <viz:position x="123.83325958251953" y="-118.17105865478516" z="0"/>
       </node>
       <node id="Lacalle, Daniel (author)" label="Lacalle, Daniel (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="4.111077283807473" />
-        <viz:position x="-180.89391231536865" y="-404.4888210296631" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="4.111077283807473"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="4.111077283807473"/>
+        <viz:position x="179.00717163085938" y="18.857025146484375" z="0"/>
       </node>
       <node id="Singer, S. Fred (author)" label="Singer, S. Fred (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.75734246143422" />
-        <viz:position x="-210.4426145553589" y="-298.0982780456543" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.75734246143422"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.75734246143422"/>
+        <viz:position x="35.40034103393555" y="10.642854690551758" z="0"/>
       </node>
       <node id="Vlachynský, Martin (author)" label="Vlachynský, Martin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.7213724328039492" />
-        <viz:position x="-311.9260597229004" y="-257.5831604003906" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.7213724328039492"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.7213724328039492"/>
+        <viz:position x="3.024258613586426" y="37.6078987121582" z="0"/>
       </node>
       <node id="Furfari, Samuele (author)" label="Furfari, Samuele (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="2.9284912249787496" />
-        <viz:position x="-215.6579303741455" y="-336.6144561767578" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="2.9284912249787496"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="2.9284912249787496"/>
+        <viz:position x="49.14370346069336" y="-17.892057418823242" z="0"/>
       </node>
       <node id="Bonn, Moritz (author)" label="Bonn, Moritz (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.3115784768028025" />
-        <viz:position x="-503.48058700561523" y="-591.1628150939941" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.3115784768028025"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.3115784768028025"/>
+        <viz:position x="-119.74015808105469" y="-140.50753784179688" z="0"/>
       </node>
       <node id="Booth, Philip (author)" label="Booth, Philip (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.0491015419890197" />
-        <viz:position x="-405.5722904205322" y="-192.40094661712646" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.0491015419890197"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.0491015419890197"/>
+        <viz:position x="-60.37240219116211" y="103.38029479980469" z="0"/>
       </node>
       <node id="North, Richard D. (author)" label="North, Richard D. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.1346759237612845" />
-        <viz:position x="-220.5339002609253" y="-162.96966075897217" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.1346759237612845"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.1346759237612845"/>
+        <viz:position x="79.35507202148438" y="94.02227783203125" z="0"/>
       </node>
       <node id="Ågerup, Martin (author)" label="Ågerup, Martin (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="3.1346759237612845" />
-        <viz:position x="-311.72801971435547" y="-645.2442741394043" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="3.1346759237612845"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="3.1346759237612845"/>
+        <viz:position x="-4.9756364822387695" y="-165.71133422851562" z="0"/>
       </node>
     </nodes>
     <edges>
-      <edge source="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" target="Coyne, Christopher J. (author)" id="0" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="0" source="NETWORK FOR CONSTITUTIONAL ECONOMICS AND SOCIAL PHILOSOPHY" target="Coyne, Christopher J. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Bonn, Moritz (author)" id="1" weight="11.589611566445178">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="1" source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Bonn, Moritz (author)" weight="11.589611566445178">
         <attvalues>
-          <attvalue for="12" value="10.697015424304693" />
+          <attvalue for="raw_weight" value="10.697015424304693"/>
+          <attvalue for="rawWeight" value="11.589611566445178"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Reichert, Götz (author)" id="2" weight="13.70535381484811">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="2" source="CENTER FOR EUROPEAN POLICY (CENTRUM FÜR EUROPAEISCHE POLITIK)" target="Reichert, Götz (author)" weight="13.70535381484811">
         <attvalues>
-          <attvalue for="12" value="13.206098722347253" />
+          <attvalue for="raw_weight" value="13.206098722347253"/>
+          <attvalue for="rawWeight" value="13.70535381484811"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LITHUANIAN FREE MARKET INSTITUTE" target="Šilėnas, Žilvinas (author)" id="3" weight="11.980775207617757">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="3" source="LITHUANIAN FREE MARKET INSTITUTE" target="Šilėnas, Žilvinas (author)" weight="11.980775207617757">
         <attvalues>
-          <attvalue for="12" value="11.124926071751341" />
+          <attvalue for="raw_weight" value="11.124926071751341"/>
+          <attvalue for="rawWeight" value="11.980775207617757"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERALES INSTITUT" target="Gärtner, Edgar (author)" id="4" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="4" source="LIBERALES INSTITUT" target="Gärtner, Edgar (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERALES INSTITUT" target="Lindzen, Richard S. (author)" id="5" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="5" source="LIBERALES INSTITUT" target="Lindzen, Richard S. (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERALES INSTITUT" target="Niemietz, Kristian (author)" id="6" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="6" source="LIBERALES INSTITUT" target="Niemietz, Kristian (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERALES INSTITUT" target="Romanchuk, Yaroslav (author)" id="7" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="7" source="LIBERALES INSTITUT" target="Romanchuk, Yaroslav (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERALES INSTITUT" target="Schneider, Henrique (author)" id="8" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="8" source="LIBERALES INSTITUT" target="Schneider, Henrique (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="F. A. V. HAYEK INSTITUTE" target="Ågerup, Martin (author)" id="9" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="9" source="F. A. V. HAYEK INSTITUTE" target="Ågerup, Martin (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Bonn, Moritz (author)" id="10" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="10" source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Bonn, Moritz (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Reichert, Götz (author)" id="11" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="11" source="CIVIL DEVELOPMENT FORUM (FORUM OBYWATELSKIEGO ROZWOJU)" target="Reichert, Götz (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTO JUAN DE MARIANA" target="Lacalle, Daniel (author)" id="12" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="12" source="INSTITUTO JUAN DE MARIANA" target="Lacalle, Daniel (author)" weight="8.975823723801675">
         <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
+          <attvalue for="raw_weight" value="8.200418808910399"/>
+          <attvalue for="rawWeight" value="8.975823723801675"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Booth, Philip (author)" id="13" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="13" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Booth, Philip (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Hodgson, Glen (author)" id="14" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="14" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Hodgson, Glen (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Lavecchia, Luciano (author)" id="15" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="15" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Lavecchia, Luciano (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Stagnaro, Carlo (author)" id="16" weight="8.253019026401374">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="16" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Stagnaro, Carlo (author)" weight="8.253019026401374">
         <attvalues>
-          <attvalue for="12" value="7.609421264477312" />
+          <attvalue for="raw_weight" value="7.609421264477312"/>
+          <attvalue for="rawWeight" value="8.253019026401374"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Mengden, Alexander (author)" id="17" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="17" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Mengden, Alexander (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Philippe, Cécile (author)" id="18" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="18" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Philippe, Cécile (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Prior, Bruno (author)" id="19" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="19" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Prior, Bruno (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Robinson, Colin (author)" id="20" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="20" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Robinson, Colin (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Šilėnas, Žilvinas (author)" id="21" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="21" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Šilėnas, Žilvinas (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Vlachynský, Martin (author)" id="22" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="22" source="EUROPEAN POLICY INFORMATION CENTER (EPICENTER)" target="Vlachynský, Martin (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Ågerup, Martin (author)" id="23" weight="10.571196134406653">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="23" source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Ågerup, Martin (author)" weight="10.571196134406653">
         <attvalues>
-          <attvalue for="12" value="9.652440561710991" />
+          <attvalue for="raw_weight" value="9.652440561710991"/>
+          <attvalue for="rawWeight" value="10.571196134406653"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Brøns-Petersen, Otto (author)" id="24" weight="13.060635978316325">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="24" source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Brøns-Petersen, Otto (author)" weight="13.060635978316325">
         <attvalues>
-          <attvalue for="12" value="12.389247771673485" />
+          <attvalue for="raw_weight" value="12.389247771673485"/>
+          <attvalue for="rawWeight" value="13.060635978316325"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Sharman, Hugh (author)" id="25" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="25" source="CENTER FOR POLITISKE STUDIER (CEPOS)" target="Sharman, Hugh (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FRIEDRICH A. VON HAYEK SOCIETY" target="Gärtner, Edgar (author)" id="26" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="26" source="FRIEDRICH A. VON HAYEK SOCIETY" target="Gärtner, Edgar (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Stagnaro, Carlo (author)" id="27" weight="12.351677360212712">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="27" source="ISTITUTO BRUNO LEONI" target="Stagnaro, Carlo (author)" weight="12.351677360212712">
         <attvalues>
-          <attvalue for="12" value="11.545121687928027" />
+          <attvalue for="raw_weight" value="11.545121687928027"/>
+          <attvalue for="rawWeight" value="12.351677360212712"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Furfari, Samuele (author)" id="28" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="28" source="ISTITUTO BRUNO LEONI" target="Furfari, Samuele (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Klaus, Václav (author)" id="29" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="29" source="ISTITUTO BRUNO LEONI" target="Klaus, Václav (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lavecchia, Luciano (author)" id="30" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="30" source="ISTITUTO BRUNO LEONI" target="Lavecchia, Luciano (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lawson, Nigel (author)" id="31" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="31" source="ISTITUTO BRUNO LEONI" target="Lawson, Nigel (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Lindzen, Richard S. (author)" id="32" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="32" source="ISTITUTO BRUNO LEONI" target="Lindzen, Richard S. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Nakhle, Carole (author)" id="33" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="33" source="ISTITUTO BRUNO LEONI" target="Nakhle, Carole (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ISTITUTO BRUNO LEONI" target="Zitelmann, Rainer (author)" id="34" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="34" source="ISTITUTO BRUNO LEONI" target="Zitelmann, Rainer (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" id="35" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="35" source="LUDWIG VON MISES INSTITUTE EUROPE" target="McMaken, Ryan (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTRE FOR POLICY STUDIES" target="Gosden, Emily (author)" id="36" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="36" source="CENTRE FOR POLICY STUDIES" target="Gosden, Emily (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTRE FOR POLICY STUDIES" target="Ridley, Matt (author)" id="37" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="37" source="CENTRE FOR POLICY STUDIES" target="Ridley, Matt (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Ridley, Matt (author)" id="38" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="38" source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Ridley, Matt (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Tupy, Marian L. (author)" id="39" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="39" source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Tupy, Marian L. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Vlachynský, Martin (author)" id="40" weight="13.636678709857112">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="40" source="INSTITUTE OF ECONOMIC AND SOCIAL STUDIES" target="Vlachynský, Martin (author)" weight="13.636678709857112">
         <attvalues>
-          <attvalue for="12" value="13.11676832171576" />
+          <attvalue for="raw_weight" value="13.11676832171576"/>
+          <attvalue for="rawWeight" value="13.636678709857112"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" target="Nelson, Scott B. (author)" id="41" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="41" source="CIVITAS: THE INSTITUTE FOR THE STUDY OF CIVIL SOCIETY" target="Nelson, Scott B. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Klaus, Václav (author)" id="42" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="42" source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Klaus, Václav (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Lindzen, Richard S. (author)" id="43" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="43" source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Lindzen, Richard S. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Philippe, Cécile (author)" id="44" weight="11.203907630143737">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="44" source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Philippe, Cécile (author)" weight="11.203907630143737">
         <attvalues>
-          <attvalue for="12" value="10.28986687000145" />
+          <attvalue for="raw_weight" value="10.28986687000145"/>
+          <attvalue for="rawWeight" value="11.203907630143737"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Stagnaro, Carlo (author)" id="45" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="45" source="MOLINARI ECONOMIC INSTITUTE (INSTITUT ECONOMIQUE MOLINARI)" target="Stagnaro, Carlo (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Nakhle, Carole (author)" id="46" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="46" source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Nakhle, Carole (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Schneider, Henrique (author)" id="47" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="47" source="EUROPEAN CENTER OF AUSTRIAN ECONOMICS FOUNDATION" target="Schneider, Henrique (author)" weight="9.249880372324549">
         <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
+          <attvalue for="raw_weight" value="8.434960374473993"/>
+          <attvalue for="rawWeight" value="9.249880372324549"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Kurz, Fabian (author)" id="48" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="48" source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Kurz, Fabian (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Fink, Alexander (author)" id="49" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="49" source="INSTITUTE FOR RESEARCH IN ECONOMIC AND FISCAL ISSUES (IREF) (INSTITUT DE RECHERCHES ECONOMIQUES ET FISCALES)" target="Fink, Alexander (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Sharman, Hugh (author)" id="50" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="50" source="ADAM SMITH INSTITUTE" target="Sharman, Hugh (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Worstall, Tim (author)" id="51" weight="15.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="51" source="ADAM SMITH INSTITUTE" target="Worstall, Tim (author)" weight="15">
         <attvalues>
-          <attvalue for="12" value="15.0" />
+          <attvalue for="raw_weight" value="15"/>
+          <attvalue for="rawWeight" value="15"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Zitelmann, Rainer (author)" id="52" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="52" source="ADAM SMITH INSTITUTE" target="Zitelmann, Rainer (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ADAM SMITH INSTITUTE" target="Book, Joakim (author)" id="53" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="53" source="ADAM SMITH INSTITUTE" target="Book, Joakim (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" target="Michaels, Patrick J. (author)" id="54" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="54" source="KONZERVATÍVNY INŠTITÚT M. R. ŠTEFÁNIKA" target="Michaels, Patrick J. (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="Brøns-Petersen, Otto (author)" id="55" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="55" source="EBS CENTRE FOR FREE ECONOMIC THOUGHT" target="Brøns-Petersen, Otto (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="SCIENTIFIC RESEARCH MISES CENTER" target="Romanchuk, Yaroslav (author)" id="56" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="56" source="SCIENTIFIC RESEARCH MISES CENTER" target="Romanchuk, Yaroslav (author)" weight="8.975823723801675">
         <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
+          <attvalue for="raw_weight" value="8.200418808910399"/>
+          <attvalue for="rawWeight" value="8.975823723801675"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Book, Joakim (author)" id="57" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="57" source="LIBERAUX.ORG (CONTREPOINTS)" target="Book, Joakim (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Furfari, Samuele (author)" id="58" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="58" source="LIBERAUX.ORG (CONTREPOINTS)" target="Furfari, Samuele (author)" weight="9.249880372324549">
         <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
+          <attvalue for="raw_weight" value="8.434960374473993"/>
+          <attvalue for="rawWeight" value="9.249880372324549"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Gosden, Emily (author)" id="59" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="59" source="LIBERAUX.ORG (CONTREPOINTS)" target="Gosden, Emily (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Michaels, Patrick J. (author)" id="60" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="60" source="LIBERAUX.ORG (CONTREPOINTS)" target="Michaels, Patrick J. (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Lacalle, Daniel (author)" id="61" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="61" source="LIBERAUX.ORG (CONTREPOINTS)" target="Lacalle, Daniel (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="McMaken, Ryan (author)" id="62" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="62" source="LIBERAUX.ORG (CONTREPOINTS)" target="McMaken, Ryan (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="North, Richard D. (author)" id="63" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="63" source="LIBERAUX.ORG (CONTREPOINTS)" target="North, Richard D. (author)" weight="7.745758563110039">
         <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
+          <attvalue for="raw_weight" value="7.217480187236997"/>
+          <attvalue for="rawWeight" value="7.745758563110039"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Philippe, Cécile (author)" id="64" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="64" source="LIBERAUX.ORG (CONTREPOINTS)" target="Philippe, Cécile (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Ridley, Matt (author)" id="65" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="65" source="LIBERAUX.ORG (CONTREPOINTS)" target="Ridley, Matt (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Tupy, Marian L. (author)" id="66" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="66" source="LIBERAUX.ORG (CONTREPOINTS)" target="Tupy, Marian L. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="LIBERAUX.ORG (CONTREPOINTS)" target="Wirtz, Bill (author)" id="67" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="67" source="LIBERAUX.ORG (CONTREPOINTS)" target="Wirtz, Bill (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Booth, Philip (author)" id="68" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="68" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Booth, Philip (author)" weight="9.249880372324549">
         <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
+          <attvalue for="raw_weight" value="8.434960374473993"/>
+          <attvalue for="rawWeight" value="9.249880372324549"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Stagnaro, Carlo (author)" id="69" weight="9.692997250244064">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="69" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Stagnaro, Carlo (author)" weight="9.692997250244064">
         <attvalues>
-          <attvalue for="12" value="8.82690145171431" />
+          <attvalue for="raw_weight" value="8.82690145171431"/>
+          <attvalue for="rawWeight" value="9.692997250244064"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Coyne, Christopher J. (author)" id="70" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="70" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Coyne, Christopher J. (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Lawson, Nigel (author)" id="71" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="71" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Lawson, Nigel (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Niemietz, Kristian (author)" id="72" weight="11.980775207617757">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="72" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Niemietz, Kristian (author)" weight="11.980775207617757">
         <attvalues>
-          <attvalue for="12" value="11.124926071751341" />
+          <attvalue for="raw_weight" value="11.124926071751341"/>
+          <attvalue for="rawWeight" value="11.980775207617757"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="North, Richard D. (author)" id="73" weight="9.249880372324549">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="73" source="INSTITUTE OF ECONOMIC AFFAIRS" target="North, Richard D. (author)" weight="9.249880372324549">
         <attvalues>
-          <attvalue for="12" value="8.434960374473993" />
+          <attvalue for="raw_weight" value="8.434960374473993"/>
+          <attvalue for="rawWeight" value="9.249880372324549"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Prior, Bruno (author)" id="74" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="74" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Prior, Bruno (author)" weight="7.745758563110039">
         <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
+          <attvalue for="raw_weight" value="7.217480187236997"/>
+          <attvalue for="rawWeight" value="7.745758563110039"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Ridley, Matt (author)" id="75" weight="8.253019026401374">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="75" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Ridley, Matt (author)" weight="8.253019026401374">
         <attvalues>
-          <attvalue for="12" value="7.609421264477312" />
+          <attvalue for="raw_weight" value="7.609421264477312"/>
+          <attvalue for="rawWeight" value="8.253019026401374"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Robinson, Colin (author)" id="76" weight="9.486018700169396">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="76" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Robinson, Colin (author)" weight="9.486018700169396">
         <attvalues>
-          <attvalue for="12" value="8.641840697046227" />
+          <attvalue for="raw_weight" value="8.641840697046227"/>
+          <attvalue for="rawWeight" value="9.486018700169396"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Singer, S. Fred (author)" id="77" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="77" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Singer, S. Fred (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF ECONOMIC AFFAIRS" target="Zitelmann, Rainer (author)" id="78" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="78" source="INSTITUTE OF ECONOMIC AFFAIRS" target="Zitelmann, Rainer (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Fink, Alexander (author)" id="79" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="79" source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Fink, Alexander (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Kurz, Fabian (author)" id="80" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="80" source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Kurz, Fabian (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Mengden, Alexander (author)" id="81" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="81" source="PROMETHEUS - DAS FREIHEITSINSTITUT" target="Mengden, Alexander (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CIVISMO" target="Lacalle, Daniel (author)" id="82" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="82" source="CIVISMO" target="Lacalle, Daniel (author)" weight="7.745758563110039">
         <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
+          <attvalue for="raw_weight" value="7.217480187236997"/>
+          <attvalue for="rawWeight" value="7.745758563110039"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FREE TRADE EUROPA" target="Hodgson, Glen (author)" id="83" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="83" source="FREE TRADE EUROPA" target="Hodgson, Glen (author)" weight="8.975823723801675">
         <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
+          <attvalue for="raw_weight" value="8.200418808910399"/>
+          <attvalue for="rawWeight" value="8.975823723801675"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="McMaken, Ryan (author)" id="84" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="84" source="AUSTRIAN ECONOMICS CENTER" target="McMaken, Ryan (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nakhle, Carole (author)" id="85" weight="8.975823723801675">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="85" source="AUSTRIAN ECONOMICS CENTER" target="Nakhle, Carole (author)" weight="8.975823723801675">
         <attvalues>
-          <attvalue for="12" value="8.200418808910399" />
+          <attvalue for="raw_weight" value="8.200418808910399"/>
+          <attvalue for="rawWeight" value="8.975823723801675"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Nelson, Scott B. (author)" id="86" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="86" source="AUSTRIAN ECONOMICS CENTER" target="Nelson, Scott B. (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Singer, S. Fred (author)" id="87" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="87" source="AUSTRIAN ECONOMICS CENTER" target="Singer, S. Fred (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Tupy, Marian L. (author)" id="88" weight="7.745758563110039">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="88" source="AUSTRIAN ECONOMICS CENTER" target="Tupy, Marian L. (author)" weight="7.745758563110039">
         <attvalues>
-          <attvalue for="12" value="7.217480187236997" />
+          <attvalue for="raw_weight" value="7.217480187236997"/>
+          <attvalue for="rawWeight" value="7.745758563110039"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Wirtz, Bill (author)" id="89" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="89" source="AUSTRIAN ECONOMICS CENTER" target="Wirtz, Bill (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="AUSTRIAN ECONOMICS CENTER" target="Worstall, Tim (author)" id="90" weight="7.054844119373294">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="90" source="AUSTRIAN ECONOMICS CENTER" target="Worstall, Tim (author)" weight="7.054844119373294">
         <attvalues>
-          <attvalue for="12" value="6.712180254904616" />
+          <attvalue for="raw_weight" value="6.712180254904616"/>
+          <attvalue for="rawWeight" value="7.054844119373294"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
     </edges>
   </graph>

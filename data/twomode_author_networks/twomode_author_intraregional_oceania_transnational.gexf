@@ -1,282 +1,292 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-19">
-    <creator>NetworkX 3.6.1</creator>
-  </meta>
-  <graph defaultedgetype="undirected" mode="static" name="">
-    <attributes mode="static" class="edge">
-      <attribute id="12" title="raw_weight" type="double" />
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="bipartite" title="bipartite" type="integer"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="country" title="country" type="string"/>
+      <attribute id="region" title="region" type="string"/>
+      <attribute id="has_climate_content" title="has_climate_content" type="boolean"/>
+      <attribute id="has_denial_content" title="has_denial_content" type="boolean"/>
+      <attribute id="denial" title="denial" type="double"/>
+      <attribute id="obstruction" title="obstruction" type="double"/>
+      <attribute id="nan" title="nan" type="integer"/>
+      <attribute id="affirmative" title="affirmative" type="double"/>
+      <attribute id="hex_color" title="hex_color" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
     </attributes>
-    <attributes mode="static" class="node">
-      <attribute id="0" title="bipartite" type="long" />
-      <attribute id="1" title="type" type="string" />
-      <attribute id="2" title="country" type="string" />
-      <attribute id="3" title="region" type="string" />
-      <attribute id="4" title="has_climate_content" type="boolean" />
-      <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
-      <attribute id="9" title="affirmative" type="double" />
-      <attribute id="10" title="color" type="string" />
-      <attribute id="11" title="hex_color" type="string" />
+    <attributes class="edge">
+      <attribute id="raw_weight" title="raw_weight" type="double"/>
+      <attribute id="rawWeight" title="rawWeight" type="double"/>
     </attributes>
     <nodes>
       <node id="MANNKAL ECONOMIC EDUCATION FOUNDATION" label="MANNKAL ECONOMIC EDUCATION FOUNDATION">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="5.551280119925728" />
-        <viz:position x="-112.47595310211182" y="86.28289461135864" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Australia" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.5660377358490566" />
-          <attvalue for="7" value="0.4339622641509434" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Australia"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.5660377358490566"/>
+          <attvalue for="obstruction" value="0.4339622641509434"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="5.551280119925728"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="5.551280119925728"/>
+        <viz:position x="-117.42566163380395" y="73.71824975733925" z="0"/>
       </node>
       <node id="THE NEW ZEALAND INITIATIVE" label="THE NEW ZEALAND INITIATIVE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="10.948719880074272" />
-        <viz:position x="-129.4929027557373" y="129.94636058807373" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="New Zealand" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.019169329073482427" />
-          <attvalue for="7" value="0.8274760383386581" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.15335463258785942" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="New Zealand"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.019169329073482427"/>
+          <attvalue for="obstruction" value="0.8274760383386581"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.15335463258785942"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="10.948719880074272"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="10.948719880074272"/>
+        <viz:position x="-79.71031328913725" y="157.82241824138902" z="0"/>
       </node>
       <node id="INSTITUTE OF PUBLIC AFFAIRS" label="INSTITUTE OF PUBLIC AFFAIRS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-262.86824226379395" y="112.53556966781616" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Australia" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.2413793103448276" />
-          <attvalue for="7" value="0.756896551724138" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0017241379310344827" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Australia"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.2413793103448276"/>
+          <attvalue for="obstruction" value="0.756896551724138"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.0017241379310344827"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-262.86824226379395" y="112.53556966781616" z="0"/>
       </node>
       <node id="CENTER FOR INDONESIAN POLICY STUDIES" label="CENTER FOR INDONESIAN POLICY STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="7.232813702907995" />
-        <viz:position x="-156.287841796875" y="-54.276920557022095" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Indonesia" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Indonesia"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="7.232813702907995"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="7.232813702907995"/>
+        <viz:position x="-156.287841796875" y="-54.276920557022095" z="0"/>
       </node>
       <node id="ADVOCATA INSTITUTE" label="ADVOCATA INSTITUTE">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="2.120604013849136" />
-        <viz:position x="-269.3928909301758" y="29.79362189769745" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Sri Lanka" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1.0" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.0" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Sri Lanka"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="1"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="2.120604013849136"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="2.120604013849136"/>
+        <viz:position x="-269.3928909301758" y="29.79362189769745" z="0"/>
       </node>
       <node id="CENTRE FOR INDEPENDENT STUDIES" label="CENTRE FOR INDEPENDENT STUDIES">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-197.5923728942871" y="160.18039226531982" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Australia" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.12213740458015267" />
-          <attvalue for="7" value="0.8549618320610687" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.022900763358778626" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Australia"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.12213740458015267"/>
+          <attvalue for="obstruction" value="0.8549618320610687"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.022900763358778626"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-199.1153601348078" y="149.90022829384944" z="0"/>
       </node>
       <node id="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" label="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="6.171884133774863" />
-        <viz:position x="-181.27325534820557" y="29.955360889434814" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Malaysia" />
-          <attvalue for="3" value="oceania_asia" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="false" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="0.47619047619047616" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.5238095238095238" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Malaysia"/>
+          <attvalue for="region" value="oceania_asia"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="false"/>
+          <attvalue for="denial" value="0"/>
+          <attvalue for="obstruction" value="0.47619047619047616"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.5238095238095238"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="6.171884133774863"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="6.171884133774863"/>
+        <viz:position x="-181.27325534820557" y="29.955360889434814" z="0"/>
       </node>
       <node id="Dhananath, Fernando (author)" label="Dhananath, Fernando (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="6.171884133774863" />
-        <viz:position x="-270.2153491973877" y="100.79765796661377" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="6.171884133774863"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="6.171884133774863"/>
+        <viz:position x="-270.2153491973877" y="100.79765796661377" z="0"/>
       </node>
       <node id="Hartwich, Oliver (author)" label="Hartwich, Oliver (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="15.0" />
-        <viz:position x="-130.88812351226807" y="123.19629192352295" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="15"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="15"/>
+        <viz:position x="-130.88812351226807" y="123.19629192352295" z="0"/>
       </node>
       <node id="Patunru, Arianto A. (author)" label="Patunru, Arianto A. (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="7.853417716757132" />
-        <viz:position x="-217.681303024292" y="-27.89391338825226" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="7.853417716757132"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="7.853417716757132"/>
+        <viz:position x="-217.681303024292" y="-27.89391338825226" z="0"/>
       </node>
       <node id="Hartley, Peter (author)" label="Hartley, Peter (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.551280119925728" />
-        <viz:position x="-84.44924354553223" y="100.65796852111816" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.551280119925728"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.551280119925728"/>
+        <viz:position x="-48.27829658316665" y="95.70825994226203" z="0"/>
       </node>
       <node id="Haryoko, Anthea (author)" label="Haryoko, Anthea (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="5.551280119925728" />
-        <viz:position x="-122.10940361022949" y="-4.881949871778488" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="5.551280119925728"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="5.551280119925728"/>
+        <viz:position x="-122.10940361022949" y="-4.881949871778488" z="0"/>
       </node>
     </nodes>
     <edges>
-      <edge source="MANNKAL ECONOMIC EDUCATION FOUNDATION" target="Hartley, Peter (author)" id="0" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="0" source="MANNKAL ECONOMIC EDUCATION FOUNDATION" target="Hartley, Peter (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="MANNKAL ECONOMIC EDUCATION FOUNDATION" target="Hartwich, Oliver (author)" id="1" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="1" source="MANNKAL ECONOMIC EDUCATION FOUNDATION" target="Hartwich, Oliver (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="THE NEW ZEALAND INITIATIVE" target="Hartwich, Oliver (author)" id="2" weight="15.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="2" source="THE NEW ZEALAND INITIATIVE" target="Hartwich, Oliver (author)" weight="15">
         <attvalues>
-          <attvalue for="12" value="13.99368041760711" />
+          <attvalue for="raw_weight" value="13.99368041760711"/>
+          <attvalue for="rawWeight" value="15"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="THE NEW ZEALAND INITIATIVE" target="Hartley, Peter (author)" id="3" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="3" source="THE NEW ZEALAND INITIATIVE" target="Hartley, Peter (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE OF PUBLIC AFFAIRS" target="Dhananath, Fernando (author)" id="4" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="4" source="INSTITUTE OF PUBLIC AFFAIRS" target="Dhananath, Fernando (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR INDONESIAN POLICY STUDIES" target="Patunru, Arianto A. (author)" id="5" weight="9.596223553384181">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="5" source="CENTER FOR INDONESIAN POLICY STUDIES" target="Patunru, Arianto A. (author)" weight="9.596223553384181">
         <attvalues>
-          <attvalue for="12" value="8.490373708860837" />
+          <attvalue for="raw_weight" value="8.490373708860837"/>
+          <attvalue for="rawWeight" value="9.596223553384181"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTER FOR INDONESIAN POLICY STUDIES" target="Haryoko, Anthea (author)" id="6" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="6" source="CENTER FOR INDONESIAN POLICY STUDIES" target="Haryoko, Anthea (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="ADVOCATA INSTITUTE" target="Dhananath, Fernando (author)" id="7" weight="7.457667696443631">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="7" source="ADVOCATA INSTITUTE" target="Dhananath, Fernando (author)" weight="7.457667696443631">
         <attvalues>
-          <attvalue for="12" value="6.919122838428433" />
+          <attvalue for="raw_weight" value="6.919122838428433"/>
+          <attvalue for="rawWeight" value="7.457667696443631"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="CENTRE FOR INDEPENDENT STUDIES" target="Hartwich, Oliver (author)" id="8" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="8" source="CENTRE FOR INDEPENDENT STUDIES" target="Hartwich, Oliver (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" target="Patunru, Arianto A. (author)" id="9" weight="7.457667696443631">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="9" source="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" target="Patunru, Arianto A. (author)" weight="7.457667696443631">
         <attvalues>
-          <attvalue for="12" value="6.919122838428433" />
+          <attvalue for="raw_weight" value="6.919122838428433"/>
+          <attvalue for="rawWeight" value="7.457667696443631"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" target="Haryoko, Anthea (author)" id="10" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="10" source="INSTITUTE FOR DEMOCRACY AND ECONOMIC AFFAIRS" target="Haryoko, Anthea (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
     </edges>
   </graph>

@@ -1,89 +1,90 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-19">
-    <creator>NetworkX 3.6.1</creator>
-  </meta>
-  <graph defaultedgetype="undirected" mode="static" name="">
-    <attributes mode="static" class="edge">
-      <attribute id="12" title="raw_weight" type="double" />
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="bipartite" title="bipartite" type="integer"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="country" title="country" type="string"/>
+      <attribute id="region" title="region" type="string"/>
+      <attribute id="has_climate_content" title="has_climate_content" type="boolean"/>
+      <attribute id="has_denial_content" title="has_denial_content" type="boolean"/>
+      <attribute id="denial" title="denial" type="double"/>
+      <attribute id="obstruction" title="obstruction" type="double"/>
+      <attribute id="nan" title="nan" type="integer"/>
+      <attribute id="affirmative" title="affirmative" type="double"/>
+      <attribute id="hex_color" title="hex_color" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
     </attributes>
-    <attributes mode="static" class="node">
-      <attribute id="0" title="bipartite" type="long" />
-      <attribute id="1" title="type" type="string" />
-      <attribute id="2" title="country" type="string" />
-      <attribute id="3" title="region" type="string" />
-      <attribute id="4" title="has_climate_content" type="boolean" />
-      <attribute id="5" title="has_denial_content" type="boolean" />
-      <attribute id="6" title="denial" type="double" />
-      <attribute id="7" title="obstruction" type="double" />
-      <attribute id="8" title="nan" type="double" />
-      <attribute id="9" title="affirmative" type="double" />
-      <attribute id="10" title="color" type="string" />
-      <attribute id="11" title="hex_color" type="string" />
+    <attributes class="edge">
+      <attribute id="raw_weight" title="raw_weight" type="integer"/>
+      <attribute id="rawWeight" title="rawWeight" type="integer"/>
     </attributes>
     <nodes>
       <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="-33.406838178634644" y="-4.8144713044166565" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="Kenya" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.189873417721519" />
-          <attvalue for="7" value="0.0379746835443038" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.7721518987341772" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Kenya"/>
+          <attvalue for="region" value="africa_mena"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.189873417721519"/>
+          <attvalue for="obstruction" value="0.0379746835443038"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.7721518987341772"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="-110.71641591932317" y="23.016975970331863" z="0"/>
       </node>
       <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="25.844473242759705" y="-33.004571199417114" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="thinktank" />
-          <attvalue for="2" value="South Africa" />
-          <attvalue for="3" value="africa_mena" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="true" />
-          <attvalue for="6" value="0.20434782608695654" />
-          <attvalue for="7" value="0.7608695652173914" />
-          <attvalue for="8" value="0.0" />
-          <attvalue for="9" value="0.034782608695652174" />
-          <attvalue for="10" value="#f25c05" />
-          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="bipartite" value="0"/>
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="South Africa"/>
+          <attvalue for="region" value="africa_mena"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="denial" value="0.20434782608695654"/>
+          <attvalue for="obstruction" value="0.7608695652173914"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="affirmative" value="0.034782608695652174"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="11.1101772498285" y="20.111654971998377" z="0"/>
       </node>
       <node id="Manuel, Trevor (author)" label="Manuel, Trevor (author)">
-        <viz:color r="2" g="224" b="232" />
-        <viz:size value="15.0" />
-        <viz:position x="2.652254104614258" y="-7.46672049164772" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="author" />
-          <attvalue for="10" value="#02e0e8" />
-          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+          <attvalue for="bipartite" value="1"/>
+          <attvalue for="type" value="author"/>
+          <attvalue for="hex_color" value="{'r': 2, 'g': 224, 'b': 232}"/>
+          <attvalue for="rawSize" value="15"/>
         </attvalues>
+        <viz:color r="2" g="224" b="232"/>
+        <viz:size value="15"/>
+        <viz:position x="-64.65255475198518" y="-6.921005839201666" z="0"/>
       </node>
     </nodes>
     <edges>
-      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="Manuel, Trevor (author)" id="0" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="0" source="INTER REGION ECONOMIC NETWORK (IREN)" target="Manuel, Trevor (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="Manuel, Trevor (author)" id="1" weight="6.0">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="1" source="FREE MARKET FOUNDATION" target="Manuel, Trevor (author)" weight="6">
         <attvalues>
-          <attvalue for="12" value="6.0" />
+          <attvalue for="raw_weight" value="6"/>
+          <attvalue for="rawWeight" value="6"/>
         </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
     </edges>
   </graph>
