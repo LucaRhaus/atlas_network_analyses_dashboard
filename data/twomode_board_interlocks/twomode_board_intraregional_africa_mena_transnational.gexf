@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-26">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="bipartite" type="long" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="country" type="string" />
+      <attribute id="3" title="region" type="string" />
+      <attribute id="4" title="has_climate_content" type="boolean" />
+      <attribute id="5" title="has_denial_content" type="boolean" />
+      <attribute id="6" title="affirmative" type="double" />
+      <attribute id="7" title="obstruction" type="double" />
+      <attribute id="8" title="nan" type="double" />
+      <attribute id="9" title="denial" type="double" />
+      <attribute id="10" title="color" type="string" />
+      <attribute id="11" title="hex_color" type="string" />
+      <attribute id="12" title="mps" type="string" />
+      <attribute id="13" title="resolved_main_employer" type="string" />
+      <attribute id="14" title="resolved_main_employer_category_detailed" type="string" />
+      <attribute id="15" title="resolved_main_employer_category_broad" type="string" />
+    </attributes>
+    <nodes>
+      <node id="IMANI CENTER FOR POLICY AND EDUCATION" label="IMANI CENTER FOR POLICY AND EDUCATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1875" />
+        <viz:position x="2.597768950565322" y="6.6589066150716345" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Ghana" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-2.8587623949111154" y="5.649439079724921" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Kenya" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.7721518987341772" />
+          <attvalue for="7" value="0.0379746835443038" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.189873417721519" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)" label="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-4.618028604382086" y="27.85452654691302" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Iran" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)" label="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-0.950195355032324" y="-8.793619998298299" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Zimbabwe" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION" label="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-10.343750203242974" y="0.9998603982809853" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Cameroon" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="INENG" label="INENG">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.5625" />
+        <viz:position x="-1.7551902855530828" y="-0.6082721180836541" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREEDOM AND CITIZENSHIP ASSOCIATION" label="FREEDOM AND CITIZENSHIP ASSOCIATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="1.5" />
+        <viz:position x="-8.7120512802841" y="28.873308219740963" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Mauritania" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1875" />
+        <viz:position x="1.4239919645082493" y="-9.480857178954414" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.034782608695652174" />
+          <attvalue for="7" value="0.7608695652173914" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.20434782608695654" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="6.5625" />
+        <viz:position x="5.98684713454575" y="-1.9950870747391878" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="South Africa" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="true" />
+          <attvalue for="6" value="0.0379746835443038" />
+          <attvalue for="7" value="0.6645569620253164" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.2974683544303797" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" label="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="4.875" />
+        <viz:position x="-5.27476229455906" y="-18.585616194894413" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Cote d'Ivoire (Ivory Coast)" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AFRICAN STUDENTS FOR LIBERTY" label="AFRICAN STUDENTS FOR LIBERTY">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1875" />
+        <viz:position x="11.99450907747072" y="5.98721966012868" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Kenya" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="AFRICANLIBERTY.ORG" label="AFRICANLIBERTY.ORG">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="15.0" />
+        <viz:position x="5.434154815856434" y="1.8464756749321998" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Nigeria" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="true" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" label="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)">
+        <viz:color r="242" g="92" b="5" />
+        <viz:size value="3.1875" />
+        <viz:position x="-9.51260350370816" y="-22.857114434918067" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="thinktank" />
+          <attvalue for="2" value="Senegal" />
+          <attvalue for="3" value="africa_mena" />
+          <attvalue for="4" value="false" />
+          <attvalue for="5" value="false" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="#f25c05" />
+          <attvalue for="11" value="{'r': 242, 'g': 92, 'b': 5}" />
+        </attvalues>
+      </node>
+      <node id="hattingh, chris" label="hattingh, chris">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.875" />
+        <viz:position x="4.119762780742337" y="-4.1332442111681695" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="chofor che, christian aime" label="chofor che, christian aime">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="-6.682052662972462" y="0.24766603657478664" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="cronje, frans" label="cronje, frans">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="8.266169841234943" y="-1.1010041516273381" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS (Main Employer)" />
+          <attvalue for="14" value="Think Tank, other 501(c)3 NGO" />
+          <attvalue for="15" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="kavuka, linda" label="kavuka, linda">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="8.990228992991383" y="5.122544238168848" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="bentil, kofi" label="bentil, kofi">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="5.069750067641817" y="5.808203579456739" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="LEX PRAXIS INCORPORATED" />
+          <attvalue for="14" value="Law &amp; Legal Services" />
+          <attvalue for="15" value="Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="majozi, phumlani" label="majozi, phumlani">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="7.842449704395264" y="0.327402872683638" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="SASFIN" />
+          <attvalue for="14" value="Banks &amp; Diversified Financials - (includes Investment)" />
+          <attvalue for="15" value="FIRE (Finance, Insurance, &amp; Real Estate)" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="okediran, olumayowa" label="okediran, olumayowa">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.875" />
+        <viz:position x="2.669443711410258" y="-0.5411563325169572" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="salin, pascal" label="salin, pascal">
+        <viz:color r="254" g="203" b="0" />
+        <viz:size value="3.1875" />
+        <viz:position x="-1.8999634782469088" y="-14.358156770277533" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="yes" />
+          <attvalue for="13" value="PARIS DAUPHINE UNIVERSITY" />
+          <attvalue for="14" value="University" />
+          <attvalue for="15" value="University" />
+          <attvalue for="10" value="#fecb00" />
+          <attvalue for="11" value="{'r': 254, 'g': 203, 'b': 0}" />
+        </attvalues>
+      </node>
+      <node id="cudjoe, franklin" label="cudjoe, franklin">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="4.875" />
+        <viz:position x="1.6330746499626707" y="2.769919429597428" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="IMANI" />
+          <attvalue for="14" value="Think Tank, other 501(c)3 NGO" />
+          <attvalue for="15" value="Think Tanks &amp; Non-profit Services" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="anoba, ibrahim babatunde" label="anoba, ibrahim babatunde">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="9.933910100062137" y="3.673394818283592" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="arunga, june" label="arunga, june">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="0.6658637835276795" y="4.261959840720314" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="OPEN QUEST MEDIA LLC, USAFI COMFORT LTD" />
+          <attvalue for="14" value="Communication and Media (Telecommunication, Media, Entertainment, News ), Clean Technology and Environmental Services (Environmental Efficiency, CCS, Waste and Water Management)" />
+          <attvalue for="15" value="Energy production &amp; Extractive Industries, Law, Consulting, PR &amp; Media" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="martin, emmanuel" label="martin, emmanuel">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="-6.871814782937656" y="-22.000829988614047" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="CATHOLIC UNIVERSITY OF VENDÉE, AIX-MARSEILLE UNIVERSITY" />
+          <attvalue for="14" value="University" />
+          <attvalue for="15" value="University" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="ngwenya, rejoice" label="ngwenya, rejoice">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="-2.2556186825968205" y="-5.076170716782595" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="no information/website &amp; fb no longer active,, alfred" label="no information/website &amp; fb no longer active,, alfred">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="-6.533583073192343" y="30.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+      <node id="dutheuil, gisèle" label="dutheuil, gisèle">
+        <viz:color r="2" g="224" b="232" />
+        <viz:size value="3.1875" />
+        <viz:position x="-8.35954897329589" y="-20.549697839403034" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="board_member" />
+          <attvalue for="12" value="no" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+          <attvalue for="10" value="#02e0e8" />
+          <attvalue for="11" value="{'r': 2, 'g': 224, 'b': 232}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="cudjoe, franklin" id="0" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="IMANI CENTER FOR POLICY AND EDUCATION" target="bentil, kofi" id="1" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INTER REGION ECONOMIC NETWORK (IREN)" target="arunga, june" id="2" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CHERAGHEAZADI.ORG (LAMP OF LIBERTY)" target="no information/website &amp; fb no longer active,, alfred" id="3" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="COALITION FOR MARKET AND LIBERAL SOLUTIONS (COMALISO)" target="ngwenya, rejoice" id="4" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="CENTRAL AFRICAN CENTRE FOR LIBERTARIAN THOUGHT AND ACTION" target="chofor che, christian aime" id="5" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INENG" target="ngwenya, rejoice" id="6" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INENG" target="cudjoe, franklin" id="7" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INENG" target="okediran, olumayowa" id="8" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="INENG" target="chofor che, christian aime" id="9" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREEDOM AND CITIZENSHIP ASSOCIATION" target="no information/website &amp; fb no longer active,, alfred" id="10" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="salin, pascal" id="11" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="FREE MARKET FOUNDATION" target="hattingh, chris" id="12" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="hattingh, chris" id="13" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="majozi, phumlani" id="14" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="cronje, frans" id="15" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="okediran, olumayowa" id="16" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="dutheuil, gisèle" id="17" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="salin, pascal" id="18" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AUDACE INSTITUT AFRIQUE (DARE AFRICA INSTITUTE)" target="martin, emmanuel" id="19" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICAN STUDENTS FOR LIBERTY" target="anoba, ibrahim babatunde" id="20" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICAN STUDENTS FOR LIBERTY" target="kavuka, linda" id="21" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="bentil, kofi" id="22" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="majozi, phumlani" id="23" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="hattingh, chris" id="24" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="cronje, frans" id="25" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="cudjoe, franklin" id="26" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="arunga, june" id="27" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="okediran, olumayowa" id="28" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="anoba, ibrahim babatunde" id="29" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="AFRICANLIBERTY.ORG" target="kavuka, linda" id="30" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="dutheuil, gisèle" id="31" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+      <edge source="LIBREAFRIQUE.ORG (former UNMONDELIBRE.ORG)" target="martin, emmanuel" id="32" weight="1">
+        <viz:color r="192" g="192" b="192" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>
