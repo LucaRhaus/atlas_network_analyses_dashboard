@@ -1,84 +1,91 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-25">
-    <creator>NetworkX 3.6.1</creator>
-  </meta>
-  <graph defaultedgetype="undirected" mode="static" name="">
-    <attributes mode="static" class="node">
-      <attribute id="0" title="type" type="string" />
-      <attribute id="1" title="country" type="string" />
-      <attribute id="2" title="region" type="string" />
-      <attribute id="3" title="has_climate_content" type="boolean" />
-      <attribute id="4" title="has_denial_content" type="boolean" />
-      <attribute id="5" title="nan" type="double" />
-      <attribute id="6" title="obstruction" type="double" />
-      <attribute id="7" title="affirmative" type="double" />
-      <attribute id="8" title="denial" type="double" />
-      <attribute id="9" title="color" type="string" />
-      <attribute id="10" title="hex_color" type="string" />
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="country" title="country" type="string"/>
+      <attribute id="region" title="region" type="string"/>
+      <attribute id="has_climate_content" title="has_climate_content" type="boolean"/>
+      <attribute id="has_denial_content" title="has_denial_content" type="boolean"/>
+      <attribute id="nan" title="nan" type="integer"/>
+      <attribute id="obstruction" title="obstruction" type="double"/>
+      <attribute id="affirmative" title="affirmative" type="double"/>
+      <attribute id="denial" title="denial" type="double"/>
+      <attribute id="hex_color" title="hex_color" type="string"/>
+      <attribute id="rawSize" title="rawSize" type="double"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="rawWeight" title="rawWeight" type="integer"/>
     </attributes>
     <nodes>
       <node id="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" label="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="8.25" />
-        <viz:position x="80.94443321228027" y="-113.52557182312012" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="thinktank" />
-          <attvalue for="1" value="South Africa" />
-          <attvalue for="2" value="africa_mena" />
-          <attvalue for="3" value="true" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="0.6645569620253164" />
-          <attvalue for="7" value="0.0379746835443038" />
-          <attvalue for="8" value="0.2974683544303797" />
-          <attvalue for="9" value="#f25c05" />
-          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="South Africa"/>
+          <attvalue for="region" value="africa_mena"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="obstruction" value="0.6645569620253164"/>
+          <attvalue for="affirmative" value="0.0379746835443038"/>
+          <attvalue for="denial" value="0.2974683544303797"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="8.25"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="8.25"/>
+        <viz:position x="17.14084686719626" y="-96.87398924149294" z="0"/>
       </node>
       <node id="FREE MARKET FOUNDATION" label="FREE MARKET FOUNDATION">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="15.0" />
-        <viz:position x="76.67744636535645" y="-129.25469398498535" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="thinktank" />
-          <attvalue for="1" value="South Africa" />
-          <attvalue for="2" value="africa_mena" />
-          <attvalue for="3" value="true" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="0.7608695652173914" />
-          <attvalue for="7" value="0.034782608695652174" />
-          <attvalue for="8" value="0.20434782608695654" />
-          <attvalue for="9" value="#f25c05" />
-          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="South Africa"/>
+          <attvalue for="region" value="africa_mena"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="obstruction" value="0.7608695652173914"/>
+          <attvalue for="affirmative" value="0.034782608695652174"/>
+          <attvalue for="denial" value="0.20434782608695654"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="15"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="15"/>
+        <viz:position x="51.782506990401174" y="-125.62761659096755" z="0"/>
       </node>
       <node id="INTER REGION ECONOMIC NETWORK (IREN)" label="INTER REGION ECONOMIC NETWORK (IREN)">
-        <viz:color r="242" g="92" b="5" />
-        <viz:size value="1.5" />
-        <viz:position x="94.87151145935059" y="-130.5175018310547" z="0.0" />
         <attvalues>
-          <attvalue for="0" value="thinktank" />
-          <attvalue for="1" value="Kenya" />
-          <attvalue for="2" value="africa_mena" />
-          <attvalue for="3" value="true" />
-          <attvalue for="4" value="true" />
-          <attvalue for="5" value="0.0" />
-          <attvalue for="6" value="0.0379746835443038" />
-          <attvalue for="7" value="0.7721518987341772" />
-          <attvalue for="8" value="0.189873417721519" />
-          <attvalue for="9" value="#f25c05" />
-          <attvalue for="10" value="{'r': 242, 'g': 92, 'b': 5}" />
+          <attvalue for="type" value="thinktank"/>
+          <attvalue for="country" value="Kenya"/>
+          <attvalue for="region" value="africa_mena"/>
+          <attvalue for="has_climate_content" value="true"/>
+          <attvalue for="has_denial_content" value="true"/>
+          <attvalue for="nan" value="0"/>
+          <attvalue for="obstruction" value="0.0379746835443038"/>
+          <attvalue for="affirmative" value="0.7721518987341772"/>
+          <attvalue for="denial" value="0.189873417721519"/>
+          <attvalue for="hex_color" value="{'r': 242, 'g': 92, 'b': 5}"/>
+          <attvalue for="rawSize" value="1.5"/>
         </attvalues>
+        <viz:color r="242" g="92" b="5"/>
+        <viz:size value="1.5"/>
+        <viz:position x="79.04426523421347" y="-145.1906785613994" z="0"/>
       </node>
     </nodes>
     <edges>
-      <edge source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION" id="0" weight="2">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="0" source="SOUTH AFRICAN INSTITUTE OF RACE RELATIONS" target="FREE MARKET FOUNDATION" weight="2">
+        <attvalues>
+          <attvalue for="rawWeight" value="2"/>
+        </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
-      <edge source="FREE MARKET FOUNDATION" target="INTER REGION ECONOMIC NETWORK (IREN)" id="1" weight="1">
-        <viz:color r="192" g="192" b="192" />
+      <edge id="1" source="FREE MARKET FOUNDATION" target="INTER REGION ECONOMIC NETWORK (IREN)" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="192" g="192" b="192"/>
       </edge>
     </edges>
   </graph>
